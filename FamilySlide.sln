@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FamilySlide.App", "FamilySlide.App\FamilySlide.App.fsproj", "{0742AAE2-3E7C-41F9-BF8B-DC8B28A18620}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FamilySlide.Core", "FamilySlide.Core\FamilySlide.Core.fsproj", "{F2C0F324-CAF8-44BF-BE29-6F9C464DBEC5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FamilySlide.Tests", "FamilySlide.Tests\FamilySlide.Tests.fsproj", "{31D37FCD-FBDD-474D-8CD5-D748BE91EC69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0742AAE2-3E7C-41F9-BF8B-DC8B28A18620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0742AAE2-3E7C-41F9-BF8B-DC8B28A18620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0742AAE2-3E7C-41F9-BF8B-DC8B28A18620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0742AAE2-3E7C-41F9-BF8B-DC8B28A18620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C0F324-CAF8-44BF-BE29-6F9C464DBEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C0F324-CAF8-44BF-BE29-6F9C464DBEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C0F324-CAF8-44BF-BE29-6F9C464DBEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C0F324-CAF8-44BF-BE29-6F9C464DBEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D37FCD-FBDD-474D-8CD5-D748BE91EC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D37FCD-FBDD-474D-8CD5-D748BE91EC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D37FCD-FBDD-474D-8CD5-D748BE91EC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D37FCD-FBDD-474D-8CD5-D748BE91EC69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
