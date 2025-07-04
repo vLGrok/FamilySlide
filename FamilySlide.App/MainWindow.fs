@@ -109,6 +109,15 @@ type MainWindow() as this =
         base.Height <- 600.0
         let folderPath = "/Users/rkerr/Pictures/TestImages"
 
-        Elmish.Program.mkProgram (fun _ -> MainWindow.init folderPath) MainWindow.update MainWindow.view
-        |> Program.withHost this
-        |> Program.run
+        let program =
+            Elmish.Program.mkProgram (fun _ -> MainWindow.init folderPath) MainWindow.update MainWindow.view
+            |> Program.withHost this
+
+        // ✅ Add KeyDown hook BEFORE running the loop
+        this.KeyDown.Add(fun args ->
+            match args.Key with
+            | Avalonia.Input.Key.Right -> program.Dispatch NextImage
+            | Avalonia.Input.Key.Left -> program.Dispatch PrevImage
+            | _ -> ())
+
+        program |> Program.run // This will start the Elmish program and render the UI
