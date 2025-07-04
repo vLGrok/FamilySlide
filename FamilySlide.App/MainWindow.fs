@@ -156,7 +156,11 @@ module MainWindow =
         | NextImage ->
             Log.Debug("NextImage command executed")
             Log.Debug("NextImage handler entered")
-            let nextIndex = min (model.CurrentIndex + 1) (model.Images.Length - 1)
+            // Circular navigation for NextImage
+            let nextIndex = 
+                if model.Images.Length = 0 then 0
+                elif model.CurrentIndex >= model.Images.Length - 1 then 0  // Wrap to first
+                else model.CurrentIndex + 1
             Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, nextIndex, model.Images.Length)
 
@@ -190,7 +194,11 @@ module MainWindow =
         | PrevImage ->
             Log.Debug("PrevImage command executed")
             Log.Debug("PrevImage handler entered")
-            let prevIndex = max (model.CurrentIndex - 1) 0
+            // Circular navigation for PrevImage
+            let prevIndex = 
+                if model.Images.Length = 0 then 0
+                elif model.CurrentIndex <= 0 then model.Images.Length - 1  // Wrap to last
+                else model.CurrentIndex - 1
             Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, prevIndex, model.Images.Length)
 
@@ -314,8 +322,33 @@ type MainWindow() as this =
         Log.Information("Using folder path: {Folder}", folderPath)
 
         try
+            let mutable currentModel = None
+            
+            let updateWindowTitle (model: Model) =
+                let title = 
+                    if model.Images.Length > 0 && model.CurrentIndex >= 0 && model.CurrentIndex < model.Images.Length then
+                        let currentImagePath = model.Images[model.CurrentIndex]
+                        let directory = System.IO.Path.GetDirectoryName(currentImagePath)
+                        let filename = System.IO.Path.GetFileName(currentImagePath)
+                        $"FamilySlide - {directory}    {filename}"
+                    else
+                        "FamilySlide"
+                
+                Log.Debug("Updating window title to: {Title}", title)
+                this.Title <- title
+            
+            let customUpdate msg model =
+                let newModel, cmd = MainWindow.update msg model
+                currentModel <- Some newModel
+                updateWindowTitle newModel
+                newModel, cmd
+            
             let program =
-                Elmish.Program.mkProgram (fun _ -> MainWindow.init folderPath) MainWindow.update MainWindow.view
+                Elmish.Program.mkProgram (fun _ -> 
+                    let model, cmd = MainWindow.init folderPath
+                    currentModel <- Some model
+                    updateWindowTitle model
+                    model, cmd) customUpdate MainWindow.view
                 |> Program.withHost this
 
             Log.Information("Elmish program created successfully")
