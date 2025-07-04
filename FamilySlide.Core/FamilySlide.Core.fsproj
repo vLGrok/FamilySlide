@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ImageLoader.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
