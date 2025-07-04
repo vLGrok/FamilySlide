@@ -56,3 +56,8 @@ nunit-*.xml
 
 # MacOS
 **/.DS_Store
+
+# Logging
+log/
+logs/
+*.log
