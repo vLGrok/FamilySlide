@@ -1,0 +1,64 @@
+[tool.fantomas]
+
+# Set the column where we break to new lines
+max_line_length = 120
+
+# If true, the parameters of function will be multiline separated by newline
+fsharp_multiline_block_brackets_on_same_column = false
+
+# If true, semicolons at the end of the line will be stripped.
+fsharp_semicolon_at_end_of_line = false
+
+# If true, pipe indentation will try to be clever about long pipes and long lambdas
+fsharp_experimental_stroustrup_style = false
+
+# If true, keep if-then-else on same line
+fsharp_keep_if_then_in_same_line = false
+
+# If true, multiline expressions will have the bar at the beginning of the line
+fsharp_bar_before_discriminated_union_declaration = false
+
+# If true, alternative long member definitions are only generated for members and instance members
+fsharp_alternative_long_member_definitions = false
+
+# If true, add a space around the delimiter of attributes
+fsharp_space_around_delimiter = true
+
+# If true, spaces are added around operator such as +, -, etc. (default = true)
+fsharp_space_before_parameter = true
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_lowercase_invocation = true
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_uppercase_invocation = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_class_constructor = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_member = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_colon = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_after_comma = true
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_before_semicolon = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_after_semicolon = true
+
+# If true, let and use indentation
+fsharp_indent_on_try_with = false
+
+# If true, spaces are added around operator such as +, -, etc.
+fsharp_space_around_delimiter = true
+
+# The number of spaces used to indent each line
+indent_size = 4
+
+# insert_final_newline = false means doesn't ensure that file ends in a newline
+insert_final_newline = true
