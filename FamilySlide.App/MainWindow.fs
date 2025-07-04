@@ -86,11 +86,9 @@ module MainWindow =
 
         | KeyPressed key ->
             Log.Debug("KeyPressed message received: {Key}", key)
-            Log.Information("KeyPressed message received: {Key}", key)
             match key with
             | Avalonia.Input.Key.Right -> 
                 Log.Debug("KeyPressed: Right arrow - processing as NextImage")
-                Log.Information("KeyPressed: Right arrow - processing as NextImage")
                 // Process NextImage directly
                 let nextIndex = min (model.CurrentIndex + 1) (model.Images.Length - 1)
                 Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
@@ -100,14 +98,12 @@ module MainWindow =
                     if model.Images.Length > 0 && nextIndex < model.Images.Length then
                         let path = model.Images[nextIndex]
                         Log.Debug("Loading next image: {Path}", path)
-                        Log.Information("Loading next image: {Path}", path)
                         try
                             use img = Image.Load<Rgba32>(path)
                             use ms = new MemoryStream()
                             img.SaveAsBmp(ms)
                             ms.Position <- 0L
                             Log.Debug("Successfully loaded next image")
-                            Log.Information("Successfully loaded next image")
                             Some(new Bitmap(ms))
                         with
                         | ex ->
@@ -124,7 +120,6 @@ module MainWindow =
                 Cmd.none
             | Avalonia.Input.Key.Left -> 
                 Log.Debug("KeyPressed: Left arrow - processing as PrevImage")
-                Log.Information("KeyPressed: Left arrow - processing as PrevImage")
                 // Process PrevImage directly
                 let prevIndex = max (model.CurrentIndex - 1) 0
                 Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
@@ -134,14 +129,12 @@ module MainWindow =
                     if model.Images.Length > 0 && prevIndex >= 0 && prevIndex < model.Images.Length then
                         let path = model.Images[prevIndex]
                         Log.Debug("Loading previous image: {Path}", path)
-                        Log.Information("Loading previous image: {Path}", path)
                         try
                             use img = Image.Load<Rgba32>(path)
                             use ms = new MemoryStream()
                             img.SaveAsBmp(ms)
                             ms.Position <- 0L
                             Log.Debug("Successfully loaded previous image")
-                            Log.Information("Successfully loaded previous image")
                             Some(new Bitmap(ms))
                         with
                         | ex ->
@@ -161,7 +154,7 @@ module MainWindow =
                 model, Cmd.none
 
         | NextImage ->
-            Log.Information("NextImage command executed")
+            Log.Debug("NextImage command executed")
             Log.Debug("NextImage handler entered")
             let nextIndex = min (model.CurrentIndex + 1) (model.Images.Length - 1)
             Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
@@ -195,7 +188,7 @@ module MainWindow =
             Cmd.none
 
         | PrevImage ->
-            Log.Information("PrevImage command executed")
+            Log.Debug("PrevImage command executed")
             Log.Debug("PrevImage handler entered")
             let prevIndex = max (model.CurrentIndex - 1) 0
             Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
@@ -240,16 +233,15 @@ module MainWindow =
                             Image.stretch Avalonia.Media.Stretch.Uniform
                             Image.focusable true
                             Image.onKeyDown (fun args ->
-                                Log.Information("CRITICAL: Image KeyDown fired: {Key}", args.Key)
-                                System.Console.WriteLine($"CONSOLE: Image KeyDown fired: {args.Key}")
                                 Log.Debug("Image KeyDown fired: {Key}", args.Key)
+                                System.Console.WriteLine($"CONSOLE: Image KeyDown fired: {args.Key}")
                                 match args.Key with
                                 | Avalonia.Input.Key.Right -> 
-                                    Log.Information("Right arrow pressed - navigating to next image")
+                                    Log.Information("Navigating to next image")
                                     Log.Debug("Image: Right arrow pressed, dispatching NextImage")
                                     dispatch NextImage
                                 | Avalonia.Input.Key.Left -> 
-                                    Log.Information("Left arrow pressed - navigating to previous image") 
+                                    Log.Information("Navigating to previous image") 
                                     Log.Debug("Image: Left arrow pressed, dispatching PrevImage")
                                     dispatch PrevImage
                                 | _ -> 
@@ -264,11 +256,11 @@ module MainWindow =
                                 Log.Debug("TextBlock KeyDown fired: {Key}", args.Key)
                                 match args.Key with
                                 | Avalonia.Input.Key.Right -> 
-                                    Log.Information("Right arrow pressed - navigating to next image")
+                                    Log.Information("Navigating to next image")
                                     Log.Debug("TextBlock: Right arrow pressed, dispatching NextImage")
                                     dispatch NextImage
                                 | Avalonia.Input.Key.Left -> 
-                                    Log.Information("Left arrow pressed - navigating to previous image")
+                                    Log.Information("Navigating to previous image")
                                     Log.Debug("TextBlock: Left arrow pressed, dispatching PrevImage")
                                     dispatch PrevImage
                                 | _ -> 
@@ -278,16 +270,15 @@ module MainWindow =
               // Add DockPanel-level key handling as a fallback
               DockPanel.focusable true
               DockPanel.onKeyDown (fun args ->
-                  Log.Information("CRITICAL: DockPanel KeyDown fired: {Key}", args.Key)
-                  System.Console.WriteLine($"CONSOLE: DockPanel KeyDown fired: {args.Key}")
                   Log.Debug("DockPanel KeyDown fired: {Key}", args.Key)
+                  System.Console.WriteLine($"CONSOLE: DockPanel KeyDown fired: {args.Key}")
                   match args.Key with
                   | Avalonia.Input.Key.Right -> 
-                      Log.Information("Right arrow pressed - navigating to next image")
+                      Log.Information("Navigating to next image")
                       Log.Debug("DockPanel: Right arrow pressed, dispatching NextImage")
                       dispatch NextImage
                   | Avalonia.Input.Key.Left -> 
-                      Log.Information("Left arrow pressed - navigating to previous image")
+                      Log.Information("Navigating to previous image")
                       Log.Debug("DockPanel: Left arrow pressed, dispatching PrevImage")
                       dispatch PrevImage
                   | _ -> 
@@ -331,13 +322,12 @@ type MainWindow() as this =
 
             // Ensure window gets focus when attached to visual tree
             this.AttachedToVisualTree.Add(fun _ -> 
-                Log.Information("Window attached to visual tree, setting focus")
                 Log.Debug("Window attached to visual tree, setting focus")
                 this.Focus() |> ignore)
 
             // Add a simple test to see if ANY key events work at window level
             this.KeyDown.Add(fun args ->
-                Log.Information("WINDOW LEVEL KeyDown detected: {Key}", args.Key)
+                Log.Debug("Window level KeyDown detected: {Key}", args.Key)
                 System.Console.WriteLine($"CONSOLE: WINDOW LEVEL KeyDown detected: {args.Key}")
             )
 
