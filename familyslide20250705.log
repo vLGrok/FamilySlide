@@ -1,0 +1,2227 @@
+2025-07-05 02:53:03.116 +08:00 [INF] Starting FamilySlide...
+2025-07-05 02:55:27.941 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:11:22.648 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:13:06.985 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:15:29.382 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:19:36.403 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:35:07.479 +08:00 [INF] Starting FamilySlide...
+2025-07-05 03:59:42.572 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:03:05.666 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:08:22.459 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:09:00.588 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:12:42.404 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:12:42.427 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:12:53.356 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:14:01.470 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:14:01.491 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:14:09.441 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:16:15.336 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:16:15.358 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:16:53.448 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:21:48.896 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:21:48.917 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:21:49.133 +08:00 [INF] STEP 1: MainWindow constructor DO block started
+2025-07-05 04:21:57.742 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:23:43.506 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:23:43.527 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:23:43.733 +08:00 [INF] STEP 1: MainWindow constructor DO block started
+2025-07-05 04:23:43.740 +08:00 [INF] Init called with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:23:53.239 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:27:11.344 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:27:11.365 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:27:11.560 +08:00 [INF] STEP 1: MainWindow constructor DO block started
+2025-07-05 04:27:11.567 +08:00 [INF] Init called with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:27:11.592 +08:00 [INF] Update called with message: LoadImages
+2025-07-05 04:27:12.408 +08:00 [INF] KeyDown fired: "Right"
+2025-07-05 04:27:12.411 +08:00 [INF] Right arrow pressed, dispatching NextImage
+2025-07-05 04:27:12.822 +08:00 [INF] KeyDown fired: "Left"
+2025-07-05 04:27:12.822 +08:00 [INF] Left arrow pressed, dispatching PrevImage
+2025-07-05 04:27:15.320 +08:00 [INF] KeyDown fired: "Down"
+2025-07-05 04:27:15.321 +08:00 [INF] Other key pressed: "Down"
+2025-07-05 04:27:16.167 +08:00 [INF] KeyDown fired: "Up"
+2025-07-05 04:27:16.168 +08:00 [INF] Other key pressed: "Up"
+2025-07-05 04:27:17.307 +08:00 [INF] KeyDown fired: "LeftCtrl"
+2025-07-05 04:27:17.308 +08:00 [INF] Other key pressed: "LeftCtrl"
+2025-07-05 04:27:18.061 +08:00 [INF] KeyDown fired: "C"
+2025-07-05 04:27:18.061 +08:00 [INF] Other key pressed: "C"
+2025-07-05 04:27:21.221 +08:00 [INF] KeyDown fired: "LWin"
+2025-07-05 04:27:21.221 +08:00 [INF] Other key pressed: "LWin"
+2025-07-05 04:27:21.307 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:30:33.898 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:30:33.919 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:30:34.156 +08:00 [INF] STEP 1: MainWindow constructor DO block started
+2025-07-05 04:30:34.163 +08:00 [INF] About to start Elmish program
+2025-07-05 04:30:34.164 +08:00 [INF] Init called with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:30:34.194 +08:00 [INF] Update called with message: LoadImages
+2025-07-05 04:30:34.400 +08:00 [INF] Elmish program started
+2025-07-05 04:30:43.278 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:34:30.198 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:34:30.220 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:34:30.421 +08:00 [INF] STEP 1: MainWindow constructor DO block started
+2025-07-05 04:34:30.426 +08:00 [INF] Elmish program created successfully
+2025-07-05 04:34:30.427 +08:00 [INF] About to start Elmish program
+2025-07-05 04:34:30.427 +08:00 [INF] Init called with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:34:30.454 +08:00 [INF] Update called with message: LoadImages
+2025-07-05 04:34:30.658 +08:00 [INF] Elmish program started
+2025-07-05 04:34:35.070 +08:00 [INF] DockPanel KeyDown fired: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] DockPanel: Other key pressed: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] Image KeyDown fired: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] Image: Other key pressed: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] Image KeyDown fired: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] Image: Other key pressed: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] DockPanel KeyDown fired: "Up"
+2025-07-05 04:34:35.076 +08:00 [INF] DockPanel: Other key pressed: "Up"
+2025-07-05 04:34:35.201 +08:00 [INF] DockPanel KeyDown fired: "Right"
+2025-07-05 04:34:35.206 +08:00 [INF] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:34:35.207 +08:00 [INF] Update called with message: NextImage
+2025-07-05 04:34:35.208 +08:00 [INF] NextImage handler entered
+2025-07-05 04:34:35.209 +08:00 [INF] NextImage: Current index 0, New index 1, Total images 269
+2025-07-05 04:34:35.210 +08:00 [INF] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:34:35.284 +08:00 [INF] Image KeyDown fired: "Right"
+2025-07-05 04:34:35.284 +08:00 [INF] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:34:35.285 +08:00 [INF] Update called with message: NextImage
+2025-07-05 04:34:35.285 +08:00 [INF] NextImage handler entered
+2025-07-05 04:34:35.285 +08:00 [INF] NextImage: Current index 1, New index 2, Total images 269
+2025-07-05 04:34:35.285 +08:00 [INF] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:34:35.664 +08:00 [INF] Image KeyDown fired: "Right"
+2025-07-05 04:34:35.664 +08:00 [INF] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:34:35.665 +08:00 [INF] Update called with message: NextImage
+2025-07-05 04:34:35.665 +08:00 [INF] NextImage handler entered
+2025-07-05 04:34:35.665 +08:00 [INF] NextImage: Current index 2, New index 3, Total images 269
+2025-07-05 04:34:35.665 +08:00 [INF] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:34:35.675 +08:00 [INF] DockPanel KeyDown fired: "Right"
+2025-07-05 04:34:35.675 +08:00 [INF] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:34:35.675 +08:00 [INF] Update called with message: NextImage
+2025-07-05 04:34:35.675 +08:00 [INF] NextImage handler entered
+2025-07-05 04:34:35.675 +08:00 [INF] NextImage: Current index 3, New index 4, Total images 269
+2025-07-05 04:34:35.675 +08:00 [INF] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:34:35.685 +08:00 [INF] DockPanel KeyDown fired: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] DockPanel: Other key pressed: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] Image KeyDown fired: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] Image: Other key pressed: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] Image KeyDown fired: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] Image: Other key pressed: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] DockPanel KeyDown fired: "Up"
+2025-07-05 04:34:35.685 +08:00 [INF] DockPanel: Other key pressed: "Up"
+2025-07-05 04:34:35.686 +08:00 [INF] DockPanel KeyDown fired: "Left"
+2025-07-05 04:34:35.686 +08:00 [INF] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:34:35.686 +08:00 [INF] Update called with message: PrevImage
+2025-07-05 04:34:35.686 +08:00 [INF] PrevImage handler entered
+2025-07-05 04:34:35.686 +08:00 [INF] PrevImage: Current index 4, New index 3, Total images 269
+2025-07-05 04:34:35.686 +08:00 [INF] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:34:35.695 +08:00 [INF] Image KeyDown fired: "Left"
+2025-07-05 04:34:35.695 +08:00 [INF] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:34:35.695 +08:00 [INF] Update called with message: PrevImage
+2025-07-05 04:34:35.695 +08:00 [INF] PrevImage handler entered
+2025-07-05 04:34:35.695 +08:00 [INF] PrevImage: Current index 3, New index 2, Total images 269
+2025-07-05 04:34:35.695 +08:00 [INF] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:34:35.858 +08:00 [INF] Image KeyDown fired: "Left"
+2025-07-05 04:34:35.858 +08:00 [INF] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:34:35.858 +08:00 [INF] Update called with message: PrevImage
+2025-07-05 04:34:35.858 +08:00 [INF] PrevImage handler entered
+2025-07-05 04:34:35.858 +08:00 [INF] PrevImage: Current index 2, New index 1, Total images 269
+2025-07-05 04:34:35.858 +08:00 [INF] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:34:35.873 +08:00 [INF] DockPanel KeyDown fired: "Left"
+2025-07-05 04:34:35.873 +08:00 [INF] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:34:35.873 +08:00 [INF] Update called with message: PrevImage
+2025-07-05 04:34:35.873 +08:00 [INF] PrevImage handler entered
+2025-07-05 04:34:35.873 +08:00 [INF] PrevImage: Current index 1, New index 0, Total images 269
+2025-07-05 04:34:35.873 +08:00 [INF] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:35:03.839 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:42:48.677 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:42:48.700 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:42:48.913 +08:00 [INF] FamilySlide MainWindow initializing
+2025-07-05 04:42:48.915 +08:00 [INF] Opening on primary screen: Built-in Retina Display
+2025-07-05 04:42:48.919 +08:00 [INF] Using folder path: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:42:48.919 +08:00 [INF] Elmish program created successfully
+2025-07-05 04:42:48.920 +08:00 [INF] Starting Elmish program
+2025-07-05 04:42:48.921 +08:00 [INF] Initializing FamilySlide with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:42:48.950 +08:00 [DBG] Update called with message: LoadImages
+2025-07-05 04:42:48.950 +08:00 [INF] Loading images from folder
+2025-07-05 04:42:48.950 +08:00 [DBG] Folder exists: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:42:48.950 +08:00 [DBG] Total files in folder: 269
+2025-07-05 04:42:48.952 +08:00 [INF] Found 269 image files
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 0: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 1: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 2: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 3: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 4: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 5: /Users/rkerr/Pictures/iPadPhotos/IMG_1108.JPG
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 6: /Users/rkerr/Pictures/iPadPhotos/IMG_0558.JPG
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 7: /Users/rkerr/Pictures/iPadPhotos/IMG_0572.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 8: /Users/rkerr/Pictures/iPadPhotos/IMG_1040.JPG
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 9: /Users/rkerr/Pictures/iPadPhotos/IMG_0876.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 10: /Users/rkerr/Pictures/iPadPhotos/IMG_0525.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 11: /Users/rkerr/Pictures/iPadPhotos/IMG_0899.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 12: /Users/rkerr/Pictures/iPadPhotos/IMG_1031.WEBP
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 13: /Users/rkerr/Pictures/iPadPhotos/IMG_0725.GIF
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 14: /Users/rkerr/Pictures/iPadPhotos/IMG_0902.GIF
+2025-07-05 04:42:48.952 +08:00 [DBG] Image 15: /Users/rkerr/Pictures/iPadPhotos/IMG_1027.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 16: /Users/rkerr/Pictures/iPadPhotos/IMG_0636.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 17: /Users/rkerr/Pictures/iPadPhotos/IMG_0548.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 18: /Users/rkerr/Pictures/iPadPhotos/IMG_0929.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 19: /Users/rkerr/Pictures/iPadPhotos/IMG_0587.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 20: /Users/rkerr/Pictures/iPadPhotos/IMG_0591.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 21: /Users/rkerr/Pictures/iPadPhotos/IMG_1043.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 22: /Users/rkerr/Pictures/iPadPhotos/IMG_0968.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 23: /Users/rkerr/Pictures/iPadPhotos/IMG_0745.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 24: /Users/rkerr/Pictures/iPadPhotos/IMG_0600.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 25: /Users/rkerr/Pictures/iPadPhotos/IMG_0944.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 26: /Users/rkerr/Pictures/iPadPhotos/IMG_0552.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 27: /Users/rkerr/Pictures/iPadPhotos/IMG_0913.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 28: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 29: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 30: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 31: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 32: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 33: /Users/rkerr/Pictures/iPadPhotos/IMG_0912.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 34: /Users/rkerr/Pictures/iPadPhotos/IMG_1046.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 35: /Users/rkerr/Pictures/iPadPhotos/IMG_0945.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 36: /Users/rkerr/Pictures/iPadPhotos/IMG_0553.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 37: /Users/rkerr/Pictures/iPadPhotos/IMG_1084.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 38: /Users/rkerr/Pictures/iPadPhotos/IMG_0744.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 39: /Users/rkerr/Pictures/iPadPhotos/IMG_0601.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 40: /Users/rkerr/Pictures/iPadPhotos/IMG_0590.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 41: /Users/rkerr/Pictures/iPadPhotos/IMG_1053.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 42: /Users/rkerr/Pictures/iPadPhotos/IMG_0969.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 43: /Users/rkerr/Pictures/iPadPhotos/IMG_0713.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 44: /Users/rkerr/Pictures/iPadPhotos/IMG_1047.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 45: /Users/rkerr/Pictures/iPadPhotos/IMG_0586.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 46: /Users/rkerr/Pictures/iPadPhotos/IMG_1051.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 47: /Users/rkerr/Pictures/iPadPhotos/IMG_0928.WEBP
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 48: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:42:48.953 +08:00 [DBG] Image 49: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 50: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 51: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 52: /Users/rkerr/Pictures/iPadPhotos/IMG_0637.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 53: /Users/rkerr/Pictures/iPadPhotos/IMG_0908.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 54: /Users/rkerr/Pictures/iPadPhotos/IMG_0764.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 55: /Users/rkerr/Pictures/iPadPhotos/IMG_0602.JPG
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 56: /Users/rkerr/Pictures/iPadPhotos/IMG_0898.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 57: /Users/rkerr/Pictures/iPadPhotos/IMG_1050.JPG
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 58: /Users/rkerr/Pictures/iPadPhotos/IMG_0573.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 59: /Users/rkerr/Pictures/iPadPhotos/IMG_0965.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 60: /Users/rkerr/Pictures/iPadPhotos/IMG_0973.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 61: /Users/rkerr/Pictures/iPadPhotos/IMG_0979.JPG
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 62: /Users/rkerr/Pictures/iPadPhotos/IMG_0861.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 63: /Users/rkerr/Pictures/iPadPhotos/IMG_0924.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 64: /Users/rkerr/Pictures/iPadPhotos/IMG_0610.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 65: /Users/rkerr/Pictures/iPadPhotos/IMG_0885.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 66: /Users/rkerr/Pictures/iPadPhotos/IMG_0647.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 67: /Users/rkerr/Pictures/iPadPhotos/IMG_1105.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 68: /Users/rkerr/Pictures/iPadPhotos/IMG_0651.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 69: /Users/rkerr/Pictures/iPadPhotos/IMG_0597.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 70: /Users/rkerr/Pictures/iPadPhotos/IMG_0606.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 71: /Users/rkerr/Pictures/iPadPhotos/IMG_0939.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 72: /Users/rkerr/Pictures/iPadPhotos/IMG_0893.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 73: /Users/rkerr/Pictures/iPadPhotos/IMG_0942.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 74: /Users/rkerr/Pictures/iPadPhotos/IMG_0554.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 75: /Users/rkerr/Pictures/iPadPhotos/IMG_0846.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 76: /Users/rkerr/Pictures/iPadPhotos/IMG_0535.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 77: /Users/rkerr/Pictures/iPadPhotos/IMG_0921.JPG
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 78: /Users/rkerr/Pictures/iPadPhotos/IMG_0923.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 79: /Users/rkerr/Pictures/iPadPhotos/IMG_0889.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 80: /Users/rkerr/Pictures/iPadPhotos/IMG_0427.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 81: /Users/rkerr/Pictures/iPadPhotos/IMG_0574.WEBP
+2025-07-05 04:42:48.954 +08:00 [DBG] Image 82: /Users/rkerr/Pictures/iPadPhotos/IMG_0962.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 83: /Users/rkerr/Pictures/iPadPhotos/IMG_0870.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 84: /Users/rkerr/Pictures/iPadPhotos/IMG_0935.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 85: /Users/rkerr/Pictures/iPadPhotos/IMG_0841.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 86: /Users/rkerr/Pictures/iPadPhotos/IMG_0840.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 87: /Users/rkerr/Pictures/iPadPhotos/IMG_1060.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 88: /Users/rkerr/Pictures/iPadPhotos/IMG_1035.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 89: /Users/rkerr/Pictures/iPadPhotos/IMG_1037.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 90: /Users/rkerr/Pictures/iPadPhotos/IMG_0763.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 91: /Users/rkerr/Pictures/iPadPhotos/IMG_0539.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 92: /Users/rkerr/Pictures/iPadPhotos/IMG_1021.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 93: /Users/rkerr/Pictures/iPadPhotos/IMG_0667.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 94: /Users/rkerr/Pictures/iPadPhotos/IMG_0666.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 95: /Users/rkerr/Pictures/iPadPhotos/IMG_0930.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 96: /Users/rkerr/Pictures/iPadPhotos/IMG_0959.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 97: /Users/rkerr/Pictures/iPadPhotos/IMG_0631.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 98: /Users/rkerr/Pictures/iPadPhotos/IMG_0529.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 99: /Users/rkerr/Pictures/iPadPhotos/IMG_1036.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 100: /Users/rkerr/Pictures/iPadPhotos/IMG_0559.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 101: /Users/rkerr/Pictures/iPadPhotos/IMG_0934.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 102: /Users/rkerr/Pictures/iPadPhotos/IMG_0851.JPG
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 103: /Users/rkerr/Pictures/iPadPhotos/IMG_0963.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 104: /Users/rkerr/Pictures/iPadPhotos/IMG_0563.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 105: /Users/rkerr/Pictures/iPadPhotos/IMG_0426.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 106: /Users/rkerr/Pictures/iPadPhotos/IMG_0867.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 107: /Users/rkerr/Pictures/iPadPhotos/IMG_0534.WEBP
+2025-07-05 04:42:48.955 +08:00 [DBG] Image 108: /Users/rkerr/Pictures/iPadPhotos/IMG_0922.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 109: /Users/rkerr/Pictures/iPadPhotos/IMG_0888.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 110: /Users/rkerr/Pictures/iPadPhotos/IMG_0933.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 111: /Users/rkerr/Pictures/iPadPhotos/IMG_0927.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 112: /Users/rkerr/Pictures/iPadPhotos/IMG_0728.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 113: /Users/rkerr/Pictures/iPadPhotos/IMG_0847.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 114: /Users/rkerr/Pictures/iPadPhotos/IMG_0502.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 115: /Users/rkerr/Pictures/iPadPhotos/IMG_0943.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 116: /Users/rkerr/Pictures/iPadPhotos/IMG_0555.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 117: /Users/rkerr/Pictures/iPadPhotos/IMG_0890.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 118: /Users/rkerr/Pictures/iPadPhotos/IMG_0661.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 119: /Users/rkerr/Pictures/iPadPhotos/IMG_0938.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 120: /Users/rkerr/Pictures/iPadPhotos/IMG_0892.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 121: /Users/rkerr/Pictures/iPadPhotos/IMG_0607.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 122: /Users/rkerr/Pictures/iPadPhotos/IMG_0980.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 123: /Users/rkerr/Pictures/iPadPhotos/IMG_0596.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 124: /Users/rkerr/Pictures/iPadPhotos/IMG_0715.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 125: /Users/rkerr/Pictures/iPadPhotos/IMG_0650.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 126: /Users/rkerr/Pictures/iPadPhotos/IMG_1041.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 127: /Users/rkerr/Pictures/iPadPhotos/IMG_0503.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 128: /Users/rkerr/Pictures/iPadPhotos/IMG_1057.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 129: /Users/rkerr/Pictures/iPadPhotos/IMG_0646.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 130: /Users/rkerr/Pictures/iPadPhotos/IMG_0538.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 131: /Users/rkerr/Pictures/iPadPhotos/IMG_0611.WEBP
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 132: /Users/rkerr/Pictures/iPadPhotos/IMG_0932.JPG
+2025-07-05 04:42:48.956 +08:00 [DBG] Image 133: /Users/rkerr/Pictures/iPadPhotos/IMG_0956.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 134: /Users/rkerr/Pictures/iPadPhotos/IMG_0844.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 135: /Users/rkerr/Pictures/iPadPhotos/IMG_0901.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 136: /Users/rkerr/Pictures/iPadPhotos/IMG_0532.JPG
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 137: /Users/rkerr/Pictures/iPadPhotos/IMG_0526.JPG
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 138: /Users/rkerr/Pictures/iPadPhotos/IMG_0852.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 139: /Users/rkerr/Pictures/iPadPhotos/IMG_0501.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 140: /Users/rkerr/Pictures/iPadPhotos/IMG_1039.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 141: /Users/rkerr/Pictures/iPadPhotos/IMG_0556.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 142: /Users/rkerr/Pictures/iPadPhotos/IMG_0940.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 143: /Users/rkerr/Pictures/iPadPhotos/IMG_0877.JPG
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 144: /Users/rkerr/Pictures/iPadPhotos/IMG_0891.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 145: /Users/rkerr/Pictures/iPadPhotos/IMG_0604.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 146: /Users/rkerr/Pictures/iPadPhotos/IMG_1015.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 147: /Users/rkerr/Pictures/iPadPhotos/IMG_0595.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 148: /Users/rkerr/Pictures/iPadPhotos/IMG_1042.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 149: /Users/rkerr/Pictures/iPadPhotos/IMG_0653.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 150: /Users/rkerr/Pictures/iPadPhotos/IMG_0716.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 151: /Users/rkerr/Pictures/iPadPhotos/IMG_1107.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 152: /Users/rkerr/Pictures/iPadPhotos/IMG_0583.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 153: /Users/rkerr/Pictures/iPadPhotos/IMG_1054.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 154: /Users/rkerr/Pictures/iPadPhotos/IMG_0887.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 155: /Users/rkerr/Pictures/iPadPhotos/IMG_0868.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 156: /Users/rkerr/Pictures/iPadPhotos/IMG_0612.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 157: /Users/rkerr/Pictures/iPadPhotos/IMG_0665.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 158: /Users/rkerr/Pictures/iPadPhotos/IMG_0914.JPG
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 159: /Users/rkerr/Pictures/iPadPhotos/IMG_1023.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 160: /Users/rkerr/Pictures/iPadPhotos/IMG_0848.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 161: /Users/rkerr/Pictures/iPadPhotos/IMG_0761.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 162: /Users/rkerr/Pictures/iPadPhotos/IMG_1029.JPG
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 163: /Users/rkerr/Pictures/iPadPhotos/IMG_1062.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 164: /Users/rkerr/Pictures/iPadPhotos/IMG_1019.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 165: /Users/rkerr/Pictures/iPadPhotos/IMG_0608.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 166: /Users/rkerr/Pictures/iPadPhotos/IMG_0937.WEBP
+2025-07-05 04:42:48.957 +08:00 [DBG] Image 167: /Users/rkerr/Pictures/iPadPhotos/IMG_0960.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 168: /Users/rkerr/Pictures/iPadPhotos/IMG_0599.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 169: /Users/rkerr/Pictures/iPadPhotos/IMG_0576.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 170: /Users/rkerr/Pictures/iPadPhotos/IMG_0649.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 171: /Users/rkerr/Pictures/iPadPhotos/IMG_0425.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 172: /Users/rkerr/Pictures/iPadPhotos/IMG_0537.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 173: /Users/rkerr/Pictures/iPadPhotos/IMG_0864.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 174: /Users/rkerr/Pictures/iPadPhotos/IMG_0536.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 175: /Users/rkerr/Pictures/iPadPhotos/IMG_0865.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 176: /Users/rkerr/Pictures/iPadPhotos/IMG_0424.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 177: /Users/rkerr/Pictures/iPadPhotos/IMG_0561.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 178: /Users/rkerr/Pictures/iPadPhotos/IMG_1059.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 179: /Users/rkerr/Pictures/iPadPhotos/IMG_0648.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 180: /Users/rkerr/Pictures/iPadPhotos/IMG_0598.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 181: /Users/rkerr/Pictures/iPadPhotos/IMG_0577.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 182: /Users/rkerr/Pictures/iPadPhotos/IMG_0936.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 183: /Users/rkerr/Pictures/iPadPhotos/IMG_0609.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 184: /Users/rkerr/Pictures/iPadPhotos/IMG_0672.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 185: /Users/rkerr/Pictures/iPadPhotos/IMG_0760.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 186: /Users/rkerr/Pictures/iPadPhotos/IMG_1022.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 187: /Users/rkerr/Pictures/iPadPhotos/IMG_0664.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 188: /Users/rkerr/Pictures/iPadPhotos/IMG_0613.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 189: /Users/rkerr/Pictures/iPadPhotos/IMG_0886.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 190: /Users/rkerr/Pictures/iPadPhotos/IMG_0869.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 191: /Users/rkerr/Pictures/iPadPhotos/IMG_0490.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 192: /Users/rkerr/Pictures/iPadPhotos/IMG_0644.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 193: /Users/rkerr/Pictures/iPadPhotos/IMG_1055.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 194: /Users/rkerr/Pictures/iPadPhotos/IMG_0428.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 195: /Users/rkerr/Pictures/iPadPhotos/IMG_0652.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 196: /Users/rkerr/Pictures/iPadPhotos/IMG_0717.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 197: /Users/rkerr/Pictures/iPadPhotos/IMG_1106.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 198: /Users/rkerr/Pictures/iPadPhotos/IMG_0594.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 199: /Users/rkerr/Pictures/iPadPhotos/IMG_0866.JPG
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 200: /Users/rkerr/Pictures/iPadPhotos/IMG_0605.WEBP
+2025-07-05 04:42:48.958 +08:00 [DBG] Image 201: /Users/rkerr/Pictures/iPadPhotos/IMG_1014.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 202: /Users/rkerr/Pictures/iPadPhotos/IMG_0941.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 203: /Users/rkerr/Pictures/iPadPhotos/IMG_0873.JPG
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 204: /Users/rkerr/Pictures/iPadPhotos/IMG_1038.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 205: /Users/rkerr/Pictures/iPadPhotos/IMG_0853.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 206: /Users/rkerr/Pictures/iPadPhotos/IMG_0845.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 207: /Users/rkerr/Pictures/iPadPhotos/IMG_0900.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 208: /Users/rkerr/Pictures/iPadPhotos/IMG_0668.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 209: /Users/rkerr/Pictures/iPadPhotos/IMG_0948.JPG
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 210: /Users/rkerr/Pictures/iPadPhotos/IMG_0663.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 211: /Users/rkerr/Pictures/iPadPhotos/IMG_0931.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 212: /Users/rkerr/Pictures/iPadPhotos/IMG_0527.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 213: /Users/rkerr/Pictures/iPadPhotos/IMG_0874.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 214: /Users/rkerr/Pictures/iPadPhotos/IMG_0966.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 215: /Users/rkerr/Pictures/iPadPhotos/IMG_0570.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 216: /Users/rkerr/Pictures/iPadPhotos/IMG_0970.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 217: /Users/rkerr/Pictures/iPadPhotos/IMG_0975.JPG
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 218: /Users/rkerr/Pictures/iPadPhotos/IMG_0862.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 219: /Users/rkerr/Pictures/iPadPhotos/IMG_0531.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 220: /Users/rkerr/Pictures/iPadPhotos/IMG_0977.JPG
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 221: /Users/rkerr/Pictures/iPadPhotos/IMG_0680.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 222: /Users/rkerr/Pictures/iPadPhotos/IMG_0511.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 223: /Users/rkerr/Pictures/iPadPhotos/IMG_0907.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 224: /Users/rkerr/Pictures/iPadPhotos/IMG_0854.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 225: /Users/rkerr/Pictures/iPadPhotos/IMG_0911.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 226: /Users/rkerr/Pictures/iPadPhotos/IMG_0950(1).WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 227: /Users/rkerr/Pictures/iPadPhotos/IMG_0946.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 228: /Users/rkerr/Pictures/iPadPhotos/IMG_1068.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 229: /Users/rkerr/Pictures/iPadPhotos/IMG_0679.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 230: /Users/rkerr/Pictures/iPadPhotos/IMG_0897.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 231: /Users/rkerr/Pictures/iPadPhotos/IMG_0878.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 232: /Users/rkerr/Pictures/iPadPhotos/IMG_1063.JPG
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 233: /Users/rkerr/Pictures/iPadPhotos/IMG_0593.WEBP
+2025-07-05 04:42:48.959 +08:00 [DBG] Image 234: /Users/rkerr/Pictures/iPadPhotos/IMG_0710.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 235: /Users/rkerr/Pictures/iPadPhotos/IMG_0585.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 236: /Users/rkerr/Pictures/iPadPhotos/IMG_0839.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 237: /Users/rkerr/Pictures/iPadPhotos/IMG_0547.JPG
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 238: /Users/rkerr/Pictures/iPadPhotos/IMG_1052.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 239: /Users/rkerr/Pictures/iPadPhotos/IMG_0976.JPG
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 240: /Users/rkerr/Pictures/iPadPhotos/IMG_0880.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 241: /Users/rkerr/Pictures/iPadPhotos/IMG_0557.JPG
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 242: /Users/rkerr/Pictures/iPadPhotos/IMG_0654.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 243: /Users/rkerr/Pictures/iPadPhotos/IMG_1045.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 244: /Users/rkerr/Pictures/iPadPhotos/IMG_0711.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 245: /Users/rkerr/Pictures/iPadPhotos/IMG_0423.JPG
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 246: /Users/rkerr/Pictures/iPadPhotos/IMG_0603.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 247: /Users/rkerr/Pictures/iPadPhotos/IMG_0896.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 248: /Users/rkerr/Pictures/iPadPhotos/IMG_0879.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 249: /Users/rkerr/Pictures/iPadPhotos/IMG_0947.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 250: /Users/rkerr/Pictures/iPadPhotos/IMG_0855.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 251: /Users/rkerr/Pictures/iPadPhotos/IMG_0910.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 252: /Users/rkerr/Pictures/iPadPhotos/IMG_1028.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 253: /Users/rkerr/Pictures/iPadPhotos/IMG_0843.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 254: /Users/rkerr/Pictures/iPadPhotos/IMG_0906.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 255: /Users/rkerr/Pictures/iPadPhotos/IMG_0926.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 256: /Users/rkerr/Pictures/iPadPhotos/IMG_0863.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 257: /Users/rkerr/Pictures/iPadPhotos/IMG_0530.WEBP
+2025-07-05 04:42:48.960 +08:00 [DBG] Image 258: /Users/rkerr/Pictures/iPadPhotos/IMG_0588.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 259: /Users/rkerr/Pictures/iPadPhotos/IMG_0540.JPG
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 260: /Users/rkerr/Pictures/iPadPhotos/IMG_0571.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 261: /Users/rkerr/Pictures/iPadPhotos/IMG_1049.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 262: /Users/rkerr/Pictures/iPadPhotos/IMG_0875.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 263: /Users/rkerr/Pictures/iPadPhotos/IMG_1032.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 264: /Users/rkerr/Pictures/iPadPhotos/IMG_0569.JPG
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 265: /Users/rkerr/Pictures/iPadPhotos/IMG_1111.JPG
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 266: /Users/rkerr/Pictures/iPadPhotos/IMG_0582.JPG
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 267: /Users/rkerr/Pictures/iPadPhotos/IMG_1024.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Image 268: /Users/rkerr/Pictures/iPadPhotos/IMG_0662.WEBP
+2025-07-05 04:42:48.961 +08:00 [DBG] Loading first image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:42:49.157 +08:00 [DBG] Successfully loaded first image
+2025-07-05 04:42:49.161 +08:00 [INF] Image loading completed - 269 images available, first image loaded: true
+2025-07-05 04:42:49.167 +08:00 [INF] Elmish program started successfully
+2025-07-05 04:45:52.680 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:48:43.257 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:48:43.278 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:48:43.478 +08:00 [INF] FamilySlide MainWindow initializing
+2025-07-05 04:48:43.480 +08:00 [INF] Opening on primary screen: Built-in Retina Display
+2025-07-05 04:48:43.483 +08:00 [INF] Using folder path: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:48:43.484 +08:00 [INF] Elmish program created successfully
+2025-07-05 04:48:43.484 +08:00 [INF] Starting Elmish program
+2025-07-05 04:48:43.485 +08:00 [INF] Initializing FamilySlide with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:48:43.511 +08:00 [DBG] Update called with message: LoadImages
+2025-07-05 04:48:43.511 +08:00 [INF] Loading images from folder
+2025-07-05 04:48:43.511 +08:00 [DBG] Folder exists: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:48:43.512 +08:00 [DBG] Total files in folder: 269
+2025-07-05 04:48:43.513 +08:00 [INF] Found 269 image files
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 0: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 1: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 2: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 3: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 4: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 5: /Users/rkerr/Pictures/iPadPhotos/IMG_1108.JPG
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 6: /Users/rkerr/Pictures/iPadPhotos/IMG_0558.JPG
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 7: /Users/rkerr/Pictures/iPadPhotos/IMG_0572.WEBP
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 8: /Users/rkerr/Pictures/iPadPhotos/IMG_1040.JPG
+2025-07-05 04:48:43.513 +08:00 [DBG] Image 9: /Users/rkerr/Pictures/iPadPhotos/IMG_0876.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 10: /Users/rkerr/Pictures/iPadPhotos/IMG_0525.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 11: /Users/rkerr/Pictures/iPadPhotos/IMG_0899.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 12: /Users/rkerr/Pictures/iPadPhotos/IMG_1031.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 13: /Users/rkerr/Pictures/iPadPhotos/IMG_0725.GIF
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 14: /Users/rkerr/Pictures/iPadPhotos/IMG_0902.GIF
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 15: /Users/rkerr/Pictures/iPadPhotos/IMG_1027.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 16: /Users/rkerr/Pictures/iPadPhotos/IMG_0636.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 17: /Users/rkerr/Pictures/iPadPhotos/IMG_0548.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 18: /Users/rkerr/Pictures/iPadPhotos/IMG_0929.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 19: /Users/rkerr/Pictures/iPadPhotos/IMG_0587.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 20: /Users/rkerr/Pictures/iPadPhotos/IMG_0591.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 21: /Users/rkerr/Pictures/iPadPhotos/IMG_1043.JPG
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 22: /Users/rkerr/Pictures/iPadPhotos/IMG_0968.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 23: /Users/rkerr/Pictures/iPadPhotos/IMG_0745.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 24: /Users/rkerr/Pictures/iPadPhotos/IMG_0600.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 25: /Users/rkerr/Pictures/iPadPhotos/IMG_0944.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 26: /Users/rkerr/Pictures/iPadPhotos/IMG_0552.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 27: /Users/rkerr/Pictures/iPadPhotos/IMG_0913.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 28: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 29: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 30: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 31: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 32: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 33: /Users/rkerr/Pictures/iPadPhotos/IMG_0912.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 34: /Users/rkerr/Pictures/iPadPhotos/IMG_1046.JPG
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 35: /Users/rkerr/Pictures/iPadPhotos/IMG_0945.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 36: /Users/rkerr/Pictures/iPadPhotos/IMG_0553.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 37: /Users/rkerr/Pictures/iPadPhotos/IMG_1084.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 38: /Users/rkerr/Pictures/iPadPhotos/IMG_0744.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 39: /Users/rkerr/Pictures/iPadPhotos/IMG_0601.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 40: /Users/rkerr/Pictures/iPadPhotos/IMG_0590.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 41: /Users/rkerr/Pictures/iPadPhotos/IMG_1053.JPG
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 42: /Users/rkerr/Pictures/iPadPhotos/IMG_0969.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 43: /Users/rkerr/Pictures/iPadPhotos/IMG_0713.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 44: /Users/rkerr/Pictures/iPadPhotos/IMG_1047.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 45: /Users/rkerr/Pictures/iPadPhotos/IMG_0586.WEBP
+2025-07-05 04:48:43.514 +08:00 [DBG] Image 46: /Users/rkerr/Pictures/iPadPhotos/IMG_1051.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 47: /Users/rkerr/Pictures/iPadPhotos/IMG_0928.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 48: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 49: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 50: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 51: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 52: /Users/rkerr/Pictures/iPadPhotos/IMG_0637.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 53: /Users/rkerr/Pictures/iPadPhotos/IMG_0908.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 54: /Users/rkerr/Pictures/iPadPhotos/IMG_0764.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 55: /Users/rkerr/Pictures/iPadPhotos/IMG_0602.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 56: /Users/rkerr/Pictures/iPadPhotos/IMG_0898.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 57: /Users/rkerr/Pictures/iPadPhotos/IMG_1050.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 58: /Users/rkerr/Pictures/iPadPhotos/IMG_0573.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 59: /Users/rkerr/Pictures/iPadPhotos/IMG_0965.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 60: /Users/rkerr/Pictures/iPadPhotos/IMG_0973.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 61: /Users/rkerr/Pictures/iPadPhotos/IMG_0979.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 62: /Users/rkerr/Pictures/iPadPhotos/IMG_0861.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 63: /Users/rkerr/Pictures/iPadPhotos/IMG_0924.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 64: /Users/rkerr/Pictures/iPadPhotos/IMG_0610.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 65: /Users/rkerr/Pictures/iPadPhotos/IMG_0885.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 66: /Users/rkerr/Pictures/iPadPhotos/IMG_0647.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 67: /Users/rkerr/Pictures/iPadPhotos/IMG_1105.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 68: /Users/rkerr/Pictures/iPadPhotos/IMG_0651.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 69: /Users/rkerr/Pictures/iPadPhotos/IMG_0597.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 70: /Users/rkerr/Pictures/iPadPhotos/IMG_0606.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 71: /Users/rkerr/Pictures/iPadPhotos/IMG_0939.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 72: /Users/rkerr/Pictures/iPadPhotos/IMG_0893.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 73: /Users/rkerr/Pictures/iPadPhotos/IMG_0942.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 74: /Users/rkerr/Pictures/iPadPhotos/IMG_0554.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 75: /Users/rkerr/Pictures/iPadPhotos/IMG_0846.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 76: /Users/rkerr/Pictures/iPadPhotos/IMG_0535.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 77: /Users/rkerr/Pictures/iPadPhotos/IMG_0921.JPG
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 78: /Users/rkerr/Pictures/iPadPhotos/IMG_0923.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 79: /Users/rkerr/Pictures/iPadPhotos/IMG_0889.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 80: /Users/rkerr/Pictures/iPadPhotos/IMG_0427.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 81: /Users/rkerr/Pictures/iPadPhotos/IMG_0574.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 82: /Users/rkerr/Pictures/iPadPhotos/IMG_0962.WEBP
+2025-07-05 04:48:43.515 +08:00 [DBG] Image 83: /Users/rkerr/Pictures/iPadPhotos/IMG_0870.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 84: /Users/rkerr/Pictures/iPadPhotos/IMG_0935.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 85: /Users/rkerr/Pictures/iPadPhotos/IMG_0841.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 86: /Users/rkerr/Pictures/iPadPhotos/IMG_0840.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 87: /Users/rkerr/Pictures/iPadPhotos/IMG_1060.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 88: /Users/rkerr/Pictures/iPadPhotos/IMG_1035.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 89: /Users/rkerr/Pictures/iPadPhotos/IMG_1037.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 90: /Users/rkerr/Pictures/iPadPhotos/IMG_0763.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 91: /Users/rkerr/Pictures/iPadPhotos/IMG_0539.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 92: /Users/rkerr/Pictures/iPadPhotos/IMG_1021.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 93: /Users/rkerr/Pictures/iPadPhotos/IMG_0667.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 94: /Users/rkerr/Pictures/iPadPhotos/IMG_0666.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 95: /Users/rkerr/Pictures/iPadPhotos/IMG_0930.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 96: /Users/rkerr/Pictures/iPadPhotos/IMG_0959.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 97: /Users/rkerr/Pictures/iPadPhotos/IMG_0631.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 98: /Users/rkerr/Pictures/iPadPhotos/IMG_0529.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 99: /Users/rkerr/Pictures/iPadPhotos/IMG_1036.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 100: /Users/rkerr/Pictures/iPadPhotos/IMG_0559.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 101: /Users/rkerr/Pictures/iPadPhotos/IMG_0934.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 102: /Users/rkerr/Pictures/iPadPhotos/IMG_0851.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 103: /Users/rkerr/Pictures/iPadPhotos/IMG_0963.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 104: /Users/rkerr/Pictures/iPadPhotos/IMG_0563.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 105: /Users/rkerr/Pictures/iPadPhotos/IMG_0426.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 106: /Users/rkerr/Pictures/iPadPhotos/IMG_0867.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 107: /Users/rkerr/Pictures/iPadPhotos/IMG_0534.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 108: /Users/rkerr/Pictures/iPadPhotos/IMG_0922.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 109: /Users/rkerr/Pictures/iPadPhotos/IMG_0888.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 110: /Users/rkerr/Pictures/iPadPhotos/IMG_0933.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 111: /Users/rkerr/Pictures/iPadPhotos/IMG_0927.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 112: /Users/rkerr/Pictures/iPadPhotos/IMG_0728.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 113: /Users/rkerr/Pictures/iPadPhotos/IMG_0847.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 114: /Users/rkerr/Pictures/iPadPhotos/IMG_0502.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 115: /Users/rkerr/Pictures/iPadPhotos/IMG_0943.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 116: /Users/rkerr/Pictures/iPadPhotos/IMG_0555.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 117: /Users/rkerr/Pictures/iPadPhotos/IMG_0890.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 118: /Users/rkerr/Pictures/iPadPhotos/IMG_0661.JPG
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 119: /Users/rkerr/Pictures/iPadPhotos/IMG_0938.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 120: /Users/rkerr/Pictures/iPadPhotos/IMG_0892.WEBP
+2025-07-05 04:48:43.516 +08:00 [DBG] Image 121: /Users/rkerr/Pictures/iPadPhotos/IMG_0607.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 122: /Users/rkerr/Pictures/iPadPhotos/IMG_0980.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 123: /Users/rkerr/Pictures/iPadPhotos/IMG_0596.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 124: /Users/rkerr/Pictures/iPadPhotos/IMG_0715.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 125: /Users/rkerr/Pictures/iPadPhotos/IMG_0650.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 126: /Users/rkerr/Pictures/iPadPhotos/IMG_1041.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 127: /Users/rkerr/Pictures/iPadPhotos/IMG_0503.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 128: /Users/rkerr/Pictures/iPadPhotos/IMG_1057.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 129: /Users/rkerr/Pictures/iPadPhotos/IMG_0646.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 130: /Users/rkerr/Pictures/iPadPhotos/IMG_0538.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 131: /Users/rkerr/Pictures/iPadPhotos/IMG_0611.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 132: /Users/rkerr/Pictures/iPadPhotos/IMG_0932.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 133: /Users/rkerr/Pictures/iPadPhotos/IMG_0956.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 134: /Users/rkerr/Pictures/iPadPhotos/IMG_0844.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 135: /Users/rkerr/Pictures/iPadPhotos/IMG_0901.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 136: /Users/rkerr/Pictures/iPadPhotos/IMG_0532.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 137: /Users/rkerr/Pictures/iPadPhotos/IMG_0526.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 138: /Users/rkerr/Pictures/iPadPhotos/IMG_0852.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 139: /Users/rkerr/Pictures/iPadPhotos/IMG_0501.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 140: /Users/rkerr/Pictures/iPadPhotos/IMG_1039.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 141: /Users/rkerr/Pictures/iPadPhotos/IMG_0556.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 142: /Users/rkerr/Pictures/iPadPhotos/IMG_0940.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 143: /Users/rkerr/Pictures/iPadPhotos/IMG_0877.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 144: /Users/rkerr/Pictures/iPadPhotos/IMG_0891.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 145: /Users/rkerr/Pictures/iPadPhotos/IMG_0604.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 146: /Users/rkerr/Pictures/iPadPhotos/IMG_1015.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 147: /Users/rkerr/Pictures/iPadPhotos/IMG_0595.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 148: /Users/rkerr/Pictures/iPadPhotos/IMG_1042.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 149: /Users/rkerr/Pictures/iPadPhotos/IMG_0653.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 150: /Users/rkerr/Pictures/iPadPhotos/IMG_0716.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 151: /Users/rkerr/Pictures/iPadPhotos/IMG_1107.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 152: /Users/rkerr/Pictures/iPadPhotos/IMG_0583.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 153: /Users/rkerr/Pictures/iPadPhotos/IMG_1054.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 154: /Users/rkerr/Pictures/iPadPhotos/IMG_0887.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 155: /Users/rkerr/Pictures/iPadPhotos/IMG_0868.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 156: /Users/rkerr/Pictures/iPadPhotos/IMG_0612.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 157: /Users/rkerr/Pictures/iPadPhotos/IMG_0665.WEBP
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 158: /Users/rkerr/Pictures/iPadPhotos/IMG_0914.JPG
+2025-07-05 04:48:43.517 +08:00 [DBG] Image 159: /Users/rkerr/Pictures/iPadPhotos/IMG_1023.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 160: /Users/rkerr/Pictures/iPadPhotos/IMG_0848.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 161: /Users/rkerr/Pictures/iPadPhotos/IMG_0761.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 162: /Users/rkerr/Pictures/iPadPhotos/IMG_1029.JPG
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 163: /Users/rkerr/Pictures/iPadPhotos/IMG_1062.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 164: /Users/rkerr/Pictures/iPadPhotos/IMG_1019.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 165: /Users/rkerr/Pictures/iPadPhotos/IMG_0608.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 166: /Users/rkerr/Pictures/iPadPhotos/IMG_0937.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 167: /Users/rkerr/Pictures/iPadPhotos/IMG_0960.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 168: /Users/rkerr/Pictures/iPadPhotos/IMG_0599.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 169: /Users/rkerr/Pictures/iPadPhotos/IMG_0576.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 170: /Users/rkerr/Pictures/iPadPhotos/IMG_0649.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 171: /Users/rkerr/Pictures/iPadPhotos/IMG_0425.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 172: /Users/rkerr/Pictures/iPadPhotos/IMG_0537.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 173: /Users/rkerr/Pictures/iPadPhotos/IMG_0864.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 174: /Users/rkerr/Pictures/iPadPhotos/IMG_0536.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 175: /Users/rkerr/Pictures/iPadPhotos/IMG_0865.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 176: /Users/rkerr/Pictures/iPadPhotos/IMG_0424.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 177: /Users/rkerr/Pictures/iPadPhotos/IMG_0561.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 178: /Users/rkerr/Pictures/iPadPhotos/IMG_1059.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 179: /Users/rkerr/Pictures/iPadPhotos/IMG_0648.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 180: /Users/rkerr/Pictures/iPadPhotos/IMG_0598.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 181: /Users/rkerr/Pictures/iPadPhotos/IMG_0577.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 182: /Users/rkerr/Pictures/iPadPhotos/IMG_0936.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 183: /Users/rkerr/Pictures/iPadPhotos/IMG_0609.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 184: /Users/rkerr/Pictures/iPadPhotos/IMG_0672.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 185: /Users/rkerr/Pictures/iPadPhotos/IMG_0760.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 186: /Users/rkerr/Pictures/iPadPhotos/IMG_1022.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 187: /Users/rkerr/Pictures/iPadPhotos/IMG_0664.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 188: /Users/rkerr/Pictures/iPadPhotos/IMG_0613.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 189: /Users/rkerr/Pictures/iPadPhotos/IMG_0886.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 190: /Users/rkerr/Pictures/iPadPhotos/IMG_0869.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 191: /Users/rkerr/Pictures/iPadPhotos/IMG_0490.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 192: /Users/rkerr/Pictures/iPadPhotos/IMG_0644.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 193: /Users/rkerr/Pictures/iPadPhotos/IMG_1055.WEBP
+2025-07-05 04:48:43.518 +08:00 [DBG] Image 194: /Users/rkerr/Pictures/iPadPhotos/IMG_0428.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 195: /Users/rkerr/Pictures/iPadPhotos/IMG_0652.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 196: /Users/rkerr/Pictures/iPadPhotos/IMG_0717.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 197: /Users/rkerr/Pictures/iPadPhotos/IMG_1106.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 198: /Users/rkerr/Pictures/iPadPhotos/IMG_0594.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 199: /Users/rkerr/Pictures/iPadPhotos/IMG_0866.JPG
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 200: /Users/rkerr/Pictures/iPadPhotos/IMG_0605.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 201: /Users/rkerr/Pictures/iPadPhotos/IMG_1014.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 202: /Users/rkerr/Pictures/iPadPhotos/IMG_0941.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 203: /Users/rkerr/Pictures/iPadPhotos/IMG_0873.JPG
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 204: /Users/rkerr/Pictures/iPadPhotos/IMG_1038.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 205: /Users/rkerr/Pictures/iPadPhotos/IMG_0853.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 206: /Users/rkerr/Pictures/iPadPhotos/IMG_0845.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 207: /Users/rkerr/Pictures/iPadPhotos/IMG_0900.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 208: /Users/rkerr/Pictures/iPadPhotos/IMG_0668.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 209: /Users/rkerr/Pictures/iPadPhotos/IMG_0948.JPG
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 210: /Users/rkerr/Pictures/iPadPhotos/IMG_0663.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 211: /Users/rkerr/Pictures/iPadPhotos/IMG_0931.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 212: /Users/rkerr/Pictures/iPadPhotos/IMG_0527.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 213: /Users/rkerr/Pictures/iPadPhotos/IMG_0874.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 214: /Users/rkerr/Pictures/iPadPhotos/IMG_0966.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 215: /Users/rkerr/Pictures/iPadPhotos/IMG_0570.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 216: /Users/rkerr/Pictures/iPadPhotos/IMG_0970.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 217: /Users/rkerr/Pictures/iPadPhotos/IMG_0975.JPG
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 218: /Users/rkerr/Pictures/iPadPhotos/IMG_0862.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 219: /Users/rkerr/Pictures/iPadPhotos/IMG_0531.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 220: /Users/rkerr/Pictures/iPadPhotos/IMG_0977.JPG
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 221: /Users/rkerr/Pictures/iPadPhotos/IMG_0680.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 222: /Users/rkerr/Pictures/iPadPhotos/IMG_0511.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 223: /Users/rkerr/Pictures/iPadPhotos/IMG_0907.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 224: /Users/rkerr/Pictures/iPadPhotos/IMG_0854.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 225: /Users/rkerr/Pictures/iPadPhotos/IMG_0911.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 226: /Users/rkerr/Pictures/iPadPhotos/IMG_0950(1).WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 227: /Users/rkerr/Pictures/iPadPhotos/IMG_0946.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 228: /Users/rkerr/Pictures/iPadPhotos/IMG_1068.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 229: /Users/rkerr/Pictures/iPadPhotos/IMG_0679.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 230: /Users/rkerr/Pictures/iPadPhotos/IMG_0897.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 231: /Users/rkerr/Pictures/iPadPhotos/IMG_0878.WEBP
+2025-07-05 04:48:43.519 +08:00 [DBG] Image 232: /Users/rkerr/Pictures/iPadPhotos/IMG_1063.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 233: /Users/rkerr/Pictures/iPadPhotos/IMG_0593.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 234: /Users/rkerr/Pictures/iPadPhotos/IMG_0710.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 235: /Users/rkerr/Pictures/iPadPhotos/IMG_0585.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 236: /Users/rkerr/Pictures/iPadPhotos/IMG_0839.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 237: /Users/rkerr/Pictures/iPadPhotos/IMG_0547.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 238: /Users/rkerr/Pictures/iPadPhotos/IMG_1052.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 239: /Users/rkerr/Pictures/iPadPhotos/IMG_0976.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 240: /Users/rkerr/Pictures/iPadPhotos/IMG_0880.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 241: /Users/rkerr/Pictures/iPadPhotos/IMG_0557.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 242: /Users/rkerr/Pictures/iPadPhotos/IMG_0654.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 243: /Users/rkerr/Pictures/iPadPhotos/IMG_1045.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 244: /Users/rkerr/Pictures/iPadPhotos/IMG_0711.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 245: /Users/rkerr/Pictures/iPadPhotos/IMG_0423.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 246: /Users/rkerr/Pictures/iPadPhotos/IMG_0603.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 247: /Users/rkerr/Pictures/iPadPhotos/IMG_0896.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 248: /Users/rkerr/Pictures/iPadPhotos/IMG_0879.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 249: /Users/rkerr/Pictures/iPadPhotos/IMG_0947.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 250: /Users/rkerr/Pictures/iPadPhotos/IMG_0855.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 251: /Users/rkerr/Pictures/iPadPhotos/IMG_0910.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 252: /Users/rkerr/Pictures/iPadPhotos/IMG_1028.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 253: /Users/rkerr/Pictures/iPadPhotos/IMG_0843.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 254: /Users/rkerr/Pictures/iPadPhotos/IMG_0906.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 255: /Users/rkerr/Pictures/iPadPhotos/IMG_0926.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 256: /Users/rkerr/Pictures/iPadPhotos/IMG_0863.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 257: /Users/rkerr/Pictures/iPadPhotos/IMG_0530.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 258: /Users/rkerr/Pictures/iPadPhotos/IMG_0588.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 259: /Users/rkerr/Pictures/iPadPhotos/IMG_0540.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 260: /Users/rkerr/Pictures/iPadPhotos/IMG_0571.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 261: /Users/rkerr/Pictures/iPadPhotos/IMG_1049.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 262: /Users/rkerr/Pictures/iPadPhotos/IMG_0875.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 263: /Users/rkerr/Pictures/iPadPhotos/IMG_1032.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 264: /Users/rkerr/Pictures/iPadPhotos/IMG_0569.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 265: /Users/rkerr/Pictures/iPadPhotos/IMG_1111.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 266: /Users/rkerr/Pictures/iPadPhotos/IMG_0582.JPG
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 267: /Users/rkerr/Pictures/iPadPhotos/IMG_1024.WEBP
+2025-07-05 04:48:43.520 +08:00 [DBG] Image 268: /Users/rkerr/Pictures/iPadPhotos/IMG_0662.WEBP
+2025-07-05 04:48:43.521 +08:00 [DBG] Loading first image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:48:43.712 +08:00 [DBG] Successfully loaded first image
+2025-07-05 04:48:43.716 +08:00 [INF] Image loading completed - 269 images available, first image loaded: true
+2025-07-05 04:48:43.723 +08:00 [INF] Elmish program started successfully
+2025-07-05 04:48:51.506 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:50:55.813 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:50:55.836 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:50:56.059 +08:00 [INF] FamilySlide MainWindow initializing
+2025-07-05 04:50:56.060 +08:00 [INF] Opening on primary screen: Built-in Retina Display
+2025-07-05 04:50:56.064 +08:00 [INF] Using folder path: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:50:56.065 +08:00 [INF] Elmish program created successfully
+2025-07-05 04:50:56.065 +08:00 [INF] Starting Elmish program
+2025-07-05 04:50:56.066 +08:00 [INF] Initializing FamilySlide with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:50:56.099 +08:00 [DBG] Update called with message: LoadImages
+2025-07-05 04:50:56.100 +08:00 [INF] Loading images from folder
+2025-07-05 04:50:56.100 +08:00 [DBG] Folder exists: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:50:56.100 +08:00 [DBG] Total files in folder: 269
+2025-07-05 04:50:56.102 +08:00 [INF] Found 269 image files
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 0: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 1: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 2: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 3: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 4: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 5: /Users/rkerr/Pictures/iPadPhotos/IMG_1108.JPG
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 6: /Users/rkerr/Pictures/iPadPhotos/IMG_0558.JPG
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 7: /Users/rkerr/Pictures/iPadPhotos/IMG_0572.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 8: /Users/rkerr/Pictures/iPadPhotos/IMG_1040.JPG
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 9: /Users/rkerr/Pictures/iPadPhotos/IMG_0876.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 10: /Users/rkerr/Pictures/iPadPhotos/IMG_0525.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 11: /Users/rkerr/Pictures/iPadPhotos/IMG_0899.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 12: /Users/rkerr/Pictures/iPadPhotos/IMG_1031.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 13: /Users/rkerr/Pictures/iPadPhotos/IMG_0725.GIF
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 14: /Users/rkerr/Pictures/iPadPhotos/IMG_0902.GIF
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 15: /Users/rkerr/Pictures/iPadPhotos/IMG_1027.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 16: /Users/rkerr/Pictures/iPadPhotos/IMG_0636.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 17: /Users/rkerr/Pictures/iPadPhotos/IMG_0548.WEBP
+2025-07-05 04:50:56.102 +08:00 [DBG] Image 18: /Users/rkerr/Pictures/iPadPhotos/IMG_0929.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 19: /Users/rkerr/Pictures/iPadPhotos/IMG_0587.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 20: /Users/rkerr/Pictures/iPadPhotos/IMG_0591.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 21: /Users/rkerr/Pictures/iPadPhotos/IMG_1043.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 22: /Users/rkerr/Pictures/iPadPhotos/IMG_0968.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 23: /Users/rkerr/Pictures/iPadPhotos/IMG_0745.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 24: /Users/rkerr/Pictures/iPadPhotos/IMG_0600.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 25: /Users/rkerr/Pictures/iPadPhotos/IMG_0944.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 26: /Users/rkerr/Pictures/iPadPhotos/IMG_0552.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 27: /Users/rkerr/Pictures/iPadPhotos/IMG_0913.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 28: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 29: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 30: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 31: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 32: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 33: /Users/rkerr/Pictures/iPadPhotos/IMG_0912.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 34: /Users/rkerr/Pictures/iPadPhotos/IMG_1046.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 35: /Users/rkerr/Pictures/iPadPhotos/IMG_0945.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 36: /Users/rkerr/Pictures/iPadPhotos/IMG_0553.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 37: /Users/rkerr/Pictures/iPadPhotos/IMG_1084.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 38: /Users/rkerr/Pictures/iPadPhotos/IMG_0744.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 39: /Users/rkerr/Pictures/iPadPhotos/IMG_0601.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 40: /Users/rkerr/Pictures/iPadPhotos/IMG_0590.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 41: /Users/rkerr/Pictures/iPadPhotos/IMG_1053.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 42: /Users/rkerr/Pictures/iPadPhotos/IMG_0969.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 43: /Users/rkerr/Pictures/iPadPhotos/IMG_0713.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 44: /Users/rkerr/Pictures/iPadPhotos/IMG_1047.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 45: /Users/rkerr/Pictures/iPadPhotos/IMG_0586.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 46: /Users/rkerr/Pictures/iPadPhotos/IMG_1051.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 47: /Users/rkerr/Pictures/iPadPhotos/IMG_0928.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 48: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 49: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 50: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 51: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:50:56.103 +08:00 [DBG] Image 52: /Users/rkerr/Pictures/iPadPhotos/IMG_0637.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 53: /Users/rkerr/Pictures/iPadPhotos/IMG_0908.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 54: /Users/rkerr/Pictures/iPadPhotos/IMG_0764.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 55: /Users/rkerr/Pictures/iPadPhotos/IMG_0602.JPG
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 56: /Users/rkerr/Pictures/iPadPhotos/IMG_0898.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 57: /Users/rkerr/Pictures/iPadPhotos/IMG_1050.JPG
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 58: /Users/rkerr/Pictures/iPadPhotos/IMG_0573.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 59: /Users/rkerr/Pictures/iPadPhotos/IMG_0965.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 60: /Users/rkerr/Pictures/iPadPhotos/IMG_0973.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 61: /Users/rkerr/Pictures/iPadPhotos/IMG_0979.JPG
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 62: /Users/rkerr/Pictures/iPadPhotos/IMG_0861.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 63: /Users/rkerr/Pictures/iPadPhotos/IMG_0924.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 64: /Users/rkerr/Pictures/iPadPhotos/IMG_0610.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 65: /Users/rkerr/Pictures/iPadPhotos/IMG_0885.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 66: /Users/rkerr/Pictures/iPadPhotos/IMG_0647.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 67: /Users/rkerr/Pictures/iPadPhotos/IMG_1105.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 68: /Users/rkerr/Pictures/iPadPhotos/IMG_0651.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 69: /Users/rkerr/Pictures/iPadPhotos/IMG_0597.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 70: /Users/rkerr/Pictures/iPadPhotos/IMG_0606.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 71: /Users/rkerr/Pictures/iPadPhotos/IMG_0939.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 72: /Users/rkerr/Pictures/iPadPhotos/IMG_0893.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 73: /Users/rkerr/Pictures/iPadPhotos/IMG_0942.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 74: /Users/rkerr/Pictures/iPadPhotos/IMG_0554.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 75: /Users/rkerr/Pictures/iPadPhotos/IMG_0846.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 76: /Users/rkerr/Pictures/iPadPhotos/IMG_0535.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 77: /Users/rkerr/Pictures/iPadPhotos/IMG_0921.JPG
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 78: /Users/rkerr/Pictures/iPadPhotos/IMG_0923.WEBP
+2025-07-05 04:50:56.104 +08:00 [DBG] Image 79: /Users/rkerr/Pictures/iPadPhotos/IMG_0889.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 80: /Users/rkerr/Pictures/iPadPhotos/IMG_0427.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 81: /Users/rkerr/Pictures/iPadPhotos/IMG_0574.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 82: /Users/rkerr/Pictures/iPadPhotos/IMG_0962.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 83: /Users/rkerr/Pictures/iPadPhotos/IMG_0870.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 84: /Users/rkerr/Pictures/iPadPhotos/IMG_0935.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 85: /Users/rkerr/Pictures/iPadPhotos/IMG_0841.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 86: /Users/rkerr/Pictures/iPadPhotos/IMG_0840.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 87: /Users/rkerr/Pictures/iPadPhotos/IMG_1060.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 88: /Users/rkerr/Pictures/iPadPhotos/IMG_1035.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 89: /Users/rkerr/Pictures/iPadPhotos/IMG_1037.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 90: /Users/rkerr/Pictures/iPadPhotos/IMG_0763.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 91: /Users/rkerr/Pictures/iPadPhotos/IMG_0539.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 92: /Users/rkerr/Pictures/iPadPhotos/IMG_1021.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 93: /Users/rkerr/Pictures/iPadPhotos/IMG_0667.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 94: /Users/rkerr/Pictures/iPadPhotos/IMG_0666.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 95: /Users/rkerr/Pictures/iPadPhotos/IMG_0930.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 96: /Users/rkerr/Pictures/iPadPhotos/IMG_0959.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 97: /Users/rkerr/Pictures/iPadPhotos/IMG_0631.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 98: /Users/rkerr/Pictures/iPadPhotos/IMG_0529.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 99: /Users/rkerr/Pictures/iPadPhotos/IMG_1036.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 100: /Users/rkerr/Pictures/iPadPhotos/IMG_0559.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 101: /Users/rkerr/Pictures/iPadPhotos/IMG_0934.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 102: /Users/rkerr/Pictures/iPadPhotos/IMG_0851.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 103: /Users/rkerr/Pictures/iPadPhotos/IMG_0963.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 104: /Users/rkerr/Pictures/iPadPhotos/IMG_0563.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 105: /Users/rkerr/Pictures/iPadPhotos/IMG_0426.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 106: /Users/rkerr/Pictures/iPadPhotos/IMG_0867.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 107: /Users/rkerr/Pictures/iPadPhotos/IMG_0534.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 108: /Users/rkerr/Pictures/iPadPhotos/IMG_0922.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 109: /Users/rkerr/Pictures/iPadPhotos/IMG_0888.WEBP
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 110: /Users/rkerr/Pictures/iPadPhotos/IMG_0933.JPG
+2025-07-05 04:50:56.105 +08:00 [DBG] Image 111: /Users/rkerr/Pictures/iPadPhotos/IMG_0927.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 112: /Users/rkerr/Pictures/iPadPhotos/IMG_0728.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 113: /Users/rkerr/Pictures/iPadPhotos/IMG_0847.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 114: /Users/rkerr/Pictures/iPadPhotos/IMG_0502.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 115: /Users/rkerr/Pictures/iPadPhotos/IMG_0943.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 116: /Users/rkerr/Pictures/iPadPhotos/IMG_0555.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 117: /Users/rkerr/Pictures/iPadPhotos/IMG_0890.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 118: /Users/rkerr/Pictures/iPadPhotos/IMG_0661.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 119: /Users/rkerr/Pictures/iPadPhotos/IMG_0938.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 120: /Users/rkerr/Pictures/iPadPhotos/IMG_0892.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 121: /Users/rkerr/Pictures/iPadPhotos/IMG_0607.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 122: /Users/rkerr/Pictures/iPadPhotos/IMG_0980.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 123: /Users/rkerr/Pictures/iPadPhotos/IMG_0596.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 124: /Users/rkerr/Pictures/iPadPhotos/IMG_0715.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 125: /Users/rkerr/Pictures/iPadPhotos/IMG_0650.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 126: /Users/rkerr/Pictures/iPadPhotos/IMG_1041.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 127: /Users/rkerr/Pictures/iPadPhotos/IMG_0503.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 128: /Users/rkerr/Pictures/iPadPhotos/IMG_1057.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 129: /Users/rkerr/Pictures/iPadPhotos/IMG_0646.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 130: /Users/rkerr/Pictures/iPadPhotos/IMG_0538.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 131: /Users/rkerr/Pictures/iPadPhotos/IMG_0611.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 132: /Users/rkerr/Pictures/iPadPhotos/IMG_0932.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 133: /Users/rkerr/Pictures/iPadPhotos/IMG_0956.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 134: /Users/rkerr/Pictures/iPadPhotos/IMG_0844.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 135: /Users/rkerr/Pictures/iPadPhotos/IMG_0901.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 136: /Users/rkerr/Pictures/iPadPhotos/IMG_0532.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 137: /Users/rkerr/Pictures/iPadPhotos/IMG_0526.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 138: /Users/rkerr/Pictures/iPadPhotos/IMG_0852.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 139: /Users/rkerr/Pictures/iPadPhotos/IMG_0501.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 140: /Users/rkerr/Pictures/iPadPhotos/IMG_1039.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 141: /Users/rkerr/Pictures/iPadPhotos/IMG_0556.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 142: /Users/rkerr/Pictures/iPadPhotos/IMG_0940.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 143: /Users/rkerr/Pictures/iPadPhotos/IMG_0877.JPG
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 144: /Users/rkerr/Pictures/iPadPhotos/IMG_0891.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 145: /Users/rkerr/Pictures/iPadPhotos/IMG_0604.WEBP
+2025-07-05 04:50:56.106 +08:00 [DBG] Image 146: /Users/rkerr/Pictures/iPadPhotos/IMG_1015.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 147: /Users/rkerr/Pictures/iPadPhotos/IMG_0595.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 148: /Users/rkerr/Pictures/iPadPhotos/IMG_1042.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 149: /Users/rkerr/Pictures/iPadPhotos/IMG_0653.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 150: /Users/rkerr/Pictures/iPadPhotos/IMG_0716.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 151: /Users/rkerr/Pictures/iPadPhotos/IMG_1107.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 152: /Users/rkerr/Pictures/iPadPhotos/IMG_0583.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 153: /Users/rkerr/Pictures/iPadPhotos/IMG_1054.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 154: /Users/rkerr/Pictures/iPadPhotos/IMG_0887.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 155: /Users/rkerr/Pictures/iPadPhotos/IMG_0868.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 156: /Users/rkerr/Pictures/iPadPhotos/IMG_0612.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 157: /Users/rkerr/Pictures/iPadPhotos/IMG_0665.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 158: /Users/rkerr/Pictures/iPadPhotos/IMG_0914.JPG
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 159: /Users/rkerr/Pictures/iPadPhotos/IMG_1023.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 160: /Users/rkerr/Pictures/iPadPhotos/IMG_0848.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 161: /Users/rkerr/Pictures/iPadPhotos/IMG_0761.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 162: /Users/rkerr/Pictures/iPadPhotos/IMG_1029.JPG
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 163: /Users/rkerr/Pictures/iPadPhotos/IMG_1062.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 164: /Users/rkerr/Pictures/iPadPhotos/IMG_1019.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 165: /Users/rkerr/Pictures/iPadPhotos/IMG_0608.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 166: /Users/rkerr/Pictures/iPadPhotos/IMG_0937.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 167: /Users/rkerr/Pictures/iPadPhotos/IMG_0960.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 168: /Users/rkerr/Pictures/iPadPhotos/IMG_0599.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 169: /Users/rkerr/Pictures/iPadPhotos/IMG_0576.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 170: /Users/rkerr/Pictures/iPadPhotos/IMG_0649.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 171: /Users/rkerr/Pictures/iPadPhotos/IMG_0425.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 172: /Users/rkerr/Pictures/iPadPhotos/IMG_0537.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 173: /Users/rkerr/Pictures/iPadPhotos/IMG_0864.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 174: /Users/rkerr/Pictures/iPadPhotos/IMG_0536.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 175: /Users/rkerr/Pictures/iPadPhotos/IMG_0865.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 176: /Users/rkerr/Pictures/iPadPhotos/IMG_0424.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 177: /Users/rkerr/Pictures/iPadPhotos/IMG_0561.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 178: /Users/rkerr/Pictures/iPadPhotos/IMG_1059.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 179: /Users/rkerr/Pictures/iPadPhotos/IMG_0648.WEBP
+2025-07-05 04:50:56.107 +08:00 [DBG] Image 180: /Users/rkerr/Pictures/iPadPhotos/IMG_0598.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 181: /Users/rkerr/Pictures/iPadPhotos/IMG_0577.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 182: /Users/rkerr/Pictures/iPadPhotos/IMG_0936.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 183: /Users/rkerr/Pictures/iPadPhotos/IMG_0609.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 184: /Users/rkerr/Pictures/iPadPhotos/IMG_0672.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 185: /Users/rkerr/Pictures/iPadPhotos/IMG_0760.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 186: /Users/rkerr/Pictures/iPadPhotos/IMG_1022.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 187: /Users/rkerr/Pictures/iPadPhotos/IMG_0664.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 188: /Users/rkerr/Pictures/iPadPhotos/IMG_0613.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 189: /Users/rkerr/Pictures/iPadPhotos/IMG_0886.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 190: /Users/rkerr/Pictures/iPadPhotos/IMG_0869.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 191: /Users/rkerr/Pictures/iPadPhotos/IMG_0490.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 192: /Users/rkerr/Pictures/iPadPhotos/IMG_0644.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 193: /Users/rkerr/Pictures/iPadPhotos/IMG_1055.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 194: /Users/rkerr/Pictures/iPadPhotos/IMG_0428.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 195: /Users/rkerr/Pictures/iPadPhotos/IMG_0652.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 196: /Users/rkerr/Pictures/iPadPhotos/IMG_0717.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 197: /Users/rkerr/Pictures/iPadPhotos/IMG_1106.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 198: /Users/rkerr/Pictures/iPadPhotos/IMG_0594.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 199: /Users/rkerr/Pictures/iPadPhotos/IMG_0866.JPG
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 200: /Users/rkerr/Pictures/iPadPhotos/IMG_0605.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 201: /Users/rkerr/Pictures/iPadPhotos/IMG_1014.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 202: /Users/rkerr/Pictures/iPadPhotos/IMG_0941.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 203: /Users/rkerr/Pictures/iPadPhotos/IMG_0873.JPG
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 204: /Users/rkerr/Pictures/iPadPhotos/IMG_1038.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 205: /Users/rkerr/Pictures/iPadPhotos/IMG_0853.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 206: /Users/rkerr/Pictures/iPadPhotos/IMG_0845.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 207: /Users/rkerr/Pictures/iPadPhotos/IMG_0900.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 208: /Users/rkerr/Pictures/iPadPhotos/IMG_0668.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 209: /Users/rkerr/Pictures/iPadPhotos/IMG_0948.JPG
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 210: /Users/rkerr/Pictures/iPadPhotos/IMG_0663.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 211: /Users/rkerr/Pictures/iPadPhotos/IMG_0931.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 212: /Users/rkerr/Pictures/iPadPhotos/IMG_0527.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 213: /Users/rkerr/Pictures/iPadPhotos/IMG_0874.WEBP
+2025-07-05 04:50:56.108 +08:00 [DBG] Image 214: /Users/rkerr/Pictures/iPadPhotos/IMG_0966.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 215: /Users/rkerr/Pictures/iPadPhotos/IMG_0570.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 216: /Users/rkerr/Pictures/iPadPhotos/IMG_0970.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 217: /Users/rkerr/Pictures/iPadPhotos/IMG_0975.JPG
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 218: /Users/rkerr/Pictures/iPadPhotos/IMG_0862.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 219: /Users/rkerr/Pictures/iPadPhotos/IMG_0531.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 220: /Users/rkerr/Pictures/iPadPhotos/IMG_0977.JPG
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 221: /Users/rkerr/Pictures/iPadPhotos/IMG_0680.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 222: /Users/rkerr/Pictures/iPadPhotos/IMG_0511.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 223: /Users/rkerr/Pictures/iPadPhotos/IMG_0907.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 224: /Users/rkerr/Pictures/iPadPhotos/IMG_0854.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 225: /Users/rkerr/Pictures/iPadPhotos/IMG_0911.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 226: /Users/rkerr/Pictures/iPadPhotos/IMG_0950(1).WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 227: /Users/rkerr/Pictures/iPadPhotos/IMG_0946.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 228: /Users/rkerr/Pictures/iPadPhotos/IMG_1068.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 229: /Users/rkerr/Pictures/iPadPhotos/IMG_0679.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 230: /Users/rkerr/Pictures/iPadPhotos/IMG_0897.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 231: /Users/rkerr/Pictures/iPadPhotos/IMG_0878.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 232: /Users/rkerr/Pictures/iPadPhotos/IMG_1063.JPG
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 233: /Users/rkerr/Pictures/iPadPhotos/IMG_0593.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 234: /Users/rkerr/Pictures/iPadPhotos/IMG_0710.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 235: /Users/rkerr/Pictures/iPadPhotos/IMG_0585.WEBP
+2025-07-05 04:50:56.109 +08:00 [DBG] Image 236: /Users/rkerr/Pictures/iPadPhotos/IMG_0839.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 237: /Users/rkerr/Pictures/iPadPhotos/IMG_0547.JPG
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 238: /Users/rkerr/Pictures/iPadPhotos/IMG_1052.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 239: /Users/rkerr/Pictures/iPadPhotos/IMG_0976.JPG
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 240: /Users/rkerr/Pictures/iPadPhotos/IMG_0880.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 241: /Users/rkerr/Pictures/iPadPhotos/IMG_0557.JPG
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 242: /Users/rkerr/Pictures/iPadPhotos/IMG_0654.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 243: /Users/rkerr/Pictures/iPadPhotos/IMG_1045.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 244: /Users/rkerr/Pictures/iPadPhotos/IMG_0711.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 245: /Users/rkerr/Pictures/iPadPhotos/IMG_0423.JPG
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 246: /Users/rkerr/Pictures/iPadPhotos/IMG_0603.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 247: /Users/rkerr/Pictures/iPadPhotos/IMG_0896.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 248: /Users/rkerr/Pictures/iPadPhotos/IMG_0879.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 249: /Users/rkerr/Pictures/iPadPhotos/IMG_0947.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 250: /Users/rkerr/Pictures/iPadPhotos/IMG_0855.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 251: /Users/rkerr/Pictures/iPadPhotos/IMG_0910.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 252: /Users/rkerr/Pictures/iPadPhotos/IMG_1028.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 253: /Users/rkerr/Pictures/iPadPhotos/IMG_0843.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 254: /Users/rkerr/Pictures/iPadPhotos/IMG_0906.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 255: /Users/rkerr/Pictures/iPadPhotos/IMG_0926.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 256: /Users/rkerr/Pictures/iPadPhotos/IMG_0863.WEBP
+2025-07-05 04:50:56.110 +08:00 [DBG] Image 257: /Users/rkerr/Pictures/iPadPhotos/IMG_0530.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 258: /Users/rkerr/Pictures/iPadPhotos/IMG_0588.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 259: /Users/rkerr/Pictures/iPadPhotos/IMG_0540.JPG
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 260: /Users/rkerr/Pictures/iPadPhotos/IMG_0571.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 261: /Users/rkerr/Pictures/iPadPhotos/IMG_1049.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 262: /Users/rkerr/Pictures/iPadPhotos/IMG_0875.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 263: /Users/rkerr/Pictures/iPadPhotos/IMG_1032.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 264: /Users/rkerr/Pictures/iPadPhotos/IMG_0569.JPG
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 265: /Users/rkerr/Pictures/iPadPhotos/IMG_1111.JPG
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 266: /Users/rkerr/Pictures/iPadPhotos/IMG_0582.JPG
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 267: /Users/rkerr/Pictures/iPadPhotos/IMG_1024.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Image 268: /Users/rkerr/Pictures/iPadPhotos/IMG_0662.WEBP
+2025-07-05 04:50:56.111 +08:00 [DBG] Loading first image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:50:56.306 +08:00 [DBG] Successfully loaded first image
+2025-07-05 04:50:56.310 +08:00 [INF] Image loading completed - 269 images available, first image loaded: true
+2025-07-05 04:50:56.317 +08:00 [INF] Elmish program started successfully
+2025-07-05 04:51:02.019 +08:00 [INF] FamilySlide application ended normally
+2025-07-05 04:52:44.376 +08:00 [INF] Starting FamilySlide...
+2025-07-05 04:52:44.397 +08:00 [INF] About to call buildAvaloniaApp().StartWithClassicDesktopLifetime
+2025-07-05 04:52:44.599 +08:00 [INF] FamilySlide MainWindow initializing
+2025-07-05 04:52:44.601 +08:00 [INF] Opening on primary screen: Built-in Retina Display
+2025-07-05 04:52:44.605 +08:00 [INF] Using folder path: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:52:44.605 +08:00 [INF] Elmish program created successfully
+2025-07-05 04:52:44.606 +08:00 [INF] Starting Elmish program
+2025-07-05 04:52:44.606 +08:00 [INF] Initializing FamilySlide with folder: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:52:44.608 +08:00 [DBG] View function called with 0 images, current index 0
+2025-07-05 04:52:44.636 +08:00 [DBG] Update called with message: LoadImages
+2025-07-05 04:52:44.636 +08:00 [INF] Loading images from folder
+2025-07-05 04:52:44.636 +08:00 [DBG] Folder exists: /Users/rkerr/Pictures/iPadPhotos
+2025-07-05 04:52:44.637 +08:00 [DBG] Total files in folder: 269
+2025-07-05 04:52:44.638 +08:00 [INF] Found 269 image files
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 0: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 1: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 2: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 3: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 4: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 5: /Users/rkerr/Pictures/iPadPhotos/IMG_1108.JPG
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 6: /Users/rkerr/Pictures/iPadPhotos/IMG_0558.JPG
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 7: /Users/rkerr/Pictures/iPadPhotos/IMG_0572.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 8: /Users/rkerr/Pictures/iPadPhotos/IMG_1040.JPG
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 9: /Users/rkerr/Pictures/iPadPhotos/IMG_0876.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 10: /Users/rkerr/Pictures/iPadPhotos/IMG_0525.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 11: /Users/rkerr/Pictures/iPadPhotos/IMG_0899.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 12: /Users/rkerr/Pictures/iPadPhotos/IMG_1031.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 13: /Users/rkerr/Pictures/iPadPhotos/IMG_0725.GIF
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 14: /Users/rkerr/Pictures/iPadPhotos/IMG_0902.GIF
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 15: /Users/rkerr/Pictures/iPadPhotos/IMG_1027.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 16: /Users/rkerr/Pictures/iPadPhotos/IMG_0636.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 17: /Users/rkerr/Pictures/iPadPhotos/IMG_0548.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 18: /Users/rkerr/Pictures/iPadPhotos/IMG_0929.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 19: /Users/rkerr/Pictures/iPadPhotos/IMG_0587.WEBP
+2025-07-05 04:52:44.638 +08:00 [DBG] Image 20: /Users/rkerr/Pictures/iPadPhotos/IMG_0591.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 21: /Users/rkerr/Pictures/iPadPhotos/IMG_1043.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 22: /Users/rkerr/Pictures/iPadPhotos/IMG_0968.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 23: /Users/rkerr/Pictures/iPadPhotos/IMG_0745.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 24: /Users/rkerr/Pictures/iPadPhotos/IMG_0600.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 25: /Users/rkerr/Pictures/iPadPhotos/IMG_0944.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 26: /Users/rkerr/Pictures/iPadPhotos/IMG_0552.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 27: /Users/rkerr/Pictures/iPadPhotos/IMG_0913.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 28: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 29: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 30: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 31: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 32: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 33: /Users/rkerr/Pictures/iPadPhotos/IMG_0912.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 34: /Users/rkerr/Pictures/iPadPhotos/IMG_1046.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 35: /Users/rkerr/Pictures/iPadPhotos/IMG_0945.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 36: /Users/rkerr/Pictures/iPadPhotos/IMG_0553.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 37: /Users/rkerr/Pictures/iPadPhotos/IMG_1084.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 38: /Users/rkerr/Pictures/iPadPhotos/IMG_0744.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 39: /Users/rkerr/Pictures/iPadPhotos/IMG_0601.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 40: /Users/rkerr/Pictures/iPadPhotos/IMG_0590.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 41: /Users/rkerr/Pictures/iPadPhotos/IMG_1053.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 42: /Users/rkerr/Pictures/iPadPhotos/IMG_0969.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 43: /Users/rkerr/Pictures/iPadPhotos/IMG_0713.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 44: /Users/rkerr/Pictures/iPadPhotos/IMG_1047.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 45: /Users/rkerr/Pictures/iPadPhotos/IMG_0586.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 46: /Users/rkerr/Pictures/iPadPhotos/IMG_1051.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 47: /Users/rkerr/Pictures/iPadPhotos/IMG_0928.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 48: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 49: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 50: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 51: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 52: /Users/rkerr/Pictures/iPadPhotos/IMG_0637.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 53: /Users/rkerr/Pictures/iPadPhotos/IMG_0908.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 54: /Users/rkerr/Pictures/iPadPhotos/IMG_0764.WEBP
+2025-07-05 04:52:44.639 +08:00 [DBG] Image 55: /Users/rkerr/Pictures/iPadPhotos/IMG_0602.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 56: /Users/rkerr/Pictures/iPadPhotos/IMG_0898.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 57: /Users/rkerr/Pictures/iPadPhotos/IMG_1050.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 58: /Users/rkerr/Pictures/iPadPhotos/IMG_0573.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 59: /Users/rkerr/Pictures/iPadPhotos/IMG_0965.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 60: /Users/rkerr/Pictures/iPadPhotos/IMG_0973.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 61: /Users/rkerr/Pictures/iPadPhotos/IMG_0979.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 62: /Users/rkerr/Pictures/iPadPhotos/IMG_0861.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 63: /Users/rkerr/Pictures/iPadPhotos/IMG_0924.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 64: /Users/rkerr/Pictures/iPadPhotos/IMG_0610.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 65: /Users/rkerr/Pictures/iPadPhotos/IMG_0885.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 66: /Users/rkerr/Pictures/iPadPhotos/IMG_0647.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 67: /Users/rkerr/Pictures/iPadPhotos/IMG_1105.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 68: /Users/rkerr/Pictures/iPadPhotos/IMG_0651.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 69: /Users/rkerr/Pictures/iPadPhotos/IMG_0597.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 70: /Users/rkerr/Pictures/iPadPhotos/IMG_0606.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 71: /Users/rkerr/Pictures/iPadPhotos/IMG_0939.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 72: /Users/rkerr/Pictures/iPadPhotos/IMG_0893.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 73: /Users/rkerr/Pictures/iPadPhotos/IMG_0942.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 74: /Users/rkerr/Pictures/iPadPhotos/IMG_0554.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 75: /Users/rkerr/Pictures/iPadPhotos/IMG_0846.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 76: /Users/rkerr/Pictures/iPadPhotos/IMG_0535.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 77: /Users/rkerr/Pictures/iPadPhotos/IMG_0921.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 78: /Users/rkerr/Pictures/iPadPhotos/IMG_0923.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 79: /Users/rkerr/Pictures/iPadPhotos/IMG_0889.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 80: /Users/rkerr/Pictures/iPadPhotos/IMG_0427.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 81: /Users/rkerr/Pictures/iPadPhotos/IMG_0574.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 82: /Users/rkerr/Pictures/iPadPhotos/IMG_0962.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 83: /Users/rkerr/Pictures/iPadPhotos/IMG_0870.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 84: /Users/rkerr/Pictures/iPadPhotos/IMG_0935.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 85: /Users/rkerr/Pictures/iPadPhotos/IMG_0841.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 86: /Users/rkerr/Pictures/iPadPhotos/IMG_0840.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 87: /Users/rkerr/Pictures/iPadPhotos/IMG_1060.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 88: /Users/rkerr/Pictures/iPadPhotos/IMG_1035.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 89: /Users/rkerr/Pictures/iPadPhotos/IMG_1037.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 90: /Users/rkerr/Pictures/iPadPhotos/IMG_0763.WEBP
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 91: /Users/rkerr/Pictures/iPadPhotos/IMG_0539.JPG
+2025-07-05 04:52:44.640 +08:00 [DBG] Image 92: /Users/rkerr/Pictures/iPadPhotos/IMG_1021.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 93: /Users/rkerr/Pictures/iPadPhotos/IMG_0667.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 94: /Users/rkerr/Pictures/iPadPhotos/IMG_0666.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 95: /Users/rkerr/Pictures/iPadPhotos/IMG_0930.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 96: /Users/rkerr/Pictures/iPadPhotos/IMG_0959.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 97: /Users/rkerr/Pictures/iPadPhotos/IMG_0631.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 98: /Users/rkerr/Pictures/iPadPhotos/IMG_0529.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 99: /Users/rkerr/Pictures/iPadPhotos/IMG_1036.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 100: /Users/rkerr/Pictures/iPadPhotos/IMG_0559.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 101: /Users/rkerr/Pictures/iPadPhotos/IMG_0934.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 102: /Users/rkerr/Pictures/iPadPhotos/IMG_0851.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 103: /Users/rkerr/Pictures/iPadPhotos/IMG_0963.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 104: /Users/rkerr/Pictures/iPadPhotos/IMG_0563.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 105: /Users/rkerr/Pictures/iPadPhotos/IMG_0426.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 106: /Users/rkerr/Pictures/iPadPhotos/IMG_0867.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 107: /Users/rkerr/Pictures/iPadPhotos/IMG_0534.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 108: /Users/rkerr/Pictures/iPadPhotos/IMG_0922.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 109: /Users/rkerr/Pictures/iPadPhotos/IMG_0888.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 110: /Users/rkerr/Pictures/iPadPhotos/IMG_0933.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 111: /Users/rkerr/Pictures/iPadPhotos/IMG_0927.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 112: /Users/rkerr/Pictures/iPadPhotos/IMG_0728.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 113: /Users/rkerr/Pictures/iPadPhotos/IMG_0847.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 114: /Users/rkerr/Pictures/iPadPhotos/IMG_0502.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 115: /Users/rkerr/Pictures/iPadPhotos/IMG_0943.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 116: /Users/rkerr/Pictures/iPadPhotos/IMG_0555.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 117: /Users/rkerr/Pictures/iPadPhotos/IMG_0890.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 118: /Users/rkerr/Pictures/iPadPhotos/IMG_0661.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 119: /Users/rkerr/Pictures/iPadPhotos/IMG_0938.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 120: /Users/rkerr/Pictures/iPadPhotos/IMG_0892.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 121: /Users/rkerr/Pictures/iPadPhotos/IMG_0607.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 122: /Users/rkerr/Pictures/iPadPhotos/IMG_0980.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 123: /Users/rkerr/Pictures/iPadPhotos/IMG_0596.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 124: /Users/rkerr/Pictures/iPadPhotos/IMG_0715.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 125: /Users/rkerr/Pictures/iPadPhotos/IMG_0650.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 126: /Users/rkerr/Pictures/iPadPhotos/IMG_1041.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 127: /Users/rkerr/Pictures/iPadPhotos/IMG_0503.JPG
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 128: /Users/rkerr/Pictures/iPadPhotos/IMG_1057.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 129: /Users/rkerr/Pictures/iPadPhotos/IMG_0646.WEBP
+2025-07-05 04:52:44.641 +08:00 [DBG] Image 130: /Users/rkerr/Pictures/iPadPhotos/IMG_0538.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 131: /Users/rkerr/Pictures/iPadPhotos/IMG_0611.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 132: /Users/rkerr/Pictures/iPadPhotos/IMG_0932.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 133: /Users/rkerr/Pictures/iPadPhotos/IMG_0956.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 134: /Users/rkerr/Pictures/iPadPhotos/IMG_0844.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 135: /Users/rkerr/Pictures/iPadPhotos/IMG_0901.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 136: /Users/rkerr/Pictures/iPadPhotos/IMG_0532.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 137: /Users/rkerr/Pictures/iPadPhotos/IMG_0526.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 138: /Users/rkerr/Pictures/iPadPhotos/IMG_0852.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 139: /Users/rkerr/Pictures/iPadPhotos/IMG_0501.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 140: /Users/rkerr/Pictures/iPadPhotos/IMG_1039.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 141: /Users/rkerr/Pictures/iPadPhotos/IMG_0556.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 142: /Users/rkerr/Pictures/iPadPhotos/IMG_0940.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 143: /Users/rkerr/Pictures/iPadPhotos/IMG_0877.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 144: /Users/rkerr/Pictures/iPadPhotos/IMG_0891.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 145: /Users/rkerr/Pictures/iPadPhotos/IMG_0604.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 146: /Users/rkerr/Pictures/iPadPhotos/IMG_1015.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 147: /Users/rkerr/Pictures/iPadPhotos/IMG_0595.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 148: /Users/rkerr/Pictures/iPadPhotos/IMG_1042.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 149: /Users/rkerr/Pictures/iPadPhotos/IMG_0653.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 150: /Users/rkerr/Pictures/iPadPhotos/IMG_0716.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 151: /Users/rkerr/Pictures/iPadPhotos/IMG_1107.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 152: /Users/rkerr/Pictures/iPadPhotos/IMG_0583.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 153: /Users/rkerr/Pictures/iPadPhotos/IMG_1054.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 154: /Users/rkerr/Pictures/iPadPhotos/IMG_0887.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 155: /Users/rkerr/Pictures/iPadPhotos/IMG_0868.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 156: /Users/rkerr/Pictures/iPadPhotos/IMG_0612.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 157: /Users/rkerr/Pictures/iPadPhotos/IMG_0665.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 158: /Users/rkerr/Pictures/iPadPhotos/IMG_0914.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 159: /Users/rkerr/Pictures/iPadPhotos/IMG_1023.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 160: /Users/rkerr/Pictures/iPadPhotos/IMG_0848.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 161: /Users/rkerr/Pictures/iPadPhotos/IMG_0761.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 162: /Users/rkerr/Pictures/iPadPhotos/IMG_1029.JPG
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 163: /Users/rkerr/Pictures/iPadPhotos/IMG_1062.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 164: /Users/rkerr/Pictures/iPadPhotos/IMG_1019.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 165: /Users/rkerr/Pictures/iPadPhotos/IMG_0608.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 166: /Users/rkerr/Pictures/iPadPhotos/IMG_0937.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 167: /Users/rkerr/Pictures/iPadPhotos/IMG_0960.WEBP
+2025-07-05 04:52:44.642 +08:00 [DBG] Image 168: /Users/rkerr/Pictures/iPadPhotos/IMG_0599.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 169: /Users/rkerr/Pictures/iPadPhotos/IMG_0576.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 170: /Users/rkerr/Pictures/iPadPhotos/IMG_0649.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 171: /Users/rkerr/Pictures/iPadPhotos/IMG_0425.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 172: /Users/rkerr/Pictures/iPadPhotos/IMG_0537.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 173: /Users/rkerr/Pictures/iPadPhotos/IMG_0864.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 174: /Users/rkerr/Pictures/iPadPhotos/IMG_0536.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 175: /Users/rkerr/Pictures/iPadPhotos/IMG_0865.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 176: /Users/rkerr/Pictures/iPadPhotos/IMG_0424.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 177: /Users/rkerr/Pictures/iPadPhotos/IMG_0561.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 178: /Users/rkerr/Pictures/iPadPhotos/IMG_1059.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 179: /Users/rkerr/Pictures/iPadPhotos/IMG_0648.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 180: /Users/rkerr/Pictures/iPadPhotos/IMG_0598.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 181: /Users/rkerr/Pictures/iPadPhotos/IMG_0577.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 182: /Users/rkerr/Pictures/iPadPhotos/IMG_0936.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 183: /Users/rkerr/Pictures/iPadPhotos/IMG_0609.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 184: /Users/rkerr/Pictures/iPadPhotos/IMG_0672.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 185: /Users/rkerr/Pictures/iPadPhotos/IMG_0760.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 186: /Users/rkerr/Pictures/iPadPhotos/IMG_1022.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 187: /Users/rkerr/Pictures/iPadPhotos/IMG_0664.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 188: /Users/rkerr/Pictures/iPadPhotos/IMG_0613.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 189: /Users/rkerr/Pictures/iPadPhotos/IMG_0886.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 190: /Users/rkerr/Pictures/iPadPhotos/IMG_0869.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 191: /Users/rkerr/Pictures/iPadPhotos/IMG_0490.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 192: /Users/rkerr/Pictures/iPadPhotos/IMG_0644.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 193: /Users/rkerr/Pictures/iPadPhotos/IMG_1055.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 194: /Users/rkerr/Pictures/iPadPhotos/IMG_0428.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 195: /Users/rkerr/Pictures/iPadPhotos/IMG_0652.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 196: /Users/rkerr/Pictures/iPadPhotos/IMG_0717.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 197: /Users/rkerr/Pictures/iPadPhotos/IMG_1106.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 198: /Users/rkerr/Pictures/iPadPhotos/IMG_0594.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 199: /Users/rkerr/Pictures/iPadPhotos/IMG_0866.JPG
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 200: /Users/rkerr/Pictures/iPadPhotos/IMG_0605.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 201: /Users/rkerr/Pictures/iPadPhotos/IMG_1014.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 202: /Users/rkerr/Pictures/iPadPhotos/IMG_0941.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 203: /Users/rkerr/Pictures/iPadPhotos/IMG_0873.JPG
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 204: /Users/rkerr/Pictures/iPadPhotos/IMG_1038.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 205: /Users/rkerr/Pictures/iPadPhotos/IMG_0853.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 206: /Users/rkerr/Pictures/iPadPhotos/IMG_0845.WEBP
+2025-07-05 04:52:44.643 +08:00 [DBG] Image 207: /Users/rkerr/Pictures/iPadPhotos/IMG_0900.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 208: /Users/rkerr/Pictures/iPadPhotos/IMG_0668.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 209: /Users/rkerr/Pictures/iPadPhotos/IMG_0948.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 210: /Users/rkerr/Pictures/iPadPhotos/IMG_0663.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 211: /Users/rkerr/Pictures/iPadPhotos/IMG_0931.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 212: /Users/rkerr/Pictures/iPadPhotos/IMG_0527.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 213: /Users/rkerr/Pictures/iPadPhotos/IMG_0874.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 214: /Users/rkerr/Pictures/iPadPhotos/IMG_0966.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 215: /Users/rkerr/Pictures/iPadPhotos/IMG_0570.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 216: /Users/rkerr/Pictures/iPadPhotos/IMG_0970.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 217: /Users/rkerr/Pictures/iPadPhotos/IMG_0975.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 218: /Users/rkerr/Pictures/iPadPhotos/IMG_0862.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 219: /Users/rkerr/Pictures/iPadPhotos/IMG_0531.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 220: /Users/rkerr/Pictures/iPadPhotos/IMG_0977.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 221: /Users/rkerr/Pictures/iPadPhotos/IMG_0680.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 222: /Users/rkerr/Pictures/iPadPhotos/IMG_0511.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 223: /Users/rkerr/Pictures/iPadPhotos/IMG_0907.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 224: /Users/rkerr/Pictures/iPadPhotos/IMG_0854.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 225: /Users/rkerr/Pictures/iPadPhotos/IMG_0911.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 226: /Users/rkerr/Pictures/iPadPhotos/IMG_0950(1).WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 227: /Users/rkerr/Pictures/iPadPhotos/IMG_0946.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 228: /Users/rkerr/Pictures/iPadPhotos/IMG_1068.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 229: /Users/rkerr/Pictures/iPadPhotos/IMG_0679.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 230: /Users/rkerr/Pictures/iPadPhotos/IMG_0897.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 231: /Users/rkerr/Pictures/iPadPhotos/IMG_0878.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 232: /Users/rkerr/Pictures/iPadPhotos/IMG_1063.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 233: /Users/rkerr/Pictures/iPadPhotos/IMG_0593.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 234: /Users/rkerr/Pictures/iPadPhotos/IMG_0710.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 235: /Users/rkerr/Pictures/iPadPhotos/IMG_0585.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 236: /Users/rkerr/Pictures/iPadPhotos/IMG_0839.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 237: /Users/rkerr/Pictures/iPadPhotos/IMG_0547.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 238: /Users/rkerr/Pictures/iPadPhotos/IMG_1052.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 239: /Users/rkerr/Pictures/iPadPhotos/IMG_0976.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 240: /Users/rkerr/Pictures/iPadPhotos/IMG_0880.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 241: /Users/rkerr/Pictures/iPadPhotos/IMG_0557.JPG
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 242: /Users/rkerr/Pictures/iPadPhotos/IMG_0654.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 243: /Users/rkerr/Pictures/iPadPhotos/IMG_1045.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 244: /Users/rkerr/Pictures/iPadPhotos/IMG_0711.WEBP
+2025-07-05 04:52:44.644 +08:00 [DBG] Image 245: /Users/rkerr/Pictures/iPadPhotos/IMG_0423.JPG
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 246: /Users/rkerr/Pictures/iPadPhotos/IMG_0603.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 247: /Users/rkerr/Pictures/iPadPhotos/IMG_0896.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 248: /Users/rkerr/Pictures/iPadPhotos/IMG_0879.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 249: /Users/rkerr/Pictures/iPadPhotos/IMG_0947.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 250: /Users/rkerr/Pictures/iPadPhotos/IMG_0855.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 251: /Users/rkerr/Pictures/iPadPhotos/IMG_0910.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 252: /Users/rkerr/Pictures/iPadPhotos/IMG_1028.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 253: /Users/rkerr/Pictures/iPadPhotos/IMG_0843.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 254: /Users/rkerr/Pictures/iPadPhotos/IMG_0906.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 255: /Users/rkerr/Pictures/iPadPhotos/IMG_0926.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 256: /Users/rkerr/Pictures/iPadPhotos/IMG_0863.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 257: /Users/rkerr/Pictures/iPadPhotos/IMG_0530.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 258: /Users/rkerr/Pictures/iPadPhotos/IMG_0588.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 259: /Users/rkerr/Pictures/iPadPhotos/IMG_0540.JPG
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 260: /Users/rkerr/Pictures/iPadPhotos/IMG_0571.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 261: /Users/rkerr/Pictures/iPadPhotos/IMG_1049.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 262: /Users/rkerr/Pictures/iPadPhotos/IMG_0875.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 263: /Users/rkerr/Pictures/iPadPhotos/IMG_1032.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 264: /Users/rkerr/Pictures/iPadPhotos/IMG_0569.JPG
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 265: /Users/rkerr/Pictures/iPadPhotos/IMG_1111.JPG
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 266: /Users/rkerr/Pictures/iPadPhotos/IMG_0582.JPG
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 267: /Users/rkerr/Pictures/iPadPhotos/IMG_1024.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Image 268: /Users/rkerr/Pictures/iPadPhotos/IMG_0662.WEBP
+2025-07-05 04:52:44.645 +08:00 [DBG] Loading first image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:44.841 +08:00 [DBG] Successfully loaded first image
+2025-07-05 04:52:44.845 +08:00 [INF] Image loading completed - 269 images available, first image loaded: true
+2025-07-05 04:52:44.845 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:44.851 +08:00 [INF] Elmish program started successfully
+2025-07-05 04:52:46.043 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Return"
+2025-07-05 04:52:47.442 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:52:48.049 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Left"
+2025-07-05 04:52:52.169 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:52.169 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:52.169 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:52.169 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:52.170 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:52.170 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:52.170 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:52.170 +08:00 [DBG] PrevImage: Current index 0, New index 0, Total images 269
+2025-07-05 04:52:52.171 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:52.373 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:52.374 +08:00 [DBG] PrevImage completed - New index: 0, Has image: true
+2025-07-05 04:52:52.375 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:52.381 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:52:52.381 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:52:52.381 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:52.381 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:52.381 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:52.381 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:52.381 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:52.381 +08:00 [DBG] PrevImage: Current index 0, New index 0, Total images 269
+2025-07-05 04:52:52.381 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:52.564 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:52.565 +08:00 [DBG] PrevImage completed - New index: 0, Has image: true
+2025-07-05 04:52:52.566 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:52.566 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:52:52.566 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:52:52.566 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:52.566 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:52.566 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:52.566 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:52.566 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:52.566 +08:00 [DBG] PrevImage: Current index 0, New index 0, Total images 269
+2025-07-05 04:52:52.566 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:52.673 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:52.675 +08:00 [DBG] PrevImage completed - New index: 0, Has image: true
+2025-07-05 04:52:52.675 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:52.675 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:52.675 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:52.675 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:52.675 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:52.676 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:52.676 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:52.676 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:52.676 +08:00 [DBG] PrevImage: Current index 0, New index 0, Total images 269
+2025-07-05 04:52:52.676 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:52.704 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:52.705 +08:00 [DBG] PrevImage completed - New index: 0, Has image: true
+2025-07-05 04:52:52.706 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:52.706 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Left"
+2025-07-05 04:52:52.707 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:52.707 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:52.707 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:52.707 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:52.707 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:52.707 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:52.707 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:52.707 +08:00 [DBG] NextImage: Current index 0, New index 1, Total images 269
+2025-07-05 04:52:52.707 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:52:52.751 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:52.751 +08:00 [DBG] NextImage completed - New index: 1, Has image: true
+2025-07-05 04:52:52.751 +08:00 [DBG] View function called with 269 images, current index 1
+2025-07-05 04:52:52.751 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:52.752 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:52.752 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:52.752 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:52.752 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:52.752 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:52.752 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:52.752 +08:00 [DBG] NextImage: Current index 1, New index 2, Total images 269
+2025-07-05 04:52:52.752 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:52:52.903 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:52.910 +08:00 [DBG] NextImage completed - New index: 2, Has image: true
+2025-07-05 04:52:52.910 +08:00 [DBG] View function called with 269 images, current index 2
+2025-07-05 04:52:52.910 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:52.910 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:52.910 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:52.910 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:52.910 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:52.910 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:52.910 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:52.910 +08:00 [DBG] NextImage: Current index 2, New index 3, Total images 269
+2025-07-05 04:52:52.910 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:52:52.918 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:52.918 +08:00 [DBG] NextImage completed - New index: 3, Has image: true
+2025-07-05 04:52:52.918 +08:00 [DBG] View function called with 269 images, current index 3
+2025-07-05 04:52:52.918 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:52.918 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:52.918 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:52.918 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:52.918 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:52.918 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:52.918 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:52.918 +08:00 [DBG] NextImage: Current index 3, New index 4, Total images 269
+2025-07-05 04:52:52.919 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:52:52.926 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:52.926 +08:00 [DBG] NextImage completed - New index: 4, Has image: true
+2025-07-05 04:52:52.926 +08:00 [DBG] View function called with 269 images, current index 4
+2025-07-05 04:52:52.926 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:52:55.233 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:55.233 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:55.233 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:55.233 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:55.234 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:55.234 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:55.234 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:55.234 +08:00 [DBG] PrevImage: Current index 4, New index 3, Total images 269
+2025-07-05 04:52:55.234 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:52:55.253 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:55.254 +08:00 [DBG] PrevImage completed - New index: 3, Has image: true
+2025-07-05 04:52:55.254 +08:00 [DBG] View function called with 269 images, current index 3
+2025-07-05 04:52:55.254 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:52:55.254 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:52:55.254 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:55.254 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:55.254 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:55.254 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:55.254 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:55.254 +08:00 [DBG] PrevImage: Current index 3, New index 2, Total images 269
+2025-07-05 04:52:55.254 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:52:55.420 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:55.428 +08:00 [DBG] PrevImage completed - New index: 2, Has image: true
+2025-07-05 04:52:55.428 +08:00 [DBG] View function called with 269 images, current index 2
+2025-07-05 04:52:55.428 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:52:55.428 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:52:55.428 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:55.428 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:55.429 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:55.429 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:55.429 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:55.429 +08:00 [DBG] PrevImage: Current index 2, New index 1, Total images 269
+2025-07-05 04:52:55.429 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:52:55.444 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:55.444 +08:00 [DBG] PrevImage completed - New index: 1, Has image: true
+2025-07-05 04:52:55.444 +08:00 [DBG] View function called with 269 images, current index 1
+2025-07-05 04:52:55.444 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:55.444 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:52:55.444 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:52:55.444 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:52:55.444 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:52:55.444 +08:00 [INF] PrevImage command executed
+2025-07-05 04:52:55.444 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:52:55.444 +08:00 [DBG] PrevImage: Current index 1, New index 0, Total images 269
+2025-07-05 04:52:55.444 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0533.WEBP
+2025-07-05 04:52:55.472 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:52:55.473 +08:00 [DBG] PrevImage completed - New index: 0, Has image: true
+2025-07-05 04:52:55.473 +08:00 [DBG] View function called with 269 images, current index 0
+2025-07-05 04:52:55.473 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Left"
+2025-07-05 04:52:56.103 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:56.103 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:56.103 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:56.103 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:56.104 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:56.104 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:56.104 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:56.104 +08:00 [DBG] NextImage: Current index 0, New index 1, Total images 269
+2025-07-05 04:52:56.104 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0955.JPG
+2025-07-05 04:52:56.139 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:56.140 +08:00 [DBG] NextImage completed - New index: 1, Has image: true
+2025-07-05 04:52:56.140 +08:00 [DBG] View function called with 269 images, current index 1
+2025-07-05 04:52:56.140 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:56.140 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:56.140 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:56.140 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:56.140 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:56.140 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:56.140 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:56.140 +08:00 [DBG] NextImage: Current index 1, New index 2, Total images 269
+2025-07-05 04:52:56.140 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0925.WEBP
+2025-07-05 04:52:56.299 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:56.304 +08:00 [DBG] NextImage completed - New index: 2, Has image: true
+2025-07-05 04:52:56.304 +08:00 [DBG] View function called with 269 images, current index 2
+2025-07-05 04:52:56.304 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:56.304 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:56.304 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:56.304 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:56.304 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:56.304 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:56.304 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:56.304 +08:00 [DBG] NextImage: Current index 2, New index 3, Total images 269
+2025-07-05 04:52:56.305 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0476.WEBP
+2025-07-05 04:52:56.312 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:56.312 +08:00 [DBG] NextImage completed - New index: 3, Has image: true
+2025-07-05 04:52:56.312 +08:00 [DBG] View function called with 269 images, current index 3
+2025-07-05 04:52:56.312 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:56.312 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:56.312 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:56.312 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:56.312 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:56.312 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:56.312 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:56.312 +08:00 [DBG] NextImage: Current index 3, New index 4, Total images 269
+2025-07-05 04:52:56.312 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0972.WEBP
+2025-07-05 04:52:56.319 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:56.320 +08:00 [DBG] NextImage completed - New index: 4, Has image: true
+2025-07-05 04:52:56.320 +08:00 [DBG] View function called with 269 images, current index 4
+2025-07-05 04:52:56.320 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:52:57.753 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:57.755 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:57.755 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:57.755 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:57.756 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:57.756 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:57.756 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:57.756 +08:00 [DBG] NextImage: Current index 4, New index 5, Total images 269
+2025-07-05 04:52:57.756 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1108.JPG
+2025-07-05 04:52:57.762 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:57.763 +08:00 [DBG] NextImage completed - New index: 5, Has image: true
+2025-07-05 04:52:57.763 +08:00 [DBG] View function called with 269 images, current index 5
+2025-07-05 04:52:57.764 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:57.764 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:57.764 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:57.764 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:57.764 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:57.764 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:57.764 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:57.764 +08:00 [DBG] NextImage: Current index 5, New index 6, Total images 269
+2025-07-05 04:52:57.764 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0558.JPG
+2025-07-05 04:52:57.775 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:57.775 +08:00 [DBG] NextImage completed - New index: 6, Has image: true
+2025-07-05 04:52:57.775 +08:00 [DBG] View function called with 269 images, current index 6
+2025-07-05 04:52:57.775 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:57.776 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:57.776 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:57.776 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:57.776 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:57.776 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:57.776 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:57.776 +08:00 [DBG] NextImage: Current index 6, New index 7, Total images 269
+2025-07-05 04:52:57.776 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0572.WEBP
+2025-07-05 04:52:57.797 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:57.798 +08:00 [DBG] NextImage completed - New index: 7, Has image: true
+2025-07-05 04:52:57.798 +08:00 [DBG] View function called with 269 images, current index 7
+2025-07-05 04:52:57.798 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:57.798 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:57.798 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:57.798 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:57.798 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:57.798 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:57.798 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:57.798 +08:00 [DBG] NextImage: Current index 7, New index 8, Total images 269
+2025-07-05 04:52:57.798 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1040.JPG
+2025-07-05 04:52:57.804 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:57.805 +08:00 [DBG] NextImage completed - New index: 8, Has image: true
+2025-07-05 04:52:57.805 +08:00 [DBG] View function called with 269 images, current index 8
+2025-07-05 04:52:57.805 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:52:58.653 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:58.654 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:58.654 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:58.654 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:58.654 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:58.654 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:58.654 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:58.654 +08:00 [DBG] NextImage: Current index 8, New index 9, Total images 269
+2025-07-05 04:52:58.654 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0876.WEBP
+2025-07-05 04:52:58.695 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:58.696 +08:00 [DBG] NextImage completed - New index: 9, Has image: true
+2025-07-05 04:52:58.696 +08:00 [DBG] View function called with 269 images, current index 9
+2025-07-05 04:52:58.696 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:58.696 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:58.696 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:58.696 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:58.696 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:58.696 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:58.696 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:58.696 +08:00 [DBG] NextImage: Current index 9, New index 10, Total images 269
+2025-07-05 04:52:58.696 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0525.WEBP
+2025-07-05 04:52:58.716 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:58.717 +08:00 [DBG] NextImage completed - New index: 10, Has image: true
+2025-07-05 04:52:58.717 +08:00 [DBG] View function called with 269 images, current index 10
+2025-07-05 04:52:58.717 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:58.717 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:58.718 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:58.718 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:58.718 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:58.718 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:58.718 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:58.718 +08:00 [DBG] NextImage: Current index 10, New index 11, Total images 269
+2025-07-05 04:52:58.718 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0899.WEBP
+2025-07-05 04:52:58.737 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:58.738 +08:00 [DBG] NextImage completed - New index: 11, Has image: true
+2025-07-05 04:52:58.738 +08:00 [DBG] View function called with 269 images, current index 11
+2025-07-05 04:52:58.738 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:58.738 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:58.738 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:58.738 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:58.738 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:58.738 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:58.738 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:58.738 +08:00 [DBG] NextImage: Current index 11, New index 12, Total images 269
+2025-07-05 04:52:58.738 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1031.WEBP
+2025-07-05 04:52:58.741 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:58.741 +08:00 [DBG] NextImage completed - New index: 12, Has image: true
+2025-07-05 04:52:58.741 +08:00 [DBG] View function called with 269 images, current index 12
+2025-07-05 04:52:58.741 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:52:59.343 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:59.343 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:59.343 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:59.344 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:59.344 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:59.345 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:59.345 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:59.345 +08:00 [DBG] NextImage: Current index 12, New index 13, Total images 269
+2025-07-05 04:52:59.345 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0725.GIF
+2025-07-05 04:52:59.706 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:59.707 +08:00 [DBG] NextImage completed - New index: 13, Has image: true
+2025-07-05 04:52:59.707 +08:00 [DBG] View function called with 269 images, current index 13
+2025-07-05 04:52:59.708 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:59.708 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:59.708 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:59.708 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:59.708 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:59.708 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:59.708 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:59.708 +08:00 [DBG] NextImage: Current index 13, New index 14, Total images 269
+2025-07-05 04:52:59.708 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0902.GIF
+2025-07-05 04:52:59.826 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:59.827 +08:00 [DBG] NextImage completed - New index: 14, Has image: true
+2025-07-05 04:52:59.827 +08:00 [DBG] View function called with 269 images, current index 14
+2025-07-05 04:52:59.827 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:52:59.827 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:52:59.827 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:59.827 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:59.827 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:59.828 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:59.828 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:59.828 +08:00 [DBG] NextImage: Current index 14, New index 15, Total images 269
+2025-07-05 04:52:59.828 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1027.WEBP
+2025-07-05 04:52:59.841 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:59.841 +08:00 [DBG] NextImage completed - New index: 15, Has image: true
+2025-07-05 04:52:59.841 +08:00 [DBG] View function called with 269 images, current index 15
+2025-07-05 04:52:59.841 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:59.841 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:52:59.841 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:52:59.842 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:52:59.842 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:52:59.842 +08:00 [INF] NextImage command executed
+2025-07-05 04:52:59.842 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:52:59.842 +08:00 [DBG] NextImage: Current index 15, New index 16, Total images 269
+2025-07-05 04:52:59.842 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0636.WEBP
+2025-07-05 04:52:59.881 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:52:59.883 +08:00 [DBG] NextImage completed - New index: 16, Has image: true
+2025-07-05 04:52:59.883 +08:00 [DBG] View function called with 269 images, current index 16
+2025-07-05 04:52:59.883 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:00.379 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:00.381 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:00.381 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:00.381 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:00.381 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:00.382 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:00.382 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:00.382 +08:00 [DBG] NextImage: Current index 16, New index 17, Total images 269
+2025-07-05 04:53:00.382 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0548.WEBP
+2025-07-05 04:53:00.421 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:00.424 +08:00 [DBG] NextImage completed - New index: 17, Has image: true
+2025-07-05 04:53:00.424 +08:00 [DBG] View function called with 269 images, current index 17
+2025-07-05 04:53:00.424 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:00.425 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:00.425 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:00.425 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:00.425 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:00.425 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:00.425 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:00.425 +08:00 [DBG] NextImage: Current index 17, New index 18, Total images 269
+2025-07-05 04:53:00.425 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0929.WEBP
+2025-07-05 04:53:00.438 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:00.439 +08:00 [DBG] NextImage completed - New index: 18, Has image: true
+2025-07-05 04:53:00.439 +08:00 [DBG] View function called with 269 images, current index 18
+2025-07-05 04:53:00.439 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:00.439 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:00.439 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:00.439 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:00.439 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:00.439 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:00.439 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:00.439 +08:00 [DBG] NextImage: Current index 18, New index 19, Total images 269
+2025-07-05 04:53:00.439 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0587.WEBP
+2025-07-05 04:53:00.459 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:00.460 +08:00 [DBG] NextImage completed - New index: 19, Has image: true
+2025-07-05 04:53:00.460 +08:00 [DBG] View function called with 269 images, current index 19
+2025-07-05 04:53:00.461 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:00.461 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:00.461 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:00.461 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:00.461 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:00.461 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:00.461 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:00.461 +08:00 [DBG] NextImage: Current index 19, New index 20, Total images 269
+2025-07-05 04:53:00.461 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0591.WEBP
+2025-07-05 04:53:00.490 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:00.491 +08:00 [DBG] NextImage completed - New index: 20, Has image: true
+2025-07-05 04:53:00.491 +08:00 [DBG] View function called with 269 images, current index 20
+2025-07-05 04:53:00.491 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:10.715 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:10.716 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:10.717 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:10.717 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:10.717 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:10.717 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:10.717 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:10.718 +08:00 [DBG] NextImage: Current index 20, New index 21, Total images 269
+2025-07-05 04:53:10.718 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1043.JPG
+2025-07-05 04:53:10.735 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:10.736 +08:00 [DBG] NextImage completed - New index: 21, Has image: true
+2025-07-05 04:53:10.737 +08:00 [DBG] View function called with 269 images, current index 21
+2025-07-05 04:53:10.737 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:10.737 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:10.737 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:10.737 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:10.737 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:10.737 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:10.737 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:10.737 +08:00 [DBG] NextImage: Current index 21, New index 22, Total images 269
+2025-07-05 04:53:10.737 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0968.WEBP
+2025-07-05 04:53:10.752 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:10.753 +08:00 [DBG] NextImage completed - New index: 22, Has image: true
+2025-07-05 04:53:10.753 +08:00 [DBG] View function called with 269 images, current index 22
+2025-07-05 04:53:10.753 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:10.753 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:10.753 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:10.753 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:10.753 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:10.753 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:10.753 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:10.753 +08:00 [DBG] NextImage: Current index 22, New index 23, Total images 269
+2025-07-05 04:53:10.753 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0745.WEBP
+2025-07-05 04:53:10.760 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:10.761 +08:00 [DBG] NextImage completed - New index: 23, Has image: true
+2025-07-05 04:53:10.761 +08:00 [DBG] View function called with 269 images, current index 23
+2025-07-05 04:53:10.761 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:10.761 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:10.761 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:10.761 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:10.761 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:10.761 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:10.761 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:10.761 +08:00 [DBG] NextImage: Current index 23, New index 24, Total images 269
+2025-07-05 04:53:10.761 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0600.WEBP
+2025-07-05 04:53:10.794 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:10.795 +08:00 [DBG] NextImage completed - New index: 24, Has image: true
+2025-07-05 04:53:10.795 +08:00 [DBG] View function called with 269 images, current index 24
+2025-07-05 04:53:10.795 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:12.154 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:12.155 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:12.155 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:12.155 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:12.156 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:12.156 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:12.156 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:12.156 +08:00 [DBG] NextImage: Current index 24, New index 25, Total images 269
+2025-07-05 04:53:12.156 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0944.WEBP
+2025-07-05 04:53:12.195 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:12.196 +08:00 [DBG] NextImage completed - New index: 25, Has image: true
+2025-07-05 04:53:12.197 +08:00 [DBG] View function called with 269 images, current index 25
+2025-07-05 04:53:12.197 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:12.197 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:12.197 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:12.197 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:12.197 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:12.197 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:12.197 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:12.197 +08:00 [DBG] NextImage: Current index 25, New index 26, Total images 269
+2025-07-05 04:53:12.197 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0552.WEBP
+2025-07-05 04:53:12.214 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:12.215 +08:00 [DBG] NextImage completed - New index: 26, Has image: true
+2025-07-05 04:53:12.216 +08:00 [DBG] View function called with 269 images, current index 26
+2025-07-05 04:53:12.216 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:12.216 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:12.216 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:12.216 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:12.216 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:12.216 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:12.216 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:12.216 +08:00 [DBG] NextImage: Current index 26, New index 27, Total images 269
+2025-07-05 04:53:12.216 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0913.WEBP
+2025-07-05 04:53:12.229 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:12.229 +08:00 [DBG] NextImage completed - New index: 27, Has image: true
+2025-07-05 04:53:12.229 +08:00 [DBG] View function called with 269 images, current index 27
+2025-07-05 04:53:12.229 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:12.229 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:12.229 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:12.229 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:12.229 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:12.229 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:12.229 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:12.229 +08:00 [DBG] NextImage: Current index 27, New index 28, Total images 269
+2025-07-05 04:53:12.229 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:53:12.241 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:12.241 +08:00 [DBG] NextImage completed - New index: 28, Has image: true
+2025-07-05 04:53:12.241 +08:00 [DBG] View function called with 269 images, current index 28
+2025-07-05 04:53:12.241 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:16.504 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:16.504 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:16.504 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:16.505 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:16.505 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:16.505 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:16.505 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:16.505 +08:00 [DBG] NextImage: Current index 28, New index 29, Total images 269
+2025-07-05 04:53:16.505 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:53:16.518 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:16.519 +08:00 [DBG] NextImage completed - New index: 29, Has image: true
+2025-07-05 04:53:16.519 +08:00 [DBG] View function called with 269 images, current index 29
+2025-07-05 04:53:16.519 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:16.519 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:16.519 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:16.519 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:16.519 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:16.520 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:16.520 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:16.520 +08:00 [DBG] NextImage: Current index 29, New index 30, Total images 269
+2025-07-05 04:53:16.520 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:53:16.536 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:16.537 +08:00 [DBG] NextImage completed - New index: 30, Has image: true
+2025-07-05 04:53:16.537 +08:00 [DBG] View function called with 269 images, current index 30
+2025-07-05 04:53:16.538 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:16.538 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:16.538 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:16.538 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:16.538 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:16.538 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:16.538 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:16.538 +08:00 [DBG] NextImage: Current index 30, New index 31, Total images 269
+2025-07-05 04:53:16.538 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:53:16.561 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:16.561 +08:00 [DBG] NextImage completed - New index: 31, Has image: true
+2025-07-05 04:53:16.562 +08:00 [DBG] View function called with 269 images, current index 31
+2025-07-05 04:53:16.562 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:16.562 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:16.562 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:16.562 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:16.562 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:16.562 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:16.562 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:16.562 +08:00 [DBG] NextImage: Current index 31, New index 32, Total images 269
+2025-07-05 04:53:16.562 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:53:16.569 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:16.569 +08:00 [DBG] NextImage completed - New index: 32, Has image: true
+2025-07-05 04:53:16.569 +08:00 [DBG] View function called with 269 images, current index 32
+2025-07-05 04:53:16.569 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:17.210 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:17.211 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:17.211 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:17.211 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:17.211 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:17.212 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:17.212 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:17.212 +08:00 [DBG] PrevImage: Current index 32, New index 31, Total images 269
+2025-07-05 04:53:17.212 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:53:17.247 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:17.249 +08:00 [DBG] PrevImage completed - New index: 31, Has image: true
+2025-07-05 04:53:17.249 +08:00 [DBG] View function called with 269 images, current index 31
+2025-07-05 04:53:17.249 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:53:17.249 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:53:17.249 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:17.249 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:17.250 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:17.250 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:17.250 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:17.250 +08:00 [DBG] PrevImage: Current index 31, New index 30, Total images 269
+2025-07-05 04:53:17.250 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:53:17.262 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:17.262 +08:00 [DBG] PrevImage completed - New index: 30, Has image: true
+2025-07-05 04:53:17.263 +08:00 [DBG] View function called with 269 images, current index 30
+2025-07-05 04:53:17.263 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:53:17.263 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:53:17.263 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:17.263 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:17.263 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:17.263 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:17.263 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:17.263 +08:00 [DBG] PrevImage: Current index 30, New index 29, Total images 269
+2025-07-05 04:53:17.263 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:53:17.269 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:17.269 +08:00 [DBG] PrevImage completed - New index: 29, Has image: true
+2025-07-05 04:53:17.269 +08:00 [DBG] View function called with 269 images, current index 29
+2025-07-05 04:53:17.269 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:17.269 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:17.269 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:17.269 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:17.269 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:17.269 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:17.269 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:17.269 +08:00 [DBG] PrevImage: Current index 29, New index 28, Total images 269
+2025-07-05 04:53:17.269 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0856.WEBP
+2025-07-05 04:53:17.282 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:17.282 +08:00 [DBG] PrevImage completed - New index: 28, Has image: true
+2025-07-05 04:53:17.282 +08:00 [DBG] View function called with 269 images, current index 28
+2025-07-05 04:53:17.282 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Left"
+2025-07-05 04:53:22.115 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.115 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.116 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.116 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.116 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.116 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.116 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.117 +08:00 [DBG] NextImage: Current index 28, New index 29, Total images 269
+2025-07-05 04:53:22.117 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0505.WEBP
+2025-07-05 04:53:22.129 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.130 +08:00 [DBG] NextImage completed - New index: 29, Has image: true
+2025-07-05 04:53:22.130 +08:00 [DBG] View function called with 269 images, current index 29
+2025-07-05 04:53:22.131 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:22.131 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:22.131 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.131 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.131 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.131 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.131 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.131 +08:00 [DBG] NextImage: Current index 29, New index 30, Total images 269
+2025-07-05 04:53:22.131 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0957.JPG
+2025-07-05 04:53:22.152 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.153 +08:00 [DBG] NextImage completed - New index: 30, Has image: true
+2025-07-05 04:53:22.153 +08:00 [DBG] View function called with 269 images, current index 30
+2025-07-05 04:53:22.153 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:22.153 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:22.153 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.153 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.153 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.153 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.153 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.153 +08:00 [DBG] NextImage: Current index 30, New index 31, Total images 269
+2025-07-05 04:53:22.153 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0544.WEBP
+2025-07-05 04:53:22.173 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.174 +08:00 [DBG] NextImage completed - New index: 31, Has image: true
+2025-07-05 04:53:22.174 +08:00 [DBG] View function called with 269 images, current index 31
+2025-07-05 04:53:22.174 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.174 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.174 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.174 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.174 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.174 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.174 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.174 +08:00 [DBG] NextImage: Current index 31, New index 32, Total images 269
+2025-07-05 04:53:22.174 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0589.JPG
+2025-07-05 04:53:22.182 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.182 +08:00 [DBG] NextImage completed - New index: 32, Has image: true
+2025-07-05 04:53:22.182 +08:00 [DBG] View function called with 269 images, current index 32
+2025-07-05 04:53:22.182 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:22.489 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.490 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.490 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.490 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.490 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.490 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.490 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.490 +08:00 [DBG] NextImage: Current index 32, New index 33, Total images 269
+2025-07-05 04:53:22.490 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0912.WEBP
+2025-07-05 04:53:22.515 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.518 +08:00 [DBG] NextImage completed - New index: 33, Has image: true
+2025-07-05 04:53:22.518 +08:00 [DBG] View function called with 269 images, current index 33
+2025-07-05 04:53:22.518 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:22.518 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:22.518 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.518 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.518 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.518 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.518 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.518 +08:00 [DBG] NextImage: Current index 33, New index 34, Total images 269
+2025-07-05 04:53:22.518 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1046.JPG
+2025-07-05 04:53:22.524 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.524 +08:00 [DBG] NextImage completed - New index: 34, Has image: true
+2025-07-05 04:53:22.524 +08:00 [DBG] View function called with 269 images, current index 34
+2025-07-05 04:53:22.524 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:22.524 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:22.524 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.524 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.524 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.524 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.525 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.525 +08:00 [DBG] NextImage: Current index 34, New index 35, Total images 269
+2025-07-05 04:53:22.525 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0945.WEBP
+2025-07-05 04:53:22.532 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.533 +08:00 [DBG] NextImage completed - New index: 35, Has image: true
+2025-07-05 04:53:22.533 +08:00 [DBG] View function called with 269 images, current index 35
+2025-07-05 04:53:22.533 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.533 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:22.533 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:22.533 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:22.533 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:22.533 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:22.533 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:22.533 +08:00 [DBG] NextImage: Current index 35, New index 36, Total images 269
+2025-07-05 04:53:22.533 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0553.WEBP
+2025-07-05 04:53:22.566 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:22.567 +08:00 [DBG] NextImage completed - New index: 36, Has image: true
+2025-07-05 04:53:22.567 +08:00 [DBG] View function called with 269 images, current index 36
+2025-07-05 04:53:22.567 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:23.840 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:23.840 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:23.841 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:23.841 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:23.841 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:23.841 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:23.842 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:23.842 +08:00 [DBG] NextImage: Current index 36, New index 37, Total images 269
+2025-07-05 04:53:23.842 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1084.WEBP
+2025-07-05 04:53:23.871 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:23.873 +08:00 [DBG] NextImage completed - New index: 37, Has image: true
+2025-07-05 04:53:23.873 +08:00 [DBG] View function called with 269 images, current index 37
+2025-07-05 04:53:23.873 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:23.873 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:23.873 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:23.873 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:23.873 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:23.873 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:23.873 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:23.873 +08:00 [DBG] NextImage: Current index 37, New index 38, Total images 269
+2025-07-05 04:53:23.873 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0744.WEBP
+2025-07-05 04:53:23.886 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:23.887 +08:00 [DBG] NextImage completed - New index: 38, Has image: true
+2025-07-05 04:53:23.887 +08:00 [DBG] View function called with 269 images, current index 38
+2025-07-05 04:53:23.887 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:23.887 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:23.887 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:23.887 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:23.887 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:23.887 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:23.887 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:23.887 +08:00 [DBG] NextImage: Current index 38, New index 39, Total images 269
+2025-07-05 04:53:23.887 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0601.WEBP
+2025-07-05 04:53:23.917 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:23.918 +08:00 [DBG] NextImage completed - New index: 39, Has image: true
+2025-07-05 04:53:23.918 +08:00 [DBG] View function called with 269 images, current index 39
+2025-07-05 04:53:23.918 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:23.918 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:23.918 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:23.918 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:23.918 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:23.918 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:23.918 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:23.918 +08:00 [DBG] NextImage: Current index 39, New index 40, Total images 269
+2025-07-05 04:53:23.918 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0590.WEBP
+2025-07-05 04:53:23.937 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:23.938 +08:00 [DBG] NextImage completed - New index: 40, Has image: true
+2025-07-05 04:53:23.938 +08:00 [DBG] View function called with 269 images, current index 40
+2025-07-05 04:53:23.938 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:25.414 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:25.415 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:25.415 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:25.415 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:25.415 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:25.415 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:25.416 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:25.416 +08:00 [DBG] NextImage: Current index 40, New index 41, Total images 269
+2025-07-05 04:53:25.416 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1053.JPG
+2025-07-05 04:53:25.431 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:25.432 +08:00 [DBG] NextImage completed - New index: 41, Has image: true
+2025-07-05 04:53:25.432 +08:00 [DBG] View function called with 269 images, current index 41
+2025-07-05 04:53:25.432 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:25.432 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:25.432 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:25.432 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:25.433 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:25.433 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:25.433 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:25.433 +08:00 [DBG] NextImage: Current index 41, New index 42, Total images 269
+2025-07-05 04:53:25.433 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0969.WEBP
+2025-07-05 04:53:25.449 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:25.450 +08:00 [DBG] NextImage completed - New index: 42, Has image: true
+2025-07-05 04:53:25.450 +08:00 [DBG] View function called with 269 images, current index 42
+2025-07-05 04:53:25.450 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:25.450 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:25.450 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:25.450 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:25.450 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:25.450 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:25.450 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:25.450 +08:00 [DBG] NextImage: Current index 42, New index 43, Total images 269
+2025-07-05 04:53:25.450 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0713.WEBP
+2025-07-05 04:53:25.465 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:25.466 +08:00 [DBG] NextImage completed - New index: 43, Has image: true
+2025-07-05 04:53:25.466 +08:00 [DBG] View function called with 269 images, current index 43
+2025-07-05 04:53:25.466 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:25.466 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:25.466 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:25.466 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:25.466 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:25.466 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:25.466 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:25.466 +08:00 [DBG] NextImage: Current index 43, New index 44, Total images 269
+2025-07-05 04:53:25.466 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1047.WEBP
+2025-07-05 04:53:25.477 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:25.478 +08:00 [DBG] NextImage completed - New index: 44, Has image: true
+2025-07-05 04:53:25.478 +08:00 [DBG] View function called with 269 images, current index 44
+2025-07-05 04:53:25.478 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:29.240 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:29.240 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:29.240 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:29.240 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:29.241 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:29.241 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:29.241 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:29.241 +08:00 [DBG] NextImage: Current index 44, New index 45, Total images 269
+2025-07-05 04:53:29.241 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0586.WEBP
+2025-07-05 04:53:29.295 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:29.297 +08:00 [DBG] NextImage completed - New index: 45, Has image: true
+2025-07-05 04:53:29.297 +08:00 [DBG] View function called with 269 images, current index 45
+2025-07-05 04:53:29.297 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:29.297 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:29.297 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:29.297 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:29.297 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:29.297 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:29.297 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:29.297 +08:00 [DBG] NextImage: Current index 45, New index 46, Total images 269
+2025-07-05 04:53:29.297 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1051.WEBP
+2025-07-05 04:53:29.393 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:29.401 +08:00 [DBG] NextImage completed - New index: 46, Has image: true
+2025-07-05 04:53:29.401 +08:00 [DBG] View function called with 269 images, current index 46
+2025-07-05 04:53:29.401 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:29.401 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:29.401 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:29.401 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:29.401 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:29.401 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:29.401 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:29.401 +08:00 [DBG] NextImage: Current index 46, New index 47, Total images 269
+2025-07-05 04:53:29.401 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0928.WEBP
+2025-07-05 04:53:29.423 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:29.423 +08:00 [DBG] NextImage completed - New index: 47, Has image: true
+2025-07-05 04:53:29.423 +08:00 [DBG] View function called with 269 images, current index 47
+2025-07-05 04:53:29.423 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:29.423 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:29.423 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:29.423 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:29.424 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:29.424 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:29.424 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:29.424 +08:00 [DBG] NextImage: Current index 47, New index 48, Total images 269
+2025-07-05 04:53:29.424 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:53:29.426 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:29.427 +08:00 [DBG] NextImage completed - New index: 48, Has image: true
+2025-07-05 04:53:29.427 +08:00 [DBG] View function called with 269 images, current index 48
+2025-07-05 04:53:29.427 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:32.045 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:32.046 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:32.046 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:32.046 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:32.047 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:32.047 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:32.047 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:32.047 +08:00 [DBG] NextImage: Current index 48, New index 49, Total images 269
+2025-07-05 04:53:32.047 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:53:32.091 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:32.092 +08:00 [DBG] NextImage completed - New index: 49, Has image: true
+2025-07-05 04:53:32.092 +08:00 [DBG] View function called with 269 images, current index 49
+2025-07-05 04:53:32.092 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:32.092 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:32.092 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:32.092 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:32.092 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:32.092 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:32.092 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:32.092 +08:00 [DBG] NextImage: Current index 49, New index 50, Total images 269
+2025-07-05 04:53:32.092 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:53:32.100 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:32.100 +08:00 [DBG] NextImage completed - New index: 50, Has image: true
+2025-07-05 04:53:32.100 +08:00 [DBG] View function called with 269 images, current index 50
+2025-07-05 04:53:32.100 +08:00 [INF] CRITICAL: Image KeyDown fired: "Right"
+2025-07-05 04:53:32.100 +08:00 [DBG] Image KeyDown fired: "Right"
+2025-07-05 04:53:32.101 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:32.101 +08:00 [DBG] Image: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:32.101 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:32.101 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:32.101 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:32.101 +08:00 [DBG] NextImage: Current index 50, New index 51, Total images 269
+2025-07-05 04:53:32.101 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:53:32.133 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:32.135 +08:00 [DBG] NextImage completed - New index: 51, Has image: true
+2025-07-05 04:53:32.135 +08:00 [DBG] View function called with 269 images, current index 51
+2025-07-05 04:53:32.135 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:32.135 +08:00 [DBG] DockPanel KeyDown fired: "Right"
+2025-07-05 04:53:32.135 +08:00 [INF] Right arrow pressed - navigating to next image
+2025-07-05 04:53:32.135 +08:00 [DBG] DockPanel: Right arrow pressed, dispatching NextImage
+2025-07-05 04:53:32.135 +08:00 [DBG] Update called with message: NextImage
+2025-07-05 04:53:32.135 +08:00 [INF] NextImage command executed
+2025-07-05 04:53:32.135 +08:00 [DBG] NextImage handler entered
+2025-07-05 04:53:32.135 +08:00 [DBG] NextImage: Current index 51, New index 52, Total images 269
+2025-07-05 04:53:32.135 +08:00 [DBG] Loading next image: /Users/rkerr/Pictures/iPadPhotos/IMG_0637.WEBP
+2025-07-05 04:53:32.169 +08:00 [DBG] Successfully loaded next image
+2025-07-05 04:53:32.171 +08:00 [DBG] NextImage completed - New index: 52, Has image: true
+2025-07-05 04:53:32.171 +08:00 [DBG] View function called with 269 images, current index 52
+2025-07-05 04:53:32.171 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Right"
+2025-07-05 04:53:32.780 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:32.781 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:32.781 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:32.781 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:32.782 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:32.782 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:32.782 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:32.782 +08:00 [DBG] PrevImage: Current index 52, New index 51, Total images 269
+2025-07-05 04:53:32.783 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0549.WEBP
+2025-07-05 04:53:32.831 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:32.833 +08:00 [DBG] PrevImage completed - New index: 51, Has image: true
+2025-07-05 04:53:32.833 +08:00 [DBG] View function called with 269 images, current index 51
+2025-07-05 04:53:32.833 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:53:32.833 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:53:32.833 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:32.833 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:32.833 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:32.833 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:32.833 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:32.833 +08:00 [DBG] PrevImage: Current index 51, New index 50, Total images 269
+2025-07-05 04:53:32.833 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0978.JPG
+2025-07-05 04:53:32.839 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:32.840 +08:00 [DBG] PrevImage completed - New index: 50, Has image: true
+2025-07-05 04:53:32.840 +08:00 [DBG] View function called with 269 images, current index 50
+2025-07-05 04:53:32.840 +08:00 [INF] CRITICAL: Image KeyDown fired: "Left"
+2025-07-05 04:53:32.840 +08:00 [DBG] Image KeyDown fired: "Left"
+2025-07-05 04:53:32.840 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:32.840 +08:00 [DBG] Image: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:32.840 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:32.840 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:32.840 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:32.840 +08:00 [DBG] PrevImage: Current index 50, New index 49, Total images 269
+2025-07-05 04:53:32.840 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_1071.WEBP
+2025-07-05 04:53:32.868 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:32.870 +08:00 [DBG] PrevImage completed - New index: 49, Has image: true
+2025-07-05 04:53:32.870 +08:00 [DBG] View function called with 269 images, current index 49
+2025-07-05 04:53:32.870 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:32.870 +08:00 [DBG] DockPanel KeyDown fired: "Left"
+2025-07-05 04:53:32.870 +08:00 [INF] Left arrow pressed - navigating to previous image
+2025-07-05 04:53:32.870 +08:00 [DBG] DockPanel: Left arrow pressed, dispatching PrevImage
+2025-07-05 04:53:32.870 +08:00 [DBG] Update called with message: PrevImage
+2025-07-05 04:53:32.870 +08:00 [INF] PrevImage command executed
+2025-07-05 04:53:32.870 +08:00 [DBG] PrevImage handler entered
+2025-07-05 04:53:32.870 +08:00 [DBG] PrevImage: Current index 49, New index 48, Total images 269
+2025-07-05 04:53:32.870 +08:00 [DBG] Loading previous image: /Users/rkerr/Pictures/iPadPhotos/IMG_0950.JPG
+2025-07-05 04:53:32.872 +08:00 [DBG] Successfully loaded previous image
+2025-07-05 04:53:32.872 +08:00 [DBG] PrevImage completed - New index: 48, Has image: true
+2025-07-05 04:53:32.872 +08:00 [DBG] View function called with 269 images, current index 48
+2025-07-05 04:53:32.873 +08:00 [INF] WINDOW LEVEL KeyDown detected: "Left"
+2025-07-05 04:53:38.973 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "LWin"
+2025-07-05 04:53:38.973 +08:00 [DBG] DockPanel KeyDown fired: "LWin"
+2025-07-05 04:53:38.974 +08:00 [DBG] DockPanel: Other key pressed: "LWin"
+2025-07-05 04:53:38.974 +08:00 [INF] CRITICAL: Image KeyDown fired: "LWin"
+2025-07-05 04:53:38.974 +08:00 [DBG] Image KeyDown fired: "LWin"
+2025-07-05 04:53:38.974 +08:00 [DBG] Image: Other key pressed: "LWin"
+2025-07-05 04:53:38.975 +08:00 [INF] CRITICAL: Image KeyDown fired: "LWin"
+2025-07-05 04:53:38.975 +08:00 [DBG] Image KeyDown fired: "LWin"
+2025-07-05 04:53:38.975 +08:00 [DBG] Image: Other key pressed: "LWin"
+2025-07-05 04:53:38.975 +08:00 [INF] CRITICAL: DockPanel KeyDown fired: "LWin"
+2025-07-05 04:53:38.975 +08:00 [DBG] DockPanel KeyDown fired: "LWin"
+2025-07-05 04:53:38.975 +08:00 [DBG] DockPanel: Other key pressed: "LWin"
+2025-07-05 04:53:38.975 +08:00 [INF] WINDOW LEVEL KeyDown detected: "LWin"
+2025-07-05 04:53:39.076 +08:00 [INF] FamilySlide application ended normally

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="MainWindow.axaml.fs" />
+    <Compile Include="MainWindow.fs" />
     <Compile Include="App.axaml.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 [tool.fantomas]
 
 # Set the column where we break to new lines
-max_line_length = 120
+max_line_length = 50
 
 # If true, the parameters of function will be multiline separated by newline
 fsharp_multiline_block_brackets_on_same_column = false
@@ -62,3 +62,6 @@ indent_size = 4
 
 # insert_final_newline = false means doesn't ensure that file ends in a newline
 insert_final_newline = true
+
+# Set how to handle chains multiline or single
+fsharp_multiline_formatter = chained

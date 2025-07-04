@@ -1,7 +1,7 @@
 {
     // F# specific settings
     "[fsharp]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "Ionide.Ionide-fsharp",
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
