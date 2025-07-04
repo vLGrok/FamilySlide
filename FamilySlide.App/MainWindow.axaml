@@ -6,4 +6,7 @@
         x:Class="FamilySlide.App.MainWindow"
         Title="FamilySlide.App">
     Welcome to Avalonia!
+    <Grid>
+        <Image x:Name="MainImage" Stretch="Uniform" />
+    </Grid>
 </Window>
