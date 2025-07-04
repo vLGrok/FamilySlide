@@ -4,7 +4,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
     x:Class="FamilySlide.App.MainWindow"
-    Title="FamilySlide.App">
+    Title="FamilySlide - Family Photo Slideshow"
+    WindowStartupLocation="Manual"
+    Width="1200" Height="800">
     <Grid>
         <Image x:Name="MainImage" Stretch="Uniform" />
     </Grid>
