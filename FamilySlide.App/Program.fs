@@ -1,11 +1,35 @@
 ﻿namespace FamilySlide.App
 
 open System
+open System.IO
 open Avalonia
 open Avalonia.ReactiveUI
 open Serilog
+open Serilog.Events
+open Microsoft.Extensions.Configuration
 
 module Program =
+
+    let getLogLevel (argv: string[]) =
+        let config : IConfiguration = 
+            ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional = true)
+                .AddCommandLine(argv)
+                .Build()
+        
+        let levelString = 
+            match config.["Logging:MinimumLevel"] with
+            | null -> "Information"
+            | value -> value
+        
+        match levelString.ToUpperInvariant() with
+        | "VERBOSE" -> LogEventLevel.Verbose
+        | "DEBUG" -> LogEventLevel.Debug
+        | "INFORMATION" -> LogEventLevel.Information
+        | "WARNING" -> LogEventLevel.Warning
+        | "ERROR" -> LogEventLevel.Error
+        | "FATAL" -> LogEventLevel.Fatal
+        | _ -> LogEventLevel.Information
 
     [<CompiledName "BuildAvaloniaApp">]
     let buildAvaloniaApp () =
@@ -18,9 +42,11 @@ module Program =
 
     [<EntryPoint; STAThread>]
     let main argv =
+        let logLevel = getLogLevel argv
+
         Log.Logger <-
             LoggerConfiguration()
-                .MinimumLevel.Debug()
+                .MinimumLevel.Is(logLevel)
                 .WriteTo.Console()
                 .WriteTo.File(
                     "familyslide.log", 
@@ -30,7 +56,7 @@ module Program =
                     buffered = false)
                 .CreateLogger()
 
-        Log.Information("Starting FamilySlide...")
+        Log.Information("Starting FamilySlide with log level: {LogLevel}...", logLevel)
         Log.Information("About to call buildAvaloniaApp().StartWithClassicDesktopLifetime")
         
         try
