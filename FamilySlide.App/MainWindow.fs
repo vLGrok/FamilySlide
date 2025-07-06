@@ -38,6 +38,8 @@ type Msg =
     | ToolbarZoomOut
     | ToolbarZoomIn
     | ToolbarZoomFit
+    | ToolbarZoomFitWidth
+    | ToolbarZoomFitHeight
     | ToolbarZoomActual
     // Transform
     | ToolbarRotateLeft
@@ -216,6 +218,12 @@ module MainWindow =
         | ToolbarZoomFit ->
             Log.Information("Toolbar Zoom Fit clicked (not implemented)")
             model, Cmd.none
+        | ToolbarZoomFitWidth ->
+            Log.Information("Toolbar Zoom Fit Width clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarZoomFitHeight ->
+            Log.Information("Toolbar Zoom Fit Height clicked (not implemented)")
+            model, Cmd.none
         | ToolbarZoomActual ->
             Log.Information("Toolbar Zoom Actual clicked (not implemented)")
             model, Cmd.none
@@ -370,7 +378,7 @@ module MainWindow =
                             Button.content "◀"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarLeft)
                             ToolTip.tip "Previous Image"
                         ]
@@ -378,7 +386,7 @@ module MainWindow =
                             Button.content "▶"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarRight)
                             ToolTip.tip "Next Image"
                         ]
@@ -387,7 +395,7 @@ module MainWindow =
                         Border.create [
                             Border.width 1
                             Border.height 20
-                            Border.margin (8, 5)
+                            Border.margin (4, 5)
                             Border.background "#CCCCCC"
                         ]
                         
@@ -396,7 +404,7 @@ module MainWindow =
                             Button.content "−"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarZoomOut)
                             ToolTip.tip "Zoom Out"
                         ]
@@ -404,23 +412,39 @@ module MainWindow =
                             Button.content "+"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarZoomIn)
                             ToolTip.tip "Zoom In"
                         ]
                         Button.create [
-                            Button.content "⟷"
+                            Button.content "⊞"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarZoomFit)
                             ToolTip.tip "Zoom to Fit"
+                        ]
+                        Button.create [
+                            Button.content "↔"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (2, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomFitWidth)
+                            ToolTip.tip "Fit Width"
+                        ]
+                        Button.create [
+                            Button.content "↕"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (2, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomFitHeight)
+                            ToolTip.tip "Fit Height"
                         ]
                         Button.create [
                             Button.content "1:1"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarZoomActual)
                             ToolTip.tip "Actual Size"
                         ]
@@ -429,7 +453,7 @@ module MainWindow =
                         Border.create [
                             Border.width 1
                             Border.height 20
-                            Border.margin (8, 5)
+                            Border.margin (4, 5)
                             Border.background "#CCCCCC"
                         ]
                         
@@ -438,7 +462,7 @@ module MainWindow =
                             Button.content "↶"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarRotateLeft)
                             ToolTip.tip "Rotate Left 90°"
                         ]
@@ -446,15 +470,15 @@ module MainWindow =
                             Button.content "↷"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarRotateRight)
                             ToolTip.tip "Rotate Right 90°"
                         ]
                         Button.create [
-                            Button.content "⟷"
+                            Button.content "⇆"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarFlipHorizontal)
                             ToolTip.tip "Flip Horizontal"
                         ]
@@ -462,7 +486,7 @@ module MainWindow =
                             Button.content "⟺"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarFlipVertical)
                             ToolTip.tip "Flip Vertical"
                         ]
@@ -471,7 +495,7 @@ module MainWindow =
                         Border.create [
                             Border.width 1
                             Border.height 20
-                            Border.margin (8, 5)
+                            Border.margin (4, 5)
                             Border.background "#CCCCCC"
                         ]
                         
@@ -480,7 +504,7 @@ module MainWindow =
                             Button.content "⊙"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarCenter)
                             ToolTip.tip "Center Image"
                         ]
@@ -488,15 +512,15 @@ module MainWindow =
                             Button.content "⌂"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarRestore)
-                            ToolTip.tip "Restore View"
+                            ToolTip.tip "Restore Original View"
                         ]
                         Button.create [
                             Button.content "⛶"
                             Button.width 40
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarFullscreen)
                             ToolTip.tip "Fullscreen"
                         ]
@@ -505,7 +529,7 @@ module MainWindow =
                         Border.create [
                             Border.width 1
                             Border.height 20
-                            Border.margin (8, 5)
+                            Border.margin (4, 5)
                             Border.background "#CCCCCC"
                         ]
                         
@@ -514,7 +538,7 @@ module MainWindow =
                             Button.content "▶▶"
                             Button.width 50
                             Button.height 30
-                            Button.margin (4, 0)
+                            Button.margin (2, 0)
                             Button.onClick (fun _ -> dispatch ToolbarSlideshow)
                             ToolTip.tip "Start Slideshow"
                         ]
