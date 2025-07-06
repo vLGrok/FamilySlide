@@ -32,7 +32,7 @@ module Configuration =
     "MinimumLevel": "Information"
   },
   "Application": {
-    "FolderPath": "/Users/rkerr/Pictures/iPadPhotos"
+    "FolderPath": "/Users/rkerr/Pictures/IPadPhotos"
   },
   "Window": {
     "DefaultWidth": 800,
@@ -62,7 +62,7 @@ module Configuration =
                 | value -> value
             FolderPath =
                 match config.["Application:FolderPath"] with
-                | null -> "/Users/rkerr/Pictures/iPadPhotos" // fallback
+                | null -> "/Users/rkerr/Pictures/IPadPhotos" // fallback
                 | value -> value
             Window = {
                 DefaultWidth = 

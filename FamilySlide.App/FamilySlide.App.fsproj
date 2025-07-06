@@ -10,6 +10,7 @@
   <ItemGroup>
     <Compile Include="UserSettings.fs" />
     <Compile Include="Configuration.fs" />
+    <Compile Include="FolderSettings.fs" />
     <Compile Include="MainWindow.fs" />
     <Compile Include="App.axaml.fs" />
     <Compile Include="Program.fs" />
