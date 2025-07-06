@@ -305,7 +305,7 @@ module MainWindow =
                       Log.Debug("DockPanel: Other key pressed: {Key}", args.Key)
               ) ]
 
-type MainWindow() as this =
+type MainWindow(argv: string[]) as this =
     inherit HostWindow()
 
     do
@@ -313,8 +313,8 @@ type MainWindow() as this =
         System.Console.WriteLine("CONSOLE: MainWindow constructor DO block started")
         
         // Load configuration first to get user settings
-        let config = Configuration.loadConfiguration [||]
-        let folderPath = Configuration.getFolderPath [||]
+        let config = Configuration.loadConfiguration argv
+        let folderPath = Configuration.getFolderPath argv
         Log.Information("Using folder path: {Folder}", folderPath)
         
         Log.Information("FamilySlide MainWindow initializing")

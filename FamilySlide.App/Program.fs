@@ -73,6 +73,9 @@ module Program =
         
         Log.Information("About to call buildAvaloniaApp().StartWithClassicDesktopLifetime")
         
+        // Store command line arguments for access by the App
+        App.CommandLineArgs <- argv
+        
         try
             let result = buildAvaloniaApp().StartWithClassicDesktopLifetime(argv)
             Log.Information("FamilySlide application ended normally")

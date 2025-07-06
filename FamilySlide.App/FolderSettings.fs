@@ -2,6 +2,7 @@ namespace FamilySlide.App
 
 open System.IO
 open System.Text.Json
+open System
 open Serilog
 
 type ImageViewSettings = {
@@ -16,6 +17,9 @@ type FolderSettings = {
 }
 
 module FolderSettings =
+    
+    // Track folders where we've already warned about write access to avoid repeated messages
+    let mutable private warnedReadOnlyFolders = Set.empty<string>
     
     let private defaultImageSettings = {
         Zoom = 1.0
@@ -49,6 +53,12 @@ module FolderSettings =
                 imageFiles.Length, settingsPath)
             settings
         with
+        | :? UnauthorizedAccessException as ex -> 
+            // Only warn once per folder about read-only access
+            if not (warnedReadOnlyFolders.Contains folderPath) then
+                warnedReadOnlyFolders <- warnedReadOnlyFolders.Add folderPath
+                Log.Warning("Cannot create foldersettings.json in read-only folder: {Path} - continuing with default settings", folderPath)
+            settings
         | ex -> 
             Log.Error(ex, "Failed to create foldersettings.json at: {Path}", settingsPath)
             settings
@@ -111,6 +121,11 @@ module FolderSettings =
             File.WriteAllText(settingsPath, json)
             Log.Debug("Saved foldersettings.json to: {Path}", settingsPath)
         with
+        | :? UnauthorizedAccessException as ex ->
+            // Only warn once per folder about read-only access
+            if not (warnedReadOnlyFolders.Contains folderPath) then
+                warnedReadOnlyFolders <- warnedReadOnlyFolders.Add folderPath
+                Log.Warning("Cannot save foldersettings.json in read-only folder: {Path} - changes will not be persisted", folderPath)
         | ex ->
             Log.Error(ex, "Failed to save foldersettings.json to: {Path}", settingsPath)
     
