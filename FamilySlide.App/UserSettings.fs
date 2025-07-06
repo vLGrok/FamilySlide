@@ -5,14 +5,12 @@ open System.IO
 open System.Text.Json
 open Serilog
 
-type WindowState = Normal | Maximized | Minimized
-
 type UserWindowSettings = {
     X: int option
     Y: int option
     Width: int
     Height: int
-    State: WindowState
+    State: string  // "Normal", "Maximized", "Minimized"
     IsFirstRun: bool
 }
 
@@ -46,7 +44,7 @@ module UserSettings =
             Y = None
             Width = 800
             Height = 600
-            State = Normal
+            State = "Normal"
             IsFirstRun = true
         }
     }
