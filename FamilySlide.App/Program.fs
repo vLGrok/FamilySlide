@@ -11,9 +11,13 @@ open Microsoft.Extensions.Configuration
 module Program =
 
     let getLogLevel (argv: string[]) =
+        // Look for appsettings.json in the same directory as the executing assembly
+        let appDirectory = System.AppDomain.CurrentDomain.BaseDirectory
+        let appSettingsPath = Path.Combine(appDirectory, "appsettings.json")
+        
         let config : IConfiguration = 
             ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", optional = true)
+                .AddJsonFile(appSettingsPath, optional = true)
                 .AddCommandLine(argv)
                 .Build()
         

@@ -46,6 +46,9 @@ module MainWindow =
             if Directory.Exists(model.FolderPath) then
                 Log.Debug("Folder exists: {Folder}", model.FolderPath)
                 
+                // Update the last folder path in user settings
+                UserSettings.updateLastFolderPath model.FolderPath
+                
                 let allFiles = Directory.EnumerateFiles(model.FolderPath) |> Seq.toList
                 Log.Debug("Total files in folder: {Count}", allFiles.Length)
 

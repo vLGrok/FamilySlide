@@ -16,9 +16,24 @@ type UserWindowSettings = {
 
 type UserSettings = {
     Window: UserWindowSettings
+    LastFolderPath: string option
 }
 
 module UserSettings =
+    
+    let getDefaultPicturesDirectory () =
+        try
+            // Try to get the Pictures special folder
+            let picturesPath = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
+            if Directory.Exists(picturesPath) then
+                picturesPath
+            else
+                // Fallback to user's home directory
+                Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
+        with
+        | _ ->
+            // Ultimate fallback to current directory
+            Environment.CurrentDirectory
     
     let private getAppDataPath () =
         let appName = "FamilySlide"
@@ -47,6 +62,7 @@ module UserSettings =
             State = "Normal"
             IsFirstRun = true
         }
+        LastFolderPath = None
     }
     
     let private jsonOptions = JsonSerializerOptions(WriteIndented = true)
@@ -96,3 +112,27 @@ module UserSettings =
         with
         | ex ->
             Log.Error(ex, "Failed to save user settings to {Path}", settingsPath)
+
+    let updateLastFolderPath (folderPath: string) =
+        try
+            let currentSettings = loadUserSettings()
+            let updatedSettings = { currentSettings with LastFolderPath = Some folderPath }
+            saveUserSettings updatedSettings
+            Log.Debug("Updated last folder path to: {FolderPath}", folderPath)
+        with
+        | ex ->
+            Log.Warning(ex, "Failed to update last folder path")
+
+    let getLastFolderPathOrDefault () =
+        try
+            let settings = loadUserSettings()
+            match settings.LastFolderPath with
+            | Some path when Directory.Exists(path) -> path
+            | _ -> 
+                let defaultPath = getDefaultPicturesDirectory()
+                Log.Information("Using default Pictures directory: {Path}", defaultPath)
+                defaultPath
+        with
+        | ex ->
+            Log.Warning(ex, "Failed to get last folder path, using current directory")
+            Environment.CurrentDirectory

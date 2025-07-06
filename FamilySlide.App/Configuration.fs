@@ -24,15 +24,18 @@ type ApplicationConfiguration = {
 module Configuration =
     
     let private ensureAppSettingsExists () =
-        let appSettingsPath = "appsettings.json"
+        // Look for appsettings.json in the same directory as the executing assembly
+        let appDirectory = System.AppDomain.CurrentDomain.BaseDirectory
+        let appSettingsPath = Path.Combine(appDirectory, "appsettings.json")
+        
         if not (File.Exists(appSettingsPath)) then
-            Log.Information("Creating default appsettings.json file")
+            Log.Information("Creating default appsettings.json file at: {Path}", appSettingsPath)
             let defaultAppSettings = """{
   "Logging": {
     "MinimumLevel": "Information"
   },
   "Application": {
-    "FolderPath": "."
+    "FolderPath": ""
   },
   "Window": {
     "DefaultWidth": 800,
@@ -49,9 +52,13 @@ module Configuration =
             Log.Debug("appsettings.json exists at: {Path}", Path.GetFullPath(appSettingsPath))
     
     let loadAppSettings (argv: string[]) =
+        // Look for appsettings.json in the same directory as the executing assembly
+        let appDirectory = System.AppDomain.CurrentDomain.BaseDirectory
+        let appSettingsPath = Path.Combine(appDirectory, "appsettings.json")
+        
         let config : IConfiguration = 
             ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", optional = true)
+                .AddJsonFile(appSettingsPath, optional = true)
                 .AddCommandLine(argv)
                 .Build()
         
@@ -62,7 +69,8 @@ module Configuration =
                 | value -> value
             FolderPath =
                 match config.["Application:FolderPath"] with
-                | null -> "."
+                | null -> "" // Empty string as fallback, will be determined later
+                | value when System.String.IsNullOrWhiteSpace(value) -> ""
                 | value -> value
             Window = {
                 DefaultWidth = 
@@ -89,16 +97,32 @@ module Configuration =
         let appSettings = loadAppSettings argv
         let userSettings = UserSettings.loadUserSettings ()
         
+        // Determine the folder path: use command line arg, or last folder path, or app default
+        let folderPath = 
+            // First check command line arguments for folder path
+            match argv |> Array.tryFind (fun arg -> not (arg.StartsWith("-"))) with
+            | Some cmdLineFolder when Directory.Exists(cmdLineFolder) -> 
+                Log.Information("Using folder path from command line: {FolderPath}", cmdLineFolder)
+                cmdLineFolder
+            | _ ->
+                // Fall back to last folder path or default
+                let lastOrDefault = UserSettings.getLastFolderPathOrDefault()
+                Log.Information("Using last/default folder path: {FolderPath}", lastOrDefault)
+                lastOrDefault
+        
+        // Update app settings with the determined folder path
+        let finalAppSettings = { appSettings with FolderPath = folderPath }
+        
         Log.Information("Configuration loaded - App folder: {FolderPath}, Log level: {LogLevel}", 
-            appSettings.FolderPath, appSettings.LogLevel)
+            finalAppSettings.FolderPath, finalAppSettings.LogLevel)
         Log.Debug("Window defaults: {Width}x{Height}, state: {State}", 
-            appSettings.Window.DefaultWidth, appSettings.Window.DefaultHeight, appSettings.Window.DefaultState)
+            finalAppSettings.Window.DefaultWidth, finalAppSettings.Window.DefaultHeight, finalAppSettings.Window.DefaultState)
         Log.Debug("User window settings: {Width}x{Height}, position: {X},{Y}, state: {State}, first run: {FirstRun}",
             userSettings.Window.Width, userSettings.Window.Height, 
             userSettings.Window.X, userSettings.Window.Y, 
             userSettings.Window.State, userSettings.Window.IsFirstRun)
         
         {
-            AppSettings = appSettings
+            AppSettings = finalAppSettings
             UserSettings = userSettings
         }
