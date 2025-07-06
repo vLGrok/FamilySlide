@@ -46,6 +46,10 @@ module Program =
 
     [<EntryPoint; STAThread>]
     let main argv =
+        // Get cross-platform logs directory before setting up logging
+        let logsDir = UserSettings.getLogsDirectory()
+        let logFilePath = Path.Combine(logsDir, "familyslide.log")
+        
         // Load configuration first to get log level
         let tempLogLevel = getLogLevel argv
 
@@ -54,7 +58,7 @@ module Program =
                 .MinimumLevel.Is(tempLogLevel)
                 .WriteTo.Console()
                 .WriteTo.File(
-                    "familyslide.log", 
+                    logFilePath, 
                     rollingInterval = RollingInterval.Day,
                     flushToDiskInterval = System.TimeSpan.FromSeconds(1.0),
                     shared = true,
@@ -62,6 +66,7 @@ module Program =
                 .CreateLogger()
 
         Log.Information("Starting FamilySlide with log level: {LogLevel}...", tempLogLevel)
+        Log.Debug("Logs directory: {LogsDir}", logsDir)
         
         // Load full configuration now that logging is set up
         let config = Configuration.loadConfiguration argv

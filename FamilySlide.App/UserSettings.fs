@@ -2,6 +2,7 @@ namespace FamilySlide.App
 
 open System
 open System.IO
+open System.Runtime.InteropServices
 open System.Text.Json
 open Serilog
 
@@ -136,3 +137,24 @@ module UserSettings =
         | ex ->
             Log.Warning(ex, "Failed to get last folder path, using current directory")
             Environment.CurrentDirectory
+
+    let getLogsDirectory () =
+        let appName = "FamilySlide"
+        let logsDir = 
+            if RuntimeInformation.IsOSPlatform(OSPlatform.Windows) then
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), appName, "logs")
+            elif RuntimeInformation.IsOSPlatform(OSPlatform.OSX) then
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Library", "Logs", appName)
+            else // Linux/Unix
+                let xdgCacheHome = Environment.GetEnvironmentVariable("XDG_CACHE_HOME")
+                if xdgCacheHome <> null then
+                    Path.Combine(xdgCacheHome, appName.ToLowerInvariant(), "logs")
+                else
+                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), ".cache", appName.ToLowerInvariant(), "logs")
+        
+        // Ensure the logs directory exists
+        if not (Directory.Exists(logsDir)) then
+            Directory.CreateDirectory(logsDir) |> ignore
+            Log.Debug("Created logs directory: {LogsDir}", logsDir)
+        
+        logsDir
