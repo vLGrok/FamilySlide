@@ -5,15 +5,8 @@ open System.IO
 open Microsoft.Extensions.Configuration
 open Serilog
 
-type AppWindowSettings = {
-    DefaultWidth: int
-    DefaultHeight: int
-    DefaultState: string
-}
-
 type AppSettings = {
     LogLevel: string
-    Window: AppWindowSettings
 }
 
 type ApplicationConfiguration = {
@@ -32,11 +25,6 @@ module Configuration =
             let defaultAppSettings = """{
   "Logging": {
     "MinimumLevel": "Information"
-  },
-  "Window": {
-    "DefaultWidth": 800,
-    "DefaultHeight": 600,
-    "DefaultState": "Normal"
   }
 }"""
             try
@@ -62,20 +50,6 @@ module Configuration =
                 match config.["Logging:MinimumLevel"] with
                 | null -> "Information"
                 | value -> value
-            Window = {
-                DefaultWidth = 
-                    match config.["Window:DefaultWidth"] with
-                    | null -> 800
-                    | value -> int value
-                DefaultHeight = 
-                    match config.["Window:DefaultHeight"] with
-                    | null -> 600
-                    | value -> int value
-                DefaultState = 
-                    match config.["Window:DefaultState"] with
-                    | null -> "Normal"
-                    | value -> value
-            }
         }
     
     let loadConfiguration (argv: string[]) =
@@ -87,8 +61,6 @@ module Configuration =
         let userSettings = UserSettings.loadUserSettings ()
         
         Log.Information("Configuration loaded - Log level: {LogLevel}", appSettings.LogLevel)
-        Log.Debug("Window defaults: {Width}x{Height}, state: {State}", 
-            appSettings.Window.DefaultWidth, appSettings.Window.DefaultHeight, appSettings.Window.DefaultState)
         Log.Debug("User window settings: {Width}x{Height}, position: {X},{Y}, state: {State}, first run: {FirstRun}",
             userSettings.Window.Width, userSettings.Window.Height, 
             userSettings.Window.X, userSettings.Window.Y, 

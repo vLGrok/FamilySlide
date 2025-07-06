@@ -311,10 +311,16 @@ type MainWindow() as this =
     do
         System.Console.WriteLine("ELMISH MAINWINDOW CONSTRUCTOR CALLED!!!")
         System.Console.WriteLine("CONSOLE: MainWindow constructor DO block started")
+        
+        // Load configuration first to get user settings
+        let config = Configuration.loadConfiguration [||]
+        let folderPath = Configuration.getFolderPath [||]
+        Log.Information("Using folder path: {Folder}", folderPath)
+        
         Log.Information("FamilySlide MainWindow initializing")
         base.Title <- "FamilySlide"
-        base.Width <- 800.0
-        base.Height <- 600.0
+        base.Width <- float config.UserSettings.Window.Width
+        base.Height <- float config.UserSettings.Window.Height
         base.CanResize <- true
         base.Focusable <- true
 
@@ -329,11 +335,6 @@ type MainWindow() as this =
         else
             Log.Information("Single screen detected, using default positioning")
             System.Console.WriteLine("Only one screen detected, using default positioning")
-
-        // Load configuration to get folder path
-        let config = Configuration.loadConfiguration [||]
-        let folderPath = Configuration.getFolderPath [||]
-        Log.Information("Using folder path: {Folder}", folderPath)
 
         try
             let mutable currentModel = None

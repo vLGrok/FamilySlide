@@ -117,28 +117,33 @@ module FolderSettings =
     let loadOrCreateFolderSettings (folderPath: string) (imageFiles: string list) =
         Log.Information("Loading or creating folder settings for: {Folder}", folderPath)
         
-        let settingsPath = getFolderSettingsPath folderPath
-        
-        if File.Exists(settingsPath) then
-            // Load existing settings and sync with current files
-            match loadExistingFolderSettings folderPath with
-            | Some existingSettings ->
-                let syncedSettings = syncSettingsWithFiles existingSettings imageFiles
-                
-                // Save the synced settings if changes were made
-                if syncedSettings <> existingSettings then
-                    Log.Information("Folder settings synced - updating foldersettings.json")
-                    saveFolderSettings folderPath syncedSettings
-                else
-                    Log.Debug("Folder settings already in sync")
-                
-                syncedSettings
-            | None ->
-                // Failed to load, create new
-                createDefaultFolderSettings folderPath imageFiles
+        // Only create settings if there are actually images
+        if imageFiles.IsEmpty then
+            Log.Debug("No images found in folder, not creating foldersettings.json")
+            defaultFolderSettings
         else
-            // Create new settings file
-            createDefaultFolderSettings folderPath imageFiles
+            let settingsPath = getFolderSettingsPath folderPath
+            
+            if File.Exists(settingsPath) then
+                // Load existing settings and sync with current files
+                match loadExistingFolderSettings folderPath with
+                | Some existingSettings ->
+                    let syncedSettings = syncSettingsWithFiles existingSettings imageFiles
+                    
+                    // Save the synced settings if changes were made
+                    if syncedSettings <> existingSettings then
+                        Log.Information("Folder settings synced - updating foldersettings.json")
+                        saveFolderSettings folderPath syncedSettings
+                    else
+                        Log.Debug("Folder settings already in sync")
+                    
+                    syncedSettings
+                | None ->
+                    // Failed to load, create new
+                    createDefaultFolderSettings folderPath imageFiles
+            else
+                // Create new settings file
+                createDefaultFolderSettings folderPath imageFiles
     
     let getImageSettings (settings: FolderSettings) (fileName: string) =
         settings.Images
