@@ -42,11 +42,12 @@ module Program =
 
     [<EntryPoint; STAThread>]
     let main argv =
-        let logLevel = getLogLevel argv
+        // Load configuration first to get log level
+        let tempLogLevel = getLogLevel argv
 
         Log.Logger <-
             LoggerConfiguration()
-                .MinimumLevel.Is(logLevel)
+                .MinimumLevel.Is(tempLogLevel)
                 .WriteTo.Console()
                 .WriteTo.File(
                     "familyslide.log", 
@@ -56,7 +57,11 @@ module Program =
                     buffered = false)
                 .CreateLogger()
 
-        Log.Information("Starting FamilySlide with log level: {LogLevel}...", logLevel)
+        Log.Information("Starting FamilySlide with log level: {LogLevel}...", tempLogLevel)
+        
+        // Load full configuration now that logging is set up
+        let config = Configuration.loadConfiguration argv
+        
         Log.Information("About to call buildAvaloniaApp().StartWithClassicDesktopLifetime")
         
         try
