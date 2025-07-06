@@ -327,7 +327,9 @@ type MainWindow() as this =
             Log.Information("Single screen detected, using default positioning")
             System.Console.WriteLine("Only one screen detected, using default positioning")
 
-        let folderPath = "/Users/rkerr/Pictures/iPadPhotos"
+        // Load configuration to get folder path
+        let config = Configuration.loadConfiguration [||]
+        let folderPath = config.AppSettings.FolderPath
         Log.Information("Using folder path: {Folder}", folderPath)
 
         try
