@@ -116,6 +116,10 @@ module ImageState =
     let withError error (imageState: ImageState) =
         { imageState with LoadError = Some error }
     
+    /// Clear error from ImageState
+    let clearError (imageState: ImageState) =
+        { imageState with LoadError = None }
+    
     /// Update ImageState with thumbnail
     let withThumbnail thumbnail (imageState: ImageState) =
         { imageState with Thumbnail = Some thumbnail }
