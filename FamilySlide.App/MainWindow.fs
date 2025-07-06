@@ -2,6 +2,7 @@ namespace FamilySlide.App
 
 open Avalonia
 open Avalonia.Controls
+open Avalonia.Layout
 open Avalonia.FuncUI.DSL
 open Avalonia.FuncUI.Hosts
 open Avalonia.FuncUI.Elmish
@@ -26,6 +27,29 @@ type Msg =
     | PrevImage
     | LoadImages
     | KeyPressed of Avalonia.Input.Key
+    // Menu and toolbar commands (non-functional for now)
+    | MenuQuit
+    | MenuOpenFolder
+    | MenuAbout
+    // Navigation
+    | ToolbarLeft
+    | ToolbarRight
+    // Zoom
+    | ToolbarZoomOut
+    | ToolbarZoomIn
+    | ToolbarZoomFit
+    | ToolbarZoomActual
+    // Transform
+    | ToolbarRotateLeft
+    | ToolbarRotateRight
+    | ToolbarFlipHorizontal
+    | ToolbarFlipVertical
+    // View
+    | ToolbarCenter
+    | ToolbarRestore
+    | ToolbarFullscreen
+    // Slideshow
+    | ToolbarSlideshow
 
 module MainWindow =
 
@@ -165,6 +189,61 @@ module MainWindow =
                 Log.Debug("KeyPressed: Unhandled key: {Key}", key)
                 model, Cmd.none
 
+        // Menu commands (non-functional for now)
+        | MenuQuit ->
+            Log.Information("Menu Quit clicked (not implemented)")
+            model, Cmd.none
+        | MenuOpenFolder ->
+            Log.Information("Menu Open Folder clicked (not implemented)")
+            model, Cmd.none
+        | MenuAbout ->
+            Log.Information("Menu About clicked (not implemented)")
+            model, Cmd.none
+
+        // Toolbar commands (non-functional for now)
+        | ToolbarLeft ->
+            Log.Information("Toolbar Left clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarRight ->
+            Log.Information("Toolbar Right clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarZoomOut ->
+            Log.Information("Toolbar Zoom Out clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarZoomIn ->
+            Log.Information("Toolbar Zoom In clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarZoomFit ->
+            Log.Information("Toolbar Zoom Fit clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarZoomActual ->
+            Log.Information("Toolbar Zoom Actual clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarRotateLeft ->
+            Log.Information("Toolbar Rotate Left clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarRotateRight ->
+            Log.Information("Toolbar Rotate Right clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarFlipHorizontal ->
+            Log.Information("Toolbar Flip Horizontal clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarFlipVertical ->
+            Log.Information("Toolbar Flip Vertical clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarCenter ->
+            Log.Information("Toolbar Center clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarRestore ->
+            Log.Information("Toolbar Restore clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarFullscreen ->
+            Log.Information("Toolbar Fullscreen clicked (not implemented)")
+            model, Cmd.none
+        | ToolbarSlideshow ->
+            Log.Information("Toolbar Slideshow clicked (not implemented)")
+            model, Cmd.none
+
         | NextImage ->
             Log.Debug("NextImage command executed")
             Log.Debug("NextImage handler entered")
@@ -244,66 +323,265 @@ module MainWindow =
     let view model dispatch =
         Log.Debug("View function called with {ImageCount} images, current index {Index}", 
             model.Images.Length, model.CurrentIndex)
-        DockPanel.create
-            [ DockPanel.children
-                  [ match model.CurrentBitmap with
-                    | Some bmp -> 
-                        Image.create [ 
-                            Image.source bmp
-                            Image.stretch Avalonia.Media.Stretch.Uniform
-                            Image.focusable true
-                            Image.onKeyDown (fun args ->
-                                Log.Debug("Image KeyDown fired: {Key}", args.Key)
-                                System.Console.WriteLine($"CONSOLE: Image KeyDown fired: {args.Key}")
-                                match args.Key with
-                                | Avalonia.Input.Key.Right -> 
-                                    Log.Information("Navigating to next image")
-                                    Log.Debug("Image: Right arrow pressed, dispatching NextImage")
-                                    dispatch NextImage
-                                | Avalonia.Input.Key.Left -> 
-                                    Log.Information("Navigating to previous image") 
-                                    Log.Debug("Image: Left arrow pressed, dispatching PrevImage")
-                                    dispatch PrevImage
-                                | _ -> 
-                                    Log.Debug("Image: Other key pressed: {Key}", args.Key)
-                            )
+        
+        // Main layout with menu and toolbar
+        DockPanel.create [
+            DockPanel.children [
+                // Menu bar at top
+                Menu.create [
+                    DockPanel.dock Dock.Top
+                    Menu.viewItems [
+                        MenuItem.create [
+                            MenuItem.header "File"
+                            MenuItem.viewItems [
+                                MenuItem.create [
+                                    MenuItem.header "Open Folder..."
+                                    MenuItem.onClick (fun _ -> dispatch MenuOpenFolder)
+                                ]
+                                MenuItem.create [
+                                    MenuItem.header "-" // Separator
+                                ]
+                                MenuItem.create [
+                                    MenuItem.header "Quit"
+                                    MenuItem.onClick (fun _ -> dispatch MenuQuit)
+                                ]
+                            ]
                         ]
-                    | None -> 
-                        TextBlock.create [ 
-                            TextBlock.text "No image"
-                            TextBlock.focusable true
-                            TextBlock.onKeyDown (fun args ->
-                                Log.Debug("TextBlock KeyDown fired: {Key}", args.Key)
-                                match args.Key with
-                                | Avalonia.Input.Key.Right -> 
-                                    Log.Information("Navigating to next image")
-                                    Log.Debug("TextBlock: Right arrow pressed, dispatching NextImage")
-                                    dispatch NextImage
-                                | Avalonia.Input.Key.Left -> 
-                                    Log.Information("Navigating to previous image")
-                                    Log.Debug("TextBlock: Left arrow pressed, dispatching PrevImage")
-                                    dispatch PrevImage
-                                | _ -> 
-                                    Log.Debug("TextBlock: Other key pressed: {Key}", args.Key)
-                            )
-                        ] ]
-              // Add DockPanel-level key handling as a fallback
-              DockPanel.focusable true
-              DockPanel.onKeyDown (fun args ->
-                  Log.Debug("DockPanel KeyDown fired: {Key}", args.Key)
-                  System.Console.WriteLine($"CONSOLE: DockPanel KeyDown fired: {args.Key}")
-                  match args.Key with
-                  | Avalonia.Input.Key.Right -> 
-                      Log.Information("Navigating to next image")
-                      Log.Debug("DockPanel: Right arrow pressed, dispatching NextImage")
-                      dispatch NextImage
-                  | Avalonia.Input.Key.Left -> 
-                      Log.Information("Navigating to previous image")
-                      Log.Debug("DockPanel: Left arrow pressed, dispatching PrevImage")
-                      dispatch PrevImage
-                  | _ -> 
-                      Log.Debug("DockPanel: Other key pressed: {Key}", args.Key)
-              ) ]
+                        MenuItem.create [
+                            MenuItem.header "Help"
+                            MenuItem.viewItems [
+                                MenuItem.create [
+                                    MenuItem.header "About"
+                                    MenuItem.onClick (fun _ -> dispatch MenuAbout)
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+
+                // Toolbar at top (below menu)
+                StackPanel.create [
+                    DockPanel.dock Dock.Top
+                    StackPanel.orientation Orientation.Horizontal
+                    StackPanel.margin (0, 4, 0, 4)
+                    StackPanel.children [
+                        // Navigation group
+                        Button.create [
+                            Button.content "◀"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarLeft)
+                            ToolTip.tip "Previous Image"
+                        ]
+                        Button.create [
+                            Button.content "▶"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarRight)
+                            ToolTip.tip "Next Image"
+                        ]
+                        
+                        // Separator
+                        Border.create [
+                            Border.width 1
+                            Border.height 20
+                            Border.margin (8, 5)
+                            Border.background "#CCCCCC"
+                        ]
+                        
+                        // Zoom group
+                        Button.create [
+                            Button.content "−"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomOut)
+                            ToolTip.tip "Zoom Out"
+                        ]
+                        Button.create [
+                            Button.content "+"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomIn)
+                            ToolTip.tip "Zoom In"
+                        ]
+                        Button.create [
+                            Button.content "⟷"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomFit)
+                            ToolTip.tip "Zoom to Fit"
+                        ]
+                        Button.create [
+                            Button.content "1:1"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarZoomActual)
+                            ToolTip.tip "Actual Size"
+                        ]
+                        
+                        // Separator
+                        Border.create [
+                            Border.width 1
+                            Border.height 20
+                            Border.margin (8, 5)
+                            Border.background "#CCCCCC"
+                        ]
+                        
+                        // Transform group
+                        Button.create [
+                            Button.content "↶"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarRotateLeft)
+                            ToolTip.tip "Rotate Left 90°"
+                        ]
+                        Button.create [
+                            Button.content "↷"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarRotateRight)
+                            ToolTip.tip "Rotate Right 90°"
+                        ]
+                        Button.create [
+                            Button.content "⟷"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarFlipHorizontal)
+                            ToolTip.tip "Flip Horizontal"
+                        ]
+                        Button.create [
+                            Button.content "⟺"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarFlipVertical)
+                            ToolTip.tip "Flip Vertical"
+                        ]
+                        
+                        // Separator
+                        Border.create [
+                            Border.width 1
+                            Border.height 20
+                            Border.margin (8, 5)
+                            Border.background "#CCCCCC"
+                        ]
+                        
+                        // View group
+                        Button.create [
+                            Button.content "⊙"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarCenter)
+                            ToolTip.tip "Center Image"
+                        ]
+                        Button.create [
+                            Button.content "⌂"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarRestore)
+                            ToolTip.tip "Restore View"
+                        ]
+                        Button.create [
+                            Button.content "⛶"
+                            Button.width 40
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarFullscreen)
+                            ToolTip.tip "Fullscreen"
+                        ]
+                        
+                        // Separator
+                        Border.create [
+                            Border.width 1
+                            Border.height 20
+                            Border.margin (8, 5)
+                            Border.background "#CCCCCC"
+                        ]
+                        
+                        // Slideshow
+                        Button.create [
+                            Button.content "▶▶"
+                            Button.width 50
+                            Button.height 30
+                            Button.margin (4, 0)
+                            Button.onClick (fun _ -> dispatch ToolbarSlideshow)
+                            ToolTip.tip "Start Slideshow"
+                        ]
+                    ]
+                ]
+
+                // Main content area (image display)
+                match model.CurrentBitmap with
+                | Some bmp -> 
+                    Image.create [ 
+                        Image.source bmp
+                        Image.stretch Avalonia.Media.Stretch.Uniform
+                        Image.focusable true
+                        Image.onKeyDown (fun args ->
+                            Log.Debug("Image KeyDown fired: {Key}", args.Key)
+                            System.Console.WriteLine($"CONSOLE: Image KeyDown fired: {args.Key}")
+                            match args.Key with
+                            | Avalonia.Input.Key.Right -> 
+                                Log.Information("Navigating to next image")
+                                Log.Debug("Image: Right arrow pressed, dispatching NextImage")
+                                dispatch NextImage
+                            | Avalonia.Input.Key.Left -> 
+                                Log.Information("Navigating to previous image") 
+                                Log.Debug("Image: Left arrow pressed, dispatching PrevImage")
+                                dispatch PrevImage
+                            | _ -> 
+                                Log.Debug("Image: Other key pressed: {Key}", args.Key)
+                        )
+                    ]
+                | None -> 
+                    TextBlock.create [ 
+                        TextBlock.text "No image"
+                        TextBlock.focusable true
+                        TextBlock.onKeyDown (fun args ->
+                            Log.Debug("TextBlock KeyDown fired: {Key}", args.Key)
+                            match args.Key with
+                            | Avalonia.Input.Key.Right -> 
+                                Log.Information("Navigating to next image")
+                                Log.Debug("TextBlock: Right arrow pressed, dispatching NextImage")
+                                dispatch NextImage
+                            | Avalonia.Input.Key.Left -> 
+                                Log.Information("Navigating to previous image")
+                                Log.Debug("TextBlock: Left arrow pressed, dispatching PrevImage")
+                                dispatch PrevImage
+                            | _ -> 
+                                Log.Debug("TextBlock: Other key pressed: {Key}", args.Key)
+                        )
+                    ]
+            ]
+            // Add DockPanel-level key handling as a fallback
+            DockPanel.focusable true
+            DockPanel.onKeyDown (fun args ->
+                Log.Debug("DockPanel KeyDown fired: {Key}", args.Key)
+                System.Console.WriteLine($"CONSOLE: DockPanel KeyDown fired: {args.Key}")
+                match args.Key with
+                | Avalonia.Input.Key.Right -> 
+                    Log.Information("Navigating to next image")
+                    Log.Debug("DockPanel: Right arrow pressed, dispatching NextImage")
+                    dispatch NextImage
+                | Avalonia.Input.Key.Left -> 
+                    Log.Information("Navigating to previous image")
+                    Log.Debug("DockPanel: Left arrow pressed, dispatching PrevImage")
+                    dispatch PrevImage
+                | _ -> 
+                    Log.Debug("DockPanel: Other key pressed: {Key}", args.Key)
+            )
+        ]
 
 type MainWindow(argv: string[]) as this =
     inherit HostWindow()
