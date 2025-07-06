@@ -332,7 +332,7 @@ type MainWindow() as this =
 
         // Load configuration to get folder path
         let config = Configuration.loadConfiguration [||]
-        let folderPath = config.AppSettings.FolderPath
+        let folderPath = Configuration.getFolderPath [||]
         Log.Information("Using folder path: {Folder}", folderPath)
 
         try
