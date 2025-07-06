@@ -12,12 +12,14 @@ open System.IO
 open SixLabors.ImageSharp
 open SixLabors.ImageSharp.PixelFormats
 open Serilog
+open FolderSettings
 
 type Model =
     { FolderPath: string
       Images: string list
       CurrentIndex: int
-      CurrentBitmap: Bitmap option }
+      CurrentBitmap: Bitmap option
+      FolderSettings: FolderSettings option }
 
 type Msg =
     | NextImage
@@ -32,7 +34,8 @@ module MainWindow =
         { FolderPath = folderPath
           Images = []
           CurrentIndex = 0
-          CurrentBitmap = None },
+          CurrentBitmap = None
+          FolderSettings = None },
         Cmd.ofMsg LoadImages
 
     let update msg model =
@@ -75,14 +78,20 @@ module MainWindow =
                 Log.Information("Image loading completed - {Count} images available, first image loaded: {HasImage}", 
                     files.Length, first.IsSome)
 
+                // Load or create folder settings for these image files
+                let folderSettings = FolderSettings.loadOrCreateFolderSettings model.FolderPath files
+                Log.Information("Folder settings loaded with {SettingsCount} image entries, save-settings: {SaveSettings}", 
+                    folderSettings.Images.Count, folderSettings.SaveImageSettings)
+
                 { model with
                     Images = files
-                    CurrentBitmap = first },
+                    CurrentBitmap = first
+                    FolderSettings = Some folderSettings },
                 Cmd.none
             else
                 Log.Warning("Folder does not exist: {Folder}", model.FolderPath)
                 // Return early if folder doesn't exist
-                { model with Images = []; CurrentBitmap = None }, Cmd.none
+                { model with Images = []; CurrentBitmap = None; FolderSettings = None }, Cmd.none
 
         | KeyPressed key ->
             Log.Debug("KeyPressed message received: {Key}", key)
