@@ -64,8 +64,20 @@ module UserSettings =
                 Log.Debug("User settings loaded successfully")
                 settings
             else
-                Log.Information("User settings file not found, using defaults. Will be created at: {Path}", settingsPath)
-                createDefaultSettings()
+                Log.Information("User settings file not found, creating default settings at: {Path}", settingsPath)
+                let defaultSettings = createDefaultSettings()
+                
+                // Create the default user settings file
+                let directory = Path.GetDirectoryName(settingsPath)
+                if not (Directory.Exists(directory)) then
+                    Directory.CreateDirectory(directory) |> ignore
+                    Log.Debug("Created user settings directory: {Directory}", directory)
+                
+                let json = JsonSerializer.Serialize(defaultSettings, jsonOptions)
+                File.WriteAllText(settingsPath, json)
+                Log.Information("Created default user settings file")
+                
+                defaultSettings
         with
         | ex ->
             Log.Warning(ex, "Failed to load user settings from {Path}, using defaults", settingsPath)

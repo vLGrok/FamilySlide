@@ -1,5 +1,6 @@
 namespace FamilySlide.App
 
+open System.IO
 open Microsoft.Extensions.Configuration
 open Serilog
 
@@ -21,6 +22,31 @@ type ApplicationConfiguration = {
 }
 
 module Configuration =
+    
+    let private ensureAppSettingsExists () =
+        let appSettingsPath = "appsettings.json"
+        if not (File.Exists(appSettingsPath)) then
+            Log.Information("Creating default appsettings.json file")
+            let defaultAppSettings = """{
+  "Logging": {
+    "MinimumLevel": "Information"
+  },
+  "Application": {
+    "FolderPath": "/Users/rkerr/Pictures/iPadPhotos"
+  },
+  "Window": {
+    "DefaultWidth": 800,
+    "DefaultHeight": 600,
+    "DefaultState": "Normal"
+  }
+}"""
+            try
+                File.WriteAllText(appSettingsPath, defaultAppSettings)
+                Log.Information("Created default appsettings.json at: {Path}", Path.GetFullPath(appSettingsPath))
+            with
+            | ex -> Log.Error(ex, "Failed to create default appsettings.json")
+        else
+            Log.Debug("appsettings.json exists at: {Path}", Path.GetFullPath(appSettingsPath))
     
     let loadAppSettings (argv: string[]) =
         let config : IConfiguration = 
@@ -56,6 +82,9 @@ module Configuration =
     
     let loadConfiguration (argv: string[]) =
         Log.Debug("Loading application configuration")
+        
+        // Ensure settings files exist before loading
+        ensureAppSettingsExists ()
         
         let appSettings = loadAppSettings argv
         let userSettings = UserSettings.loadUserSettings ()
