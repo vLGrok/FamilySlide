@@ -11,6 +11,7 @@
     <Compile Include="UserSettings.fs" />
     <Compile Include="Configuration.fs" />
     <Compile Include="FolderSettings.fs" />
+    <Compile Include="BitmapLifecycle.fs" />
     <Compile Include="ImageModel.fs" />
     <Compile Include="ImageService.fs" />
     <Compile Include="ImageCache.fs" />

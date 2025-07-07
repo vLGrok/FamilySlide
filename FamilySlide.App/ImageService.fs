@@ -58,6 +58,8 @@ module ImageService =
             
             // Create Avalonia Bitmap from stream
             let bitmap = new Bitmap(ms)
+            let context = $"Full image: {Path.GetFileName(filePath)}"
+            BitmapLifecycle.trackBitmap bitmap context
             
             Log.Debug("Successfully loaded image: {FilePath} ({Width}x{Height})", filePath, width, height)
             Success (bitmap, width, height)
@@ -90,6 +92,8 @@ module ImageService =
             img.SaveAsBmp(ms)
             ms.Position <- 0L
             let bitmap = new Bitmap(ms)
+            let context = $"Thumbnail: {Path.GetFileName(filePath)}"
+            BitmapLifecycle.trackBitmap bitmap context
             
             Log.Debug("Created thumbnail: {FilePath} ({ThumbWidth}x{ThumbHeight} from {OrigWidth}x{OrigHeight})", 
                 filePath, thumbWidth, thumbHeight, originalWidth, originalHeight)
@@ -136,7 +140,9 @@ module ImageService =
         if imageState.IsFullImageLoaded then
             Log.Debug("Unloading full image from memory: {FilePath}", imageState.Info.FilePath)
             // Dispose the bitmap if it exists
-            imageState.FullImage |> Option.iter (fun bitmap -> bitmap.Dispose())
+            imageState.FullImage |> Option.iter (fun bitmap -> 
+                let context = $"Unload full image: {Path.GetFileName(imageState.Info.FilePath)}"
+                BitmapLifecycle.disposeBitmap bitmap context)
             ImageState.clearFullImage imageState
         else
             imageState

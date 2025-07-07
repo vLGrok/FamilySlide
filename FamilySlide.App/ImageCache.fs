@@ -2,6 +2,7 @@ namespace FamilySlide.App
 
 open System
 open System.Collections.Generic
+open System.IO
 open Avalonia.Media.Imaging
 open Serilog
 
@@ -52,11 +53,11 @@ module ImageCache =
         imageStates
         |> List.iter (fun state ->
             state.FullImage |> Option.iter (fun bitmap -> 
-                Log.Debug("Disposing full image bitmap: {FilePath}", state.Info.FilePath)
-                bitmap.Dispose())
+                let context = $"Cache evict full: {Path.GetFileName(state.Info.FilePath)}"
+                BitmapLifecycle.disposeBitmap bitmap context)
             state.Thumbnail |> Option.iter (fun bitmap -> 
-                Log.Debug("Disposing thumbnail bitmap: {FilePath}", state.Info.FilePath)
-                bitmap.Dispose()))
+                let context = $"Cache evict thumb: {Path.GetFileName(state.Info.FilePath)}"
+                BitmapLifecycle.disposeBitmap bitmap context))
     
     /// Get ImageState from cache or create new one
     let getImageState (filePath: string) (cache: CacheState) =
@@ -170,6 +171,9 @@ module ImageCache =
             |> Seq.filter (fun state -> state.Thumbnail.IsSome)
             |> Seq.length
         
+        // Also log bitmap lifecycle stats
+        let bitmapStats = BitmapLifecycle.logStats "Cache Stats"
+        
         Log.Debug("Cache stats: {TotalImages} total, {FullImages} full images, {Thumbnails} thumbnails", 
             totalImages, fullImagesLoaded, thumbnailsLoaded)
         
@@ -177,7 +181,8 @@ module ImageCache =
            FullImagesLoaded = fullImagesLoaded  
            ThumbnailsLoaded = thumbnailsLoaded
            RecentFullImages = cache.RecentFullImages
-           RecentThumbnails = cache.RecentThumbnails |}
+           RecentThumbnails = cache.RecentThumbnails
+           BitmapStats = bitmapStats |}
     
     /// Clear all cached images and dispose bitmaps
     let clear (cache: CacheState) =
@@ -202,3 +207,32 @@ module ImageCache =
                 RecentThumbnails = newRecentThumbnails }
         | None -> 
             cache
+    
+    /// Clear only full images from cache (keep thumbnails)
+    let clearFullImages (cache: CacheState) =
+        let updatedImages = 
+            cache.Images
+            |> Map.map (fun _ imageState ->
+                if imageState.IsFullImageLoaded then
+                    imageState.FullImage |> Option.iter (fun bitmap ->
+                        let context = $"Clear full: {Path.GetFileName(imageState.Info.FilePath)}"
+                        BitmapLifecycle.disposeBitmap bitmap context)
+                    ImageState.clearFullImage imageState
+                else
+                    imageState)
+        
+        Log.Information("Cleared all full images from cache")
+        { cache with 
+            Images = updatedImages
+            RecentFullImages = [] }
+    
+    /// Emergency cache clear for low memory situations
+    let emergencyClear (cache: CacheState) =
+        let allImages = cache.Images |> Map.values |> List.ofSeq
+        disposeBitmaps allImages
+        BitmapLifecycle.logStats "Emergency Clear" |> ignore
+        Log.Warning("Emergency cache clear performed due to memory pressure")
+        { cache with 
+            Images = Map.empty
+            RecentFullImages = []
+            RecentThumbnails = [] }
