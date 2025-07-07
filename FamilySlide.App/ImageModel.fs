@@ -75,9 +75,17 @@ module Transform =
     let flipVertical transform = 
         { transform with FlipVertical = not transform.FlipVertical }
     
-    /// Set zoom level
+    /// Set zoom level (legacy version with hardcoded limits)
     let setZoom zoom (transform: Transform) = 
         { transform with Zoom = max 0.1 (min 10.0 zoom) }
+    
+    /// Set zoom level with explicit constraints
+    let setZoomWithLimits (minLevel: float) (maxLevel: float) zoom (transform: Transform) = 
+        { transform with Zoom = max minLevel (min maxLevel zoom) }
+    
+    /// Set zoom level using configuration
+    let setZoomWithConfig (zoomConfig: ZoomConfig) zoom (transform: Transform) = 
+        setZoomWithLimits zoomConfig.MinLevel zoomConfig.MaxLevel zoom transform
     
     /// Set pan offset
     let setPan offsetX offsetY (transform: Transform) = 

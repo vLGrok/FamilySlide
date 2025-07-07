@@ -68,8 +68,8 @@ module ImageService =
             Log.Error(ex, "Failed to load image: {FilePath}", filePath)
             Error error
     
-    /// Load thumbnail bitmap (max 256x256)
-    let loadThumbnailBitmap (filePath: string) =
+    /// Load thumbnail bitmap with configurable max size
+    let loadThumbnailBitmap (maxSize: int) (filePath: string) =
         try
             Log.Debug("Loading thumbnail for: {FilePath}", filePath)
             
@@ -78,7 +78,6 @@ module ImageService =
             let originalHeight = img.Height
             
             // Calculate thumbnail size maintaining aspect ratio
-            let maxSize = 256
             let scale = min (float maxSize / float originalWidth) (float maxSize / float originalHeight)
             let thumbWidth = int (float originalWidth * scale)
             let thumbHeight = int (float originalHeight * scale)
@@ -102,11 +101,11 @@ module ImageService =
             Log.Error(ex, "Failed to create thumbnail: {FilePath}", filePath)
             Error error
     
-    /// Load ImageState from file path with thumbnail
-    let loadImageState (filePath: string) =
+    /// Load ImageState from file path with thumbnail using configuration
+    let loadImageState (imageConfig: ImageConfig) (filePath: string) =
         let imageState = ImageState.fromFilePath filePath
         
-        match loadThumbnailBitmap filePath with
+        match loadThumbnailBitmap imageConfig.ThumbnailMaxSize filePath with
         | Success (thumbnail, width, height) ->
             imageState
             |> ImageState.withThumbnail thumbnail

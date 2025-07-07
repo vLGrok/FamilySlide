@@ -8,13 +8,7 @@ open Serilog
 /// Cache for managing multiple ImageState objects with memory limits
 module ImageCache =
     
-    /// Maximum number of full-resolution images to keep in memory
-    let private maxFullImages = 3
-    
-    /// Maximum number of thumbnails to keep in memory
-    let private maxThumbnails = 50
-    
-    /// Cache state containing all loaded images
+    /// Cache state containing all loaded images and configuration
     type CacheState = {
         /// All image states indexed by file path
         Images: Map<string, ImageState>
@@ -22,13 +16,30 @@ module ImageCache =
         RecentFullImages: string list
         /// Recently accessed thumbnails (for LRU eviction)  
         RecentThumbnails: string list
+        /// Configuration settings
+        MaxFullImages: int
+        MaxThumbnails: int
+        ImageConfig: ImageConfig
     }
     
-    /// Create empty cache state
+    /// Create cache state with configuration
+    let createCache (cacheConfig: CacheConfig) (imageConfig: ImageConfig) = {
+        Images = Map.empty
+        RecentFullImages = []
+        RecentThumbnails = []
+        MaxFullImages = cacheConfig.MaxFullImages
+        MaxThumbnails = cacheConfig.MaxThumbnails
+        ImageConfig = imageConfig
+    }
+    
+    /// Create cache with default settings (for backward compatibility)
     let empty = {
         Images = Map.empty
         RecentFullImages = []
         RecentThumbnails = []
+        MaxFullImages = 3
+        MaxThumbnails = 50
+        ImageConfig = { ThumbnailMaxSize = 256 }
     }
     
     /// Add image to recent list and trim to max size
@@ -52,19 +63,22 @@ module ImageCache =
         match Map.tryFind filePath cache.Images with
         | Some imageState -> 
             // Update recent thumbnails list
-            let newRecentThumbnails = updateRecentList maxThumbnails filePath cache.RecentThumbnails
+            let newRecentThumbnails = updateRecentList cache.MaxThumbnails filePath cache.RecentThumbnails
             imageState, { cache with RecentThumbnails = newRecentThumbnails }
         | None -> 
             // Create new ImageState with thumbnail
-            let newImageState = ImageService.loadImageState filePath
+            let newImageState = ImageService.loadImageState cache.ImageConfig filePath
             let newImages = Map.add filePath newImageState cache.Images
-            let newRecentThumbnails = updateRecentList maxThumbnails filePath cache.RecentThumbnails
+            let newRecentThumbnails = updateRecentList cache.MaxThumbnails filePath cache.RecentThumbnails
             
             // Check if we need to evict old thumbnails
             let imagesToEvict = 
-                cache.RecentThumbnails 
-                |> List.skip (maxThumbnails - 1)
-                |> List.choose (fun path -> Map.tryFind path cache.Images)
+                if cache.RecentThumbnails.Length > cache.MaxThumbnails then
+                    cache.RecentThumbnails 
+                    |> List.skip (cache.MaxThumbnails - 1)
+                    |> List.choose (fun path -> Map.tryFind path cache.Images)
+                else
+                    []
             
             // Dispose evicted thumbnails
             disposeBitmaps imagesToEvict
@@ -90,14 +104,17 @@ module ImageCache =
             // Load full image
             let updatedImageState = ImageService.loadFullImage imageState
             let newImages = Map.add filePath updatedImageState cache.Images
-            let newRecentFullImages = updateRecentList maxFullImages filePath cache.RecentFullImages
+            let newRecentFullImages = updateRecentList cache.MaxFullImages filePath cache.RecentFullImages
             
             // Check if we need to evict old full images
             let imagesToEvict = 
-                cache.RecentFullImages 
-                |> List.skip (maxFullImages - 1)
-                |> List.choose (fun path -> Map.tryFind path newImages)
-                |> List.filter (fun state -> state.IsFullImageLoaded)
+                if cache.RecentFullImages.Length > cache.MaxFullImages then
+                    cache.RecentFullImages 
+                    |> List.skip (cache.MaxFullImages - 1)
+                    |> List.choose (fun path -> Map.tryFind path newImages)
+                    |> List.filter (fun state -> state.IsFullImageLoaded)
+                else
+                    []
             
             // Unload evicted full images (keep thumbnails)
             let cleanedImages = 
@@ -117,7 +134,7 @@ module ImageCache =
             
         | Some imageState ->
             // Already loaded, just update recent list
-            let newRecentFullImages = updateRecentList maxFullImages filePath cache.RecentFullImages
+            let newRecentFullImages = updateRecentList cache.MaxFullImages filePath cache.RecentFullImages
             imageState, { cache with RecentFullImages = newRecentFullImages }
             
         | None ->

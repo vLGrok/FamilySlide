@@ -60,26 +60,25 @@ module MainWindow =
         else
             None
             
-    /// Get the current display bitmap using ImageService
+    /// Get the current display bitmap using cache system
     let getCurrentBitmap model =
         match getCurrentImageState model with
         | Some imageState ->
-            // For now, just load the thumbnail directly (we'll optimize with cache later)
-            match ImageService.loadThumbnailBitmap imageState.Info.FilePath with
-            | Success (bitmap, _, _) -> Some bitmap
-            | Error _ -> None
+            // Try to get from cache first, or load on demand
+            let cachedImageState, _ = ImageCache.getImageState imageState.Info.FilePath model.Cache
+            cachedImageState.Thumbnail
         | None -> None
 
-    let init folderPath =
+    let init folderPath config =
         Log.Information("Initializing FamilySlide with folder: " + folderPath)
         { FolderPath = folderPath
           ImageStates = []
           CurrentIndex = 0
-          Cache = ImageCache.empty
+          Cache = ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image
           FolderSettings = None },
         Cmd.ofMsg LoadImages
 
-    let update msg model =
+    let update config msg model =
         Log.Debug("Update called with message: {Message}", msg.ToString())
         match msg with
         | LoadImages ->
@@ -105,6 +104,15 @@ module MainWindow =
                 // Create ImageState for each image file
                 let imageStates = imageFiles |> List.map ImageState.fromFilePath
 
+                // Load the first image through the cache to get its thumbnail
+                let updatedCache = 
+                    if imageStates.Length > 0 then
+                        let firstImagePath = imageStates.[0].Info.FilePath
+                        let _, newCache = ImageCache.getImageState firstImagePath (ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image)
+                        newCache
+                    else
+                        ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image
+
                 // Load or create folder settings for these image files
                 let folderSettings = FolderSettings.loadOrCreateFolderSettings model.FolderPath imageFiles
                 Log.Information("Folder settings loaded with {SettingsCount} image entries, save-settings: {SaveSettings}", 
@@ -112,12 +120,12 @@ module MainWindow =
 
                 { model with
                     ImageStates = imageStates
-                    Cache = ImageCache.empty
+                    Cache = updatedCache
                     FolderSettings = Some folderSettings },
                 Cmd.none
             else
                 Log.Warning("Folder does not exist: {Folder}", model.FolderPath)
-                { model with ImageStates = []; Cache = ImageCache.empty; FolderSettings = None }, Cmd.none
+                { model with ImageStates = []; Cache = ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image; FolderSettings = None }, Cmd.none
 
         | KeyPressed key ->
             Log.Debug("KeyPressed message received: {Key}", key)
@@ -557,14 +565,14 @@ type MainWindow(argv: string[]) as this =
                 this.Title <- title
             
             let customUpdate msg model =
-                let newModel, cmd = MainWindow.update msg model
+                let newModel, cmd = MainWindow.update config msg model
                 currentModel <- Some newModel
                 updateWindowTitle newModel
                 newModel, cmd
             
             let program =
                 Elmish.Program.mkProgram (fun _ -> 
-                    let model, cmd = MainWindow.init folderPath
+                    let model, cmd = MainWindow.init folderPath config
                     currentModel <- Some model
                     updateWindowTitle model
                     model, cmd) customUpdate MainWindow.view
