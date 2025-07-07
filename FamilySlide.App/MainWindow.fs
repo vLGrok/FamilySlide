@@ -10,16 +10,14 @@ open Elmish
 open FamilySlide.Core.ImageLoader
 open Avalonia.Media.Imaging
 open System.IO
-open SixLabors.ImageSharp
-open SixLabors.ImageSharp.PixelFormats
 open Serilog
 open FolderSettings
 
 type Model =
     { FolderPath: string
-      Images: string list
+      ImageStates: ImageState list
       CurrentIndex: int
-      CurrentBitmap: Bitmap option
+      Cache: ImageCache.CacheState
       FolderSettings: FolderSettings option }
 
 type Msg =
@@ -55,12 +53,29 @@ type Msg =
 
 module MainWindow =
 
+    /// Get the current ImageState from the model
+    let getCurrentImageState model =
+        if model.CurrentIndex >= 0 && model.CurrentIndex < model.ImageStates.Length then
+            Some model.ImageStates[model.CurrentIndex]
+        else
+            None
+            
+    /// Get the current display bitmap using ImageService
+    let getCurrentBitmap model =
+        match getCurrentImageState model with
+        | Some imageState ->
+            // For now, just load the thumbnail directly (we'll optimize with cache later)
+            match ImageService.loadThumbnailBitmap imageState.Info.FilePath with
+            | Success (bitmap, _, _) -> Some bitmap
+            | Error _ -> None
+        | None -> None
+
     let init folderPath =
         Log.Information("Initializing FamilySlide with folder: " + folderPath)
         { FolderPath = folderPath
-          Images = []
+          ImageStates = []
           CurrentIndex = 0
-          CurrentBitmap = None
+          Cache = ImageCache.empty
           FolderSettings = None },
         Cmd.ofMsg LoadImages
 
@@ -78,115 +93,53 @@ module MainWindow =
                 let allFiles = Directory.EnumerateFiles(model.FolderPath) |> Seq.toList
                 Log.Debug("Total files in folder: {Count}", allFiles.Length)
 
-                let files =
+                let imageFiles =
                     allFiles
                     |> List.filter (fun f -> 
                         FamilySlide.Core.ImageLoader.supportedExtensions 
                         |> List.exists (fun ext -> f.EndsWith(ext, System.StringComparison.OrdinalIgnoreCase)))
 
-                Log.Information("Found {Count} image files", files.Length)
-                files |> List.iteri (fun i path -> Log.Debug("Image {Index}: {Path}", i, path))
+                Log.Information("Found {Count} image files", imageFiles.Length)
+                imageFiles |> List.iteri (fun i path -> Log.Debug("Image {Index}: {Path}", i, path))
 
-                let first =
-                    files
-                    |> List.tryHead
-                    |> Option.bind (fun path ->
-                        Log.Debug("Loading first image: {Path}", path)
-                        try
-                            use img = Image.Load<Rgba32>(path)
-                            use ms = new MemoryStream()
-                            img.SaveAsBmp(ms)
-                            ms.Position <- 0L
-                            Log.Debug("Successfully loaded first image")
-                            Some(new Bitmap(ms))
-                        with
-                        | ex ->
-                            Log.Error(ex, "Failed to load first image: {Path}", path)
-                            None)
-
-                Log.Information("Image loading completed - {Count} images available, first image loaded: {HasImage}", 
-                    files.Length, first.IsSome)
+                // Create ImageState for each image file
+                let imageStates = imageFiles |> List.map ImageState.fromFilePath
 
                 // Load or create folder settings for these image files
-                let folderSettings = FolderSettings.loadOrCreateFolderSettings model.FolderPath files
+                let folderSettings = FolderSettings.loadOrCreateFolderSettings model.FolderPath imageFiles
                 Log.Information("Folder settings loaded with {SettingsCount} image entries, save-settings: {SaveSettings}", 
                     folderSettings.Images.Count, folderSettings.SaveImageSettings)
 
                 { model with
-                    Images = files
-                    CurrentBitmap = first
+                    ImageStates = imageStates
+                    Cache = ImageCache.empty
                     FolderSettings = Some folderSettings },
                 Cmd.none
             else
                 Log.Warning("Folder does not exist: {Folder}", model.FolderPath)
-                // Return early if folder doesn't exist
-                { model with Images = []; CurrentBitmap = None; FolderSettings = None }, Cmd.none
+                { model with ImageStates = []; Cache = ImageCache.empty; FolderSettings = None }, Cmd.none
 
         | KeyPressed key ->
             Log.Debug("KeyPressed message received: {Key}", key)
             match key with
             | Avalonia.Input.Key.Right -> 
                 Log.Debug("KeyPressed: Right arrow - processing as NextImage")
-                // Process NextImage directly
-                let nextIndex = min (model.CurrentIndex + 1) (model.Images.Length - 1)
+                let nextIndex = min (model.CurrentIndex + 1) (model.ImageStates.Length - 1)
                 Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
-                    model.CurrentIndex, nextIndex, model.Images.Length)
+                    model.CurrentIndex, nextIndex, model.ImageStates.Length)
 
-                let bmp =
-                    if model.Images.Length > 0 && nextIndex < model.Images.Length then
-                        let path = model.Images[nextIndex]
-                        Log.Debug("Loading next image: {Path}", path)
-                        try
-                            use img = Image.Load<Rgba32>(path)
-                            use ms = new MemoryStream()
-                            img.SaveAsBmp(ms)
-                            ms.Position <- 0L
-                            Log.Debug("Successfully loaded next image")
-                            Some(new Bitmap(ms))
-                        with
-                        | ex ->
-                            Log.Error(ex, "Failed to load next image: {Path}", path)
-                            None
-                    else
-                        Log.Debug("Cannot load next image - no images or index out of bounds")
-                        Log.Warning("Cannot load next image - no images or index out of bounds")
-                        None
-
-                { model with
-                    CurrentIndex = nextIndex
-                    CurrentBitmap = bmp },
-                Cmd.none
+                // Update model with new index - image loading will be handled by the view
+                { model with CurrentIndex = nextIndex }, Cmd.none
+                
             | Avalonia.Input.Key.Left -> 
                 Log.Debug("KeyPressed: Left arrow - processing as PrevImage")
-                // Process PrevImage directly
                 let prevIndex = max (model.CurrentIndex - 1) 0
                 Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
-                    model.CurrentIndex, prevIndex, model.Images.Length)
+                    model.CurrentIndex, prevIndex, model.ImageStates.Length)
 
-                let bmp =
-                    if model.Images.Length > 0 && prevIndex >= 0 && prevIndex < model.Images.Length then
-                        let path = model.Images[prevIndex]
-                        Log.Debug("Loading previous image: {Path}", path)
-                        try
-                            use img = Image.Load<Rgba32>(path)
-                            use ms = new MemoryStream()
-                            img.SaveAsBmp(ms)
-                            ms.Position <- 0L
-                            Log.Debug("Successfully loaded previous image")
-                            Some(new Bitmap(ms))
-                        with
-                        | ex ->
-                            Log.Error(ex, "Failed to load previous image: {Path}", path)
-                            None
-                    else
-                        Log.Debug("Cannot load previous image - no images or index out of bounds")
-                        Log.Warning("Cannot load previous image - no images or index out of bounds")
-                        None
-
-                { model with
-                    CurrentIndex = prevIndex
-                    CurrentBitmap = bmp },
-                Cmd.none
+                // Update model with new index - image loading will be handled by the view
+                { model with CurrentIndex = prevIndex }, Cmd.none
+                
             | _ -> 
                 Log.Debug("KeyPressed: Unhandled key: {Key}", key)
                 model, Cmd.none
@@ -254,83 +207,31 @@ module MainWindow =
 
         | NextImage ->
             Log.Debug("NextImage command executed")
-            Log.Debug("NextImage handler entered")
             // Circular navigation for NextImage
             let nextIndex = 
-                if model.Images.Length = 0 then 0
-                elif model.CurrentIndex >= model.Images.Length - 1 then 0  // Wrap to first
+                if model.ImageStates.Length = 0 then 0
+                elif model.CurrentIndex >= model.ImageStates.Length - 1 then 0  // Wrap to first
                 else model.CurrentIndex + 1
             Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
-                model.CurrentIndex, nextIndex, model.Images.Length)
+                model.CurrentIndex, nextIndex, model.ImageStates.Length)
 
-            let bmp =
-                if model.Images.Length > 0 && nextIndex < model.Images.Length then
-                    let path = model.Images[nextIndex]
-                    Log.Debug("Loading next image: {Path}", path)
-                    try
-                        use img = Image.Load<Rgba32>(path)
-                        use ms = new MemoryStream()
-                        img.SaveAsBmp(ms)
-                        ms.Position <- 0L
-                        Log.Debug("Successfully loaded next image")
-                        Some(new Bitmap(ms))
-                    with
-                    | ex ->
-                        Log.Error(ex, "Failed to load next image: {Path}", path)
-                        None
-                else
-                    Log.Debug("Cannot load next image - no images or index out of bounds")
-                    Log.Warning("Cannot load next image - no images or index out of bounds")
-                    None
-
-            Log.Debug("NextImage completed - New index: {Index}, Has image: {HasImage}", 
-                nextIndex, bmp.IsSome)
-            { model with
-                CurrentIndex = nextIndex
-                CurrentBitmap = bmp },
-            Cmd.none
+            { model with CurrentIndex = nextIndex }, Cmd.none
 
         | PrevImage ->
             Log.Debug("PrevImage command executed")
-            Log.Debug("PrevImage handler entered")
             // Circular navigation for PrevImage
             let prevIndex = 
-                if model.Images.Length = 0 then 0
-                elif model.CurrentIndex <= 0 then model.Images.Length - 1  // Wrap to last
+                if model.ImageStates.Length = 0 then 0
+                elif model.CurrentIndex <= 0 then model.ImageStates.Length - 1  // Wrap to last
                 else model.CurrentIndex - 1
             Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
-                model.CurrentIndex, prevIndex, model.Images.Length)
+                model.CurrentIndex, prevIndex, model.ImageStates.Length)
 
-            let bmp =
-                if model.Images.Length > 0 && prevIndex >= 0 && prevIndex < model.Images.Length then
-                    let path = model.Images[prevIndex]
-                    Log.Debug("Loading previous image: {Path}", path)
-                    try
-                        use img = Image.Load<Rgba32>(path)
-                        use ms = new MemoryStream()
-                        img.SaveAsBmp(ms)
-                        ms.Position <- 0L
-                        Log.Debug("Successfully loaded previous image")
-                        Some(new Bitmap(ms))
-                    with
-                    | ex ->
-                        Log.Error(ex, "Failed to load previous image: {Path}", path)
-                        None
-                else
-                    Log.Debug("Cannot load previous image - no images or index out of bounds")
-                    Log.Warning("Cannot load previous image - no images or index out of bounds")
-                    None
-
-            Log.Debug("PrevImage completed - New index: {Index}, Has image: {HasImage}", 
-                prevIndex, bmp.IsSome)
-            { model with
-                CurrentIndex = prevIndex
-                CurrentBitmap = bmp },
-            Cmd.none
+            { model with CurrentIndex = prevIndex }, Cmd.none
 
     let view model dispatch =
         Log.Debug("View function called with {ImageCount} images, current index {Index}", 
-            model.Images.Length, model.CurrentIndex)
+            model.ImageStates.Length, model.CurrentIndex)
         
         // Main layout with menu and toolbar
         DockPanel.create [
@@ -546,7 +447,7 @@ module MainWindow =
                 ]
 
                 // Main content area (image display)
-                match model.CurrentBitmap with
+                match getCurrentBitmap model with
                 | Some bmp -> 
                     Image.create [ 
                         Image.source bmp
@@ -643,10 +544,11 @@ type MainWindow(argv: string[]) as this =
             
             let updateWindowTitle (model: Model) =
                 let title = 
-                    if model.Images.Length > 0 && model.CurrentIndex >= 0 && model.CurrentIndex < model.Images.Length then
-                        let currentImagePath = model.Images[model.CurrentIndex]
-                        let directory = System.IO.Path.GetDirectoryName(currentImagePath)
-                        let filename = System.IO.Path.GetFileName(currentImagePath)
+                    if model.ImageStates.Length > 0 && model.CurrentIndex >= 0 && model.CurrentIndex < model.ImageStates.Length then
+                        let currentImageState = model.ImageStates[model.CurrentIndex]
+                        let currentImagePath = currentImageState.Info.FilePath
+                        let directory = System.IO.Path.GetDirectoryName(currentImagePath: string)
+                        let filename = System.IO.Path.GetFileName(currentImagePath: string)
                         $"FamilySlide - {directory}    {filename}"
                     else
                         "FamilySlide"
