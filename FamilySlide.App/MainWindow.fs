@@ -50,6 +50,8 @@ type Msg =
     | ToolbarFullscreen
     // Slideshow
     | ToolbarSlideshow
+    // Memory management
+    | CheckMemoryPressure
 
 module MainWindow =
 
@@ -223,6 +225,11 @@ module MainWindow =
         | ToolbarSlideshow ->
             Log.Information("Toolbar Slideshow clicked (not implemented)")
             model, Cmd.none
+
+        | CheckMemoryPressure ->
+            Log.Debug("Checking memory pressure and performing cleanup if needed")
+            let updatedCache = ImageCache.manualMemoryCleanup model.Cache
+            { model with Cache = updatedCache }, Cmd.none
 
         | NextImage ->
             Log.Debug("NextImage command executed")

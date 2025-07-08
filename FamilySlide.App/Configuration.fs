@@ -12,6 +12,11 @@ type LoggingConfig = {
 type CacheConfig = {
     MaxFullImages: int
     MaxThumbnails: int
+    // Memory management settings
+    MaxMemoryMB: int
+    LowMemoryThresholdMB: int
+    AggressiveCleanupThresholdMB: int
+    PreloadNeighborImages: bool
 }
 
 type ImageConfig = {
@@ -54,7 +59,14 @@ module Configuration =
     
     let private defaultAppConfig = {
         Logging = { MinimumLevel = "Information" }
-        Cache = { MaxFullImages = 3; MaxThumbnails = 50 }
+        Cache = { 
+            MaxFullImages = 3
+            MaxThumbnails = 50
+            MaxMemoryMB = 512
+            LowMemoryThresholdMB = 256
+            AggressiveCleanupThresholdMB = 128
+            PreloadNeighborImages = true
+        }
         Image = { ThumbnailMaxSize = 256 }
         Zoom = { MinLevel = 0.1; MaxLevel = 10.0 }
         UI = { 
@@ -79,7 +91,11 @@ module Configuration =
   },
   "Cache": {
     "MaxFullImages": 3,
-    "MaxThumbnails": 50
+    "MaxThumbnails": 50,
+    "MaxMemoryMB": 512,
+    "LowMemoryThresholdMB": 256,
+    "AggressiveCleanupThresholdMB": 128,
+    "PreloadNeighborImages": true
   },
   "Image": {
     "ThumbnailMaxSize": 256
@@ -136,8 +152,8 @@ module Configuration =
         let userSettings = UserSettings.loadUserSettings ()
         
         Log.Information("Configuration loaded - Log level: {LogLevel}", appConfig.Logging.MinimumLevel)
-        Log.Debug("Cache settings: MaxFullImages={MaxFull}, MaxThumbnails={MaxThumbnails}", 
-            appConfig.Cache.MaxFullImages, appConfig.Cache.MaxThumbnails)
+        Log.Debug("Cache settings: MaxFullImages={MaxFull}, MaxThumbnails={MaxThumbnails}, MaxMemory={MaxMemory}MB", 
+            appConfig.Cache.MaxFullImages, appConfig.Cache.MaxThumbnails, appConfig.Cache.MaxMemoryMB)
         Log.Debug("Image settings: ThumbnailMaxSize={ThumbnailSize}", 
             appConfig.Image.ThumbnailMaxSize)
         Log.Debug("Zoom settings: MinLevel={MinLevel}, MaxLevel={MaxLevel}", 

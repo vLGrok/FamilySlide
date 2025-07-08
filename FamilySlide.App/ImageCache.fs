@@ -21,6 +21,10 @@ module ImageCache =
         MaxFullImages: int
         MaxThumbnails: int
         ImageConfig: ImageConfig
+        /// Memory monitoring state
+        MemoryMonitoring: MemoryManager.MonitoringState
+        /// Full cache configuration
+        CacheConfig: CacheConfig
     }
     
     /// Create cache state with configuration
@@ -31,6 +35,8 @@ module ImageCache =
         MaxFullImages = cacheConfig.MaxFullImages
         MaxThumbnails = cacheConfig.MaxThumbnails
         ImageConfig = imageConfig
+        MemoryMonitoring = MemoryManager.createMonitoringState()
+        CacheConfig = cacheConfig
     }
     
     /// Create cache with default settings (for backward compatibility)
@@ -41,6 +47,15 @@ module ImageCache =
         MaxFullImages = 3
         MaxThumbnails = 50
         ImageConfig = { ThumbnailMaxSize = 256 }
+        MemoryMonitoring = MemoryManager.createMonitoringState()
+        CacheConfig = {
+            MaxFullImages = 3
+            MaxThumbnails = 50
+            MaxMemoryMB = 512
+            LowMemoryThresholdMB = 256
+            AggressiveCleanupThresholdMB = 128
+            PreloadNeighborImages = true
+        }
     }
     
     /// Add image to recent list and trim to max size
@@ -236,3 +251,65 @@ module ImageCache =
             Images = Map.empty
             RecentFullImages = []
             RecentThumbnails = [] }
+    
+    /// Check memory pressure and perform cleanup if needed
+    let checkMemoryPressureAndCleanup (cache: CacheState) =
+        let stats = MemoryManager.getMemoryStats()
+        let pressure = MemoryManager.assessMemoryPressure cache.CacheConfig stats
+        
+        MemoryManager.logMemoryStats "Cache Check" stats
+        
+        let shouldCleanup = MemoryManager.shouldTriggerCleanup cache.MemoryMonitoring pressure
+        
+        if shouldCleanup then
+            Log.Information("Memory pressure detected: {Pressure}, triggering cleanup", pressure)
+            let actions = MemoryManager.getRecommendedCleanupActions pressure
+            
+            let updatedCache = 
+                actions
+                |> List.fold (fun acc action ->
+                    match action with
+                    | MemoryManager.ClearOldThumbnails ->
+                        // Clear thumbnails that are older in the LRU list
+                        let keepCount = acc.MaxThumbnails / 2
+                        let toRemove = acc.RecentThumbnails |> List.skip keepCount
+                        toRemove |> List.fold (fun c path -> removeImage path c) acc
+                    | MemoryManager.ClearAllFullImages ->
+                        clearFullImages acc
+                    | MemoryManager.ClearAllThumbnails ->
+                        let allImages = acc.Images |> Map.values |> List.ofSeq
+                        allImages
+                        |> List.iter (fun state ->
+                            state.Thumbnail |> Option.iter (fun bitmap ->
+                                let context = $"Clear all thumbs: {Path.GetFileName(state.Info.FilePath)}"
+                                BitmapLifecycle.disposeBitmap bitmap context))
+                        { acc with 
+                            Images = acc.Images |> Map.map (fun _ state -> { state with Thumbnail = None })
+                            RecentThumbnails = [] }
+                    | MemoryManager.EmergencyFullClear ->
+                        emergencyClear acc
+                    | MemoryManager.ForceGC ->
+                        MemoryManager.forceGarbageCollection "Cache Cleanup" |> ignore
+                        acc
+                ) cache
+            
+            let newMonitoringState = 
+                MemoryManager.updateMonitoringState cache.MemoryMonitoring stats pressure true
+            
+            { updatedCache with MemoryMonitoring = newMonitoringState }
+        else
+            let newMonitoringState = 
+                MemoryManager.updateMonitoringState cache.MemoryMonitoring stats pressure false
+            
+            { cache with MemoryMonitoring = newMonitoringState }
+    
+    /// Manual memory check and cleanup (can be called from UI)
+    let manualMemoryCleanup (cache: CacheState) =
+        checkMemoryPressureAndCleanup cache
+    
+    /// Get memory statistics for the cache
+    let getMemoryInfo (cache: CacheState) =
+        let stats = MemoryManager.getMemoryStats()
+        let pressure = MemoryManager.assessMemoryPressure cache.CacheConfig stats
+        MemoryManager.logMemoryStats "Manual Check" stats
+        {| Stats = stats; Pressure = pressure |}
