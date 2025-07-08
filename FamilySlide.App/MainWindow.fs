@@ -66,8 +66,16 @@ module MainWindow =
         | Some imageState ->
             // Try to get from cache first, or load on demand
             let cachedImageState, _ = ImageCache.getImageState imageState.Info.FilePath model.Cache
-            cachedImageState.Thumbnail
+            ImageState.getDisplayBitmap cachedImageState
         | None -> None
+
+    /// Load full image for current image and update cache
+    let loadCurrentFullImage model =
+        match getCurrentImageState model with
+        | Some imageState ->
+            let _, newCache = ImageCache.loadFullImage imageState.Info.FilePath model.Cache
+            { model with Cache = newCache }
+        | None -> model
 
     let init folderPath config =
         Log.Information("Initializing FamilySlide with folder: " + folderPath)
@@ -104,12 +112,15 @@ module MainWindow =
                 // Create ImageState for each image file
                 let imageStates = imageFiles |> List.map ImageState.fromFilePath
 
-                // Load the first image through the cache to get its thumbnail
+                // Load the first image through the cache to get its thumbnail and full image
                 let updatedCache = 
                     if imageStates.Length > 0 then
                         let firstImagePath = imageStates.[0].Info.FilePath
-                        let _, newCache = ImageCache.getImageState firstImagePath (ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image)
-                        newCache
+                        let _, cacheWithThumbnail = ImageCache.getImageState firstImagePath (ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image)
+                        // Also load the full image for immediate display
+                        let _, cacheWithFullImage = ImageCache.loadFullImage firstImagePath cacheWithThumbnail
+                        Log.Debug("Loaded first image with thumbnail and full resolution: {Path}", firstImagePath)
+                        cacheWithFullImage
                     else
                         ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image
 
@@ -223,7 +234,9 @@ module MainWindow =
             Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, nextIndex, model.ImageStates.Length)
 
-            { model with CurrentIndex = nextIndex }, Cmd.none
+            let modelWithNewIndex = { model with CurrentIndex = nextIndex }
+            let modelWithFullImage = loadCurrentFullImage modelWithNewIndex
+            modelWithFullImage, Cmd.none
 
         | PrevImage ->
             Log.Debug("PrevImage command executed")
@@ -235,7 +248,9 @@ module MainWindow =
             Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, prevIndex, model.ImageStates.Length)
 
-            { model with CurrentIndex = prevIndex }, Cmd.none
+            let modelWithNewIndex = { model with CurrentIndex = prevIndex }
+            let modelWithFullImage = loadCurrentFullImage modelWithNewIndex
+            modelWithFullImage, Cmd.none
 
     let view model dispatch =
         Log.Debug("View function called with {ImageCount} images, current index {Index}", 
