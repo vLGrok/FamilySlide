@@ -16,6 +16,7 @@
     <Compile Include="ImageModel.fs" />
     <Compile Include="ImageService.fs" />
     <Compile Include="ImageCache.fs" />
+    <Compile Include="BackgroundCleanupService.fs" />
     <Compile Include="ImageTransform.fs" />
     <Compile Include="MainWindow.fs" />
     <Compile Include="App.axaml.fs" />

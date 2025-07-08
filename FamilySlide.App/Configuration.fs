@@ -17,6 +17,10 @@ type CacheConfig = {
     LowMemoryThresholdMB: int
     AggressiveCleanupThresholdMB: int
     PreloadNeighborImages: bool
+    // Background cleanup settings
+    BackgroundCleanupIntervalMinutes: int
+    IdleCleanupDelayMinutes: int
+    EnablePeriodicCleanup: bool
 }
 
 type ImageConfig = {
@@ -66,6 +70,9 @@ module Configuration =
             LowMemoryThresholdMB = 256
             AggressiveCleanupThresholdMB = 128
             PreloadNeighborImages = true
+            BackgroundCleanupIntervalMinutes = 10
+            IdleCleanupDelayMinutes = 2
+            EnablePeriodicCleanup = true
         }
         Image = { ThumbnailMaxSize = 256 }
         Zoom = { MinLevel = 0.1; MaxLevel = 10.0 }
@@ -95,7 +102,10 @@ module Configuration =
     "MaxMemoryMB": 512,
     "LowMemoryThresholdMB": 256,
     "AggressiveCleanupThresholdMB": 128,
-    "PreloadNeighborImages": true
+    "PreloadNeighborImages": true,
+    "BackgroundCleanupIntervalMinutes": 10,
+    "IdleCleanupDelayMinutes": 2,
+    "EnablePeriodicCleanup": true
   },
   "Image": {
     "ThumbnailMaxSize": 256

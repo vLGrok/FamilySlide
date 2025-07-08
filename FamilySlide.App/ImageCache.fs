@@ -55,6 +55,9 @@ module ImageCache =
             LowMemoryThresholdMB = 256
             AggressiveCleanupThresholdMB = 128
             PreloadNeighborImages = true
+            BackgroundCleanupIntervalMinutes = 10
+            IdleCleanupDelayMinutes = 2
+            EnablePeriodicCleanup = true
         }
     }
     

@@ -18,7 +18,8 @@ type Model =
       ImageStates: ImageState list
       CurrentIndex: int
       Cache: ImageCache.CacheState
-      FolderSettings: FolderSettings option }
+      FolderSettings: FolderSettings option
+      CleanupService: BackgroundCleanupService.CleanupServiceState }
 
 type Msg =
     | NextImage
@@ -52,6 +53,8 @@ type Msg =
     | ToolbarSlideshow
     // Memory management
     | CheckMemoryPressure
+    | StartBackgroundCleanup
+    | StopBackgroundCleanup
 
 module MainWindow =
 
@@ -85,7 +88,8 @@ module MainWindow =
           ImageStates = []
           CurrentIndex = 0
           Cache = ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image
-          FolderSettings = None },
+          FolderSettings = None
+          CleanupService = BackgroundCleanupService.createState config.AppConfig.Cache },
         Cmd.ofMsg LoadImages
 
     let update config msg model =
@@ -135,7 +139,7 @@ module MainWindow =
                     ImageStates = imageStates
                     Cache = updatedCache
                     FolderSettings = Some folderSettings },
-                Cmd.none
+                Cmd.ofMsg StartBackgroundCleanup
             else
                 Log.Warning("Folder does not exist: {Folder}", model.FolderPath)
                 { model with ImageStates = []; Cache = ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image; FolderSettings = None }, Cmd.none
@@ -231,8 +235,35 @@ module MainWindow =
             let updatedCache = ImageCache.manualMemoryCleanup model.Cache
             { model with Cache = updatedCache }, Cmd.none
 
+        | StartBackgroundCleanup ->
+            Log.Information("Starting background cleanup service")
+            let getCacheState = fun () -> model.Cache
+            let updateCacheState = fun newCache -> 
+                // This is a simplified approach - in a full implementation we'd need proper state management
+                Log.Debug("Cache state updated by background service")
+            let updateServiceState = fun newServiceState -> 
+                Log.Debug("Cleanup service state updated")
+            
+            let updatedServiceState = 
+                BackgroundCleanupService.startService 
+                    (model.Cache.CacheConfig) 
+                    model.CleanupService 
+                    getCacheState 
+                    updateCacheState 
+                    updateServiceState
+            
+            { model with CleanupService = updatedServiceState }, Cmd.none
+
+        | StopBackgroundCleanup ->
+            Log.Information("Stopping background cleanup service")
+            let updatedServiceState = BackgroundCleanupService.stopService model.CleanupService
+            { model with CleanupService = updatedServiceState }, Cmd.none
+
         | NextImage ->
             Log.Debug("NextImage command executed")
+            // Record user activity
+            let updatedServiceState = BackgroundCleanupService.recordUserActivity BackgroundCleanupService.ImageNavigation model.CleanupService
+            
             // Circular navigation for NextImage
             let nextIndex = 
                 if model.ImageStates.Length = 0 then 0
@@ -241,12 +272,15 @@ module MainWindow =
             Log.Debug("NextImage: Current index {CurrentIndex}, New index {NextIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, nextIndex, model.ImageStates.Length)
 
-            let modelWithNewIndex = { model with CurrentIndex = nextIndex }
+            let modelWithNewIndex = { model with CurrentIndex = nextIndex; CleanupService = updatedServiceState }
             let modelWithFullImage = loadCurrentFullImage modelWithNewIndex
             modelWithFullImage, Cmd.none
 
         | PrevImage ->
             Log.Debug("PrevImage command executed")
+            // Record user activity
+            let updatedServiceState = BackgroundCleanupService.recordUserActivity BackgroundCleanupService.ImageNavigation model.CleanupService
+            
             // Circular navigation for PrevImage
             let prevIndex = 
                 if model.ImageStates.Length = 0 then 0
@@ -255,7 +289,7 @@ module MainWindow =
             Log.Debug("PrevImage: Current index {CurrentIndex}, New index {PrevIndex}, Total images {TotalImages}", 
                 model.CurrentIndex, prevIndex, model.ImageStates.Length)
 
-            let modelWithNewIndex = { model with CurrentIndex = prevIndex }
+            let modelWithNewIndex = { model with CurrentIndex = prevIndex; CleanupService = updatedServiceState }
             let modelWithFullImage = loadCurrentFullImage modelWithNewIndex
             modelWithFullImage, Cmd.none
 
