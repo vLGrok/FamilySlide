@@ -21,8 +21,8 @@ type Transform = {
     FlipHorizontal: bool
     /// Whether the image is flipped vertically
     FlipVertical: bool
-    /// Zoom level (1.0 = 100%, 2.0 = 200%, etc.)
-    Zoom: float
+    /// Zoom level as percentage (100 = 100%, 120 = 120%, 80 = 80%, etc.)
+    ZoomPercent: int
     /// Pan offset X in pixels
     OffsetX: float
     /// Pan offset Y in pixels
@@ -51,7 +51,7 @@ module Transform =
         Rotation = 0
         FlipHorizontal = false
         FlipVertical = false
-        Zoom = 1.0
+        ZoomPercent = 100
         OffsetX = 0.0
         OffsetY = 0.0
     }
@@ -75,17 +75,42 @@ module Transform =
     let flipVertical transform = 
         { transform with FlipVertical = not transform.FlipVertical }
     
-    /// Set zoom level (legacy version with hardcoded limits)
+    /// Convert zoom percentage to scale factor for display
+    let getZoomScale (transform: Transform) = 
+        float transform.ZoomPercent / 100.0
+    
+    /// Set zoom percentage with constraints
+    let setZoomPercent (minPercent: int) (maxPercent: int) zoomPercent (transform: Transform) = 
+        { transform with ZoomPercent = max minPercent (min maxPercent zoomPercent) }
+    
+    /// Set zoom percentage using configuration (direct integer access)
+    let setZoomPercentWithConfig (zoomConfig: ZoomConfig) zoomPercent (transform: Transform) = 
+        setZoomPercent zoomConfig.MinLevelPercent zoomConfig.MaxLevelPercent zoomPercent transform
+    
+    /// Zoom in by step amount (additive)
+    let zoomIn (stepPercent: int) (transform: Transform) = 
+        { transform with ZoomPercent = transform.ZoomPercent + stepPercent }
+    
+    /// Zoom out by step amount (additive)
+    let zoomOut (stepPercent: int) (transform: Transform) = 
+        { transform with ZoomPercent = transform.ZoomPercent - stepPercent }
+    
+    /// Legacy: Set zoom level from float (converts to percentage)
     let setZoom zoom (transform: Transform) = 
-        { transform with Zoom = max 0.1 (min 10.0 zoom) }
+        { transform with ZoomPercent = int (zoom * 100.0) }
     
-    /// Set zoom level with explicit constraints
+    /// Legacy: Set zoom level with explicit constraints
     let setZoomWithLimits (minLevel: float) (maxLevel: float) zoom (transform: Transform) = 
-        { transform with Zoom = max minLevel (min maxLevel zoom) }
+        let zoomPercent = int (zoom * 100.0)
+        let minPercent = int (minLevel * 100.0)
+        let maxPercent = int (maxLevel * 100.0)
+        setZoomPercent minPercent maxPercent zoomPercent transform
     
-    /// Set zoom level using configuration
+    /// Legacy: Set zoom level using configuration (converts int config to float limits)
     let setZoomWithConfig (zoomConfig: ZoomConfig) zoom (transform: Transform) = 
-        setZoomWithLimits zoomConfig.MinLevel zoomConfig.MaxLevel zoom transform
+        let minLevel = float zoomConfig.MinLevelPercent / 100.0
+        let maxLevel = float zoomConfig.MaxLevelPercent / 100.0
+        setZoomWithLimits minLevel maxLevel zoom transform
     
     /// Set pan offset
     let setPan offsetX offsetY (transform: Transform) = 

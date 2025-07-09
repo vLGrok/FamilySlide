@@ -77,10 +77,12 @@ module ImageTransform =
     /// Apply zoom and pan transformations (these don't modify the bitmap, just the display)
     let getViewTransform (imageState: ImageState) =
         let transform = imageState.Transform
-        {| Zoom = transform.Zoom
+        let zoomScale = Transform.getZoomScale transform
+        {| ZoomScale = zoomScale
+           ZoomPercent = transform.ZoomPercent
            OffsetX = transform.OffsetX  
            OffsetY = transform.OffsetY
-           HasZoomPan = transform.Zoom <> 1.0 || transform.OffsetX <> 0.0 || transform.OffsetY <> 0.0 |}
+           HasZoomPan = transform.ZoomPercent <> 100 || transform.OffsetX <> 0.0 || transform.OffsetY <> 0.0 |}
     
     /// Calculate zoom to fit image within given dimensions
     let calculateFitZoom (imageWidth: int) (imageHeight: int) (containerWidth: float) (containerHeight: float) =
@@ -128,17 +130,17 @@ module ImageTransform =
         Transform.setZoom 1.0 imageState.Transform
         |> Transform.setPan 0.0 0.0
     
-    /// Zoom in by a factor (e.g., 1.5x)
+    /// Zoom in by a factor (e.g., 1.5x) - converts to additive percentage
     let zoomIn (factor: float) (imageState: ImageState) =
-        let currentZoom = imageState.Transform.Zoom
-        let newZoom = currentZoom * factor
-        Transform.setZoom newZoom imageState.Transform
+        let currentZoomPercent = imageState.Transform.ZoomPercent
+        let newZoomPercent = int (float currentZoomPercent * factor)
+        Transform.setZoomPercent 10 1000 newZoomPercent imageState.Transform
     
-    /// Zoom out by a factor (e.g., 0.75x)
+    /// Zoom out by a factor (e.g., 0.75x) - converts to additive percentage
     let zoomOut (factor: float) (imageState: ImageState) =
-        let currentZoom = imageState.Transform.Zoom
-        let newZoom = currentZoom * factor
-        Transform.setZoom newZoom imageState.Transform
+        let currentZoomPercent = imageState.Transform.ZoomPercent
+        let newZoomPercent = int (float currentZoomPercent * factor)
+        Transform.setZoomPercent 10 1000 newZoomPercent imageState.Transform
     
     /// Center image by resetting pan to 0,0
     let centerImage (imageState: ImageState) =
@@ -148,7 +150,7 @@ module ImageTransform =
     let hasTransformations (imageState: ImageState) =
         let t = imageState.Transform
         t.Rotation <> 0 || t.FlipHorizontal || t.FlipVertical || 
-        t.Zoom <> 1.0 || t.OffsetX <> 0.0 || t.OffsetY <> 0.0
+        t.ZoomPercent <> 100 || t.OffsetX <> 0.0 || t.OffsetY <> 0.0
     
     /// Get human-readable description of current transformations
     let getTransformDescription (imageState: ImageState) =
@@ -157,7 +159,7 @@ module ImageTransform =
         let parts = if t.Rotation <> 0 then $"Rotated {t.Rotation}°" :: parts else parts
         let parts = if t.FlipHorizontal then "Flipped Horizontally" :: parts else parts
         let parts = if t.FlipVertical then "Flipped Vertically" :: parts else parts
-        let parts = if t.Zoom <> 1.0 then $"Zoom {t.Zoom:F1}x" :: parts else parts
+        let parts = if t.ZoomPercent <> 100 then sprintf "Zoom %d%%" t.ZoomPercent :: parts else parts
         let parts = if t.OffsetX <> 0.0 || t.OffsetY <> 0.0 then $"Pan ({t.OffsetX:F0}, {t.OffsetY:F0})" :: parts else parts
         
         if List.isEmpty parts then "No transformations"

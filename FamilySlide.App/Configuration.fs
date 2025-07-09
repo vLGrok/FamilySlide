@@ -28,8 +28,9 @@ type ImageConfig = {
 }
 
 type ZoomConfig = {
-    MinLevel: float
-    MaxLevel: float
+    MinLevelPercent: int // Minimum zoom percentage (e.g., 10 = 10%)
+    MaxLevelPercent: int // Maximum zoom percentage (e.g., 1000 = 1000%)
+    ZoomStepPercent: int // Additive zoom step in percentage points (e.g., 20 = +20%)
 }
 
 type UIConfig = {
@@ -75,7 +76,7 @@ module Configuration =
             EnablePeriodicCleanup = true
         }
         Image = { ThumbnailMaxSize = 256 }
-        Zoom = { MinLevel = 0.1; MaxLevel = 10.0 }
+        Zoom = { MinLevelPercent = 10; MaxLevelPercent = 1000; ZoomStepPercent = 20 }
         UI = { 
             ToolbarButtonWidth = 40
             ToolbarButtonHeight = 30
@@ -111,8 +112,9 @@ module Configuration =
     "ThumbnailMaxSize": 256
   },
   "Zoom": {
-    "MinLevel": 0.1,
-    "MaxLevel": 10.0
+    "MinLevelPercent": 10,
+    "MaxLevelPercent": 1000,
+    "ZoomStepPercent": 20
   },
   "UI": {
     "ToolbarButtonWidth": 40,
@@ -166,8 +168,8 @@ module Configuration =
             appConfig.Cache.MaxFullImages, appConfig.Cache.MaxThumbnails, appConfig.Cache.MaxMemoryMB)
         Log.Debug("Image settings: ThumbnailMaxSize={ThumbnailSize}", 
             appConfig.Image.ThumbnailMaxSize)
-        Log.Debug("Zoom settings: MinLevel={MinLevel}, MaxLevel={MaxLevel}", 
-            appConfig.Zoom.MinLevel, appConfig.Zoom.MaxLevel)
+        Log.Debug("Zoom settings: MinLevelPercent={MinLevel}%, MaxLevelPercent={MaxLevel}%", 
+            appConfig.Zoom.MinLevelPercent, appConfig.Zoom.MaxLevelPercent)
         Log.Debug("UI settings: ButtonSize={Width}x{Height}, Margin={Margin}", 
             appConfig.UI.ToolbarButtonWidth, appConfig.UI.ToolbarButtonHeight, appConfig.UI.ToolbarMargin)
         Log.Debug("Window settings: DefaultSize={Width}x{Height}", 
