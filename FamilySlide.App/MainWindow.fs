@@ -19,7 +19,8 @@ type Model =
       CurrentIndex: int
       Cache: ImageCache.CacheState
       FolderSettings: FolderSettings option
-      CleanupService: BackgroundCleanupService.CleanupServiceState }
+      CleanupService: BackgroundCleanupService.CleanupServiceState
+      CommandLineArgs: string array }
 
 type Msg =
     | NextImage
@@ -82,14 +83,15 @@ module MainWindow =
             { model with Cache = newCache }
         | None -> model
 
-    let init folderPath config =
+    let init folderPath config argv =
         Log.Information("Initializing FamilySlide with folder: " + folderPath)
         { FolderPath = folderPath
           ImageStates = []
           CurrentIndex = 0
           Cache = ImageCache.createCache config.AppConfig.Cache config.AppConfig.Image
           FolderSettings = None
-          CleanupService = BackgroundCleanupService.createState config.AppConfig.Cache },
+          CleanupService = BackgroundCleanupService.createState config.AppConfig.Cache
+          CommandLineArgs = argv },
         Cmd.ofMsg LoadImages
 
     let update config msg model =
@@ -115,8 +117,17 @@ module MainWindow =
                 Log.Information("Found {Count} image files", imageFiles.Length)
                 imageFiles |> List.iteri (fun i path -> Log.Debug("Image {Index}: {Path}", i, path))
 
+                // Apply randomization if requested
+                let finalImageFiles = 
+                    if Configuration.getRandomizeFlag model.CommandLineArgs then
+                        Log.Information("Randomizing image order")
+                        let random = System.Random()
+                        imageFiles |> List.sortBy (fun _ -> random.Next())
+                    else
+                        imageFiles
+
                 // Create ImageState for each image file
-                let imageStates = imageFiles |> List.map ImageState.fromFilePath
+                let imageStates = finalImageFiles |> List.map ImageState.fromFilePath
 
                 // Load the first image through the cache to get its thumbnail and full image
                 let updatedCache = 
@@ -628,7 +639,7 @@ type MainWindow(argv: string[]) as this =
             
             let program =
                 Elmish.Program.mkProgram (fun _ -> 
-                    let model, cmd = MainWindow.init folderPath config
+                    let model, cmd = MainWindow.init folderPath config argv
                     currentModel <- Some model
                     updateWindowTitle model
                     model, cmd) customUpdate MainWindow.view

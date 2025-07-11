@@ -193,3 +193,8 @@ module Configuration =
             let currentDir = Environment.CurrentDirectory
             Log.Information("Using current directory: {FolderPath}", currentDir)
             currentDir
+
+    let getRandomizeFlag (argv: string[]) =
+        let hasRandomize = argv |> Array.exists (fun arg -> arg = "--randomize")
+        Log.Debug("Randomize flag: {Randomize}", hasRandomize)
+        hasRandomize
